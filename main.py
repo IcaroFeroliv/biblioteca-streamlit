@@ -5,6 +5,12 @@ from datetime import datetime
 import firebase_admin
 from firebase_admin import credentials, firestore
 
+st.markdown("""
+    <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+    </style>
+""", unsafe_allow_html=True)
 
 # Corrigir quebra de linha da chave
 firebase_config = dict(st.secrets["firebase"])
