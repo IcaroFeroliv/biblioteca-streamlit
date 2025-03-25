@@ -6,12 +6,10 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 
 
-# Verificar se o Firebase já está inicializado
 cred = credentials.Certificate(st.secrets["firebase"])
 firebase_admin.initialize_app(cred)
-
-# Inicializar o Firestore
 db = firestore.client()
+
 
 st.set_page_config(layout="wide")
 abas = st.tabs(["Visualizar","Adicionar", "Editar"])
