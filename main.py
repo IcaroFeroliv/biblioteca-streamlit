@@ -6,15 +6,14 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 
 
-st.subheader("🔎 Testando acesso ao secret...")
-st.json(st.secrets["firebase"])
+# Corrigir quebra de linha da chave
+firebase_config = dict(st.secrets["firebase"])
+firebase_config["private_key"] = firebase_config["private_key"].replace("\\n", "\n")
 
-cred = credentials.Certificate(st.secrets["firebase"])
+# Conectar ao Firebase
+cred = credentials.Certificate(firebase_config)
 firebase_admin.initialize_app(cred)
 db = firestore.client()
-
-st.success("✅ Firebase conectado com sucesso!")
-
 
 st.set_page_config(layout="wide")
 abas = st.tabs(["Visualizar","Adicionar", "Editar"])
