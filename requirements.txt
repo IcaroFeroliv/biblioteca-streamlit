@@ -1,6 +1,5 @@
 time
 streamlit
 pandas
-firebase_config
 datetime
 firebase_admin
