@@ -14,6 +14,7 @@ firebase_config["private_key"] = firebase_config["private_key"].replace("\\n", "
 if not firebase_admin._apps:
     cred = credentials.Certificate(firebase_config)
     firebase_admin.initialize_app(cred)
+db = firestore.client()
 
 st.set_page_config(layout="wide")
 abas = st.tabs(["Visualizar","Adicionar", "Editar"])
