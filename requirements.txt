@@ -2,3 +2,4 @@ streamlit
 pandas
 datetime
 firebase_admin
+firebase_config
