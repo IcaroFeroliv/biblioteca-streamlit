@@ -6,13 +6,14 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 
 
-st.subheader("🔍 Diagnóstico do Secret Firebase")
+st.subheader("🔎 Testando acesso ao secret...")
+st.json(st.secrets["firebase"])
 
-# Mostrar estrutura que está sendo lida
-st.json(st.secrets.get("firebase", "❌ Não encontrado"))
 cred = credentials.Certificate(st.secrets["firebase"])
 firebase_admin.initialize_app(cred)
 db = firestore.client()
+
+st.success("✅ Firebase conectado com sucesso!")
 
 
 st.set_page_config(layout="wide")
