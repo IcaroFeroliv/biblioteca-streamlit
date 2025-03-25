@@ -1,11 +1,22 @@
 import time
 import streamlit as st
 import pandas as pd
-from firebase_config import db
 from datetime import datetime
+import firebase_admin
+from firebase_admin import credentials, firestore
+
+
+# Verificar se o Firebase já está inicializado
+cred = credentials.Certificate(st.secrets["firebase"])
+firebase_admin.initialize_app(cred)
+
+# Inicializar o Firestore
+db = firestore.client()
 
 st.set_page_config(layout="wide")
 abas = st.tabs(["Visualizar","Adicionar", "Editar"])
+
+
 
 with abas[1]:
     col1, col2 = st.columns([2,1])
