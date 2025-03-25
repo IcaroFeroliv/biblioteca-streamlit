@@ -6,6 +6,10 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 
 
+st.subheader("🔍 Diagnóstico do Secret Firebase")
+
+# Mostrar estrutura que está sendo lida
+st.json(st.secrets.get("firebase", "❌ Não encontrado"))
 cred = credentials.Certificate(st.secrets["firebase"])
 firebase_admin.initialize_app(cred)
 db = firestore.client()
