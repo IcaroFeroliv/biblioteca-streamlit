@@ -10,10 +10,10 @@ from firebase_admin import credentials, firestore
 firebase_config = dict(st.secrets["firebase"])
 firebase_config["private_key"] = firebase_config["private_key"].replace("\\n", "\n")
 
-# Conectar ao Firebase
-cred = credentials.Certificate(firebase_config)
-firebase_admin.initialize_app(cred)
-db = firestore.client()
+# Inicializar Firebase somente se ainda não foi iniciado
+if not firebase_admin._apps:
+    cred = credentials.Certificate(firebase_config)
+    firebase_admin.initialize_app(cred)
 
 st.set_page_config(layout="wide")
 abas = st.tabs(["Visualizar","Adicionar", "Editar"])
