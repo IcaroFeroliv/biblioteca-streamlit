@@ -993,7 +993,7 @@ df_filtrado["Disciplinas"] = df_filtrado["Disciplinas"].apply(
 
 # ✅ Mostrar contador de atestados encontrados
 total = len(df_filtrado)
-st.markdown(f"### 🧾 Atestados encontrados: **{total}**")
+st.markdown(f"### Atestados encontrados: **{total}**")
 
 # Mostrar tabela
 st.dataframe(df_filtrado, use_container_width=True)
