@@ -936,64 +936,64 @@ with abas[0]:
         st.image("logoprojeta.png", width=350)
 
     # Buscar todos os documentos da coleção "atestados"
-docs = db.collection("atestados").stream()
-
-# Lista para armazenar os dados
-registros = []
-
-# Extrair os campos desejados
-for doc in docs:
-    data = doc.to_dict()
-    registros.append({
-        "Empresa": data.get("Empresa"),
-        "Cliente": data.get("Cliente"),
-        "Número Interno": data.get("Número Interno"),
-        "Caminho": data.get("Caminho"),
-        "Serviço": data.get("Servico"),
-        "Objeto": data.get("Objeto"),
-        "Participação": data.get("Participação"),
-        "Disciplinas": data.get("Disciplina"),
-        "Área": data.get("Área (m²)"),
-        "Data Inicial": data.get("Data Início"),
-        "Data Final": data.get("Data Final")
-    })
-
-# Criar DataFrame
-df = pd.DataFrame(registros)
-
-# Filtros
-colf1, colf2, colf3 = st.columns(3)
-
-with colf1:
-    empresas_disponiveis = df["Empresa"].dropna().unique().tolist()
-    filtro_empresas = st.multiselect("Filtrar por Empresa", ["Todos"] + empresas_disponiveis)
-
-with colf2:
-    servicos_disponiveis = df["Serviço"].dropna().unique().tolist()
-    filtro_servicos = st.multiselect("Filtrar por Tipo de Serviço", ["Todos"] + servicos_disponiveis)
-
-with colf3:
-    filtro_numero_interno = st.text_input("Número Interno (parcial ou completo)", key="filtronumintvi")
-
-# Aplicar os filtros
-empresas_filtradas = empresas_disponiveis if not filtro_empresas or "Todos" in filtro_empresas else filtro_empresas
-servicos_filtrados = servicos_disponiveis if not filtro_servicos or "Todos" in filtro_servicos else filtro_servicos
-
-df_filtrado = df[
-    (df["Empresa"].isin(empresas_filtradas)) &
-    (df["Serviço"].isin(servicos_filtrados)) &
-    (df["Número Interno"].str.contains(filtro_numero_interno, case=False, na=False)
-     if filtro_numero_interno else True)
-]
-
-# Garantir que todas as disciplinas sejam strings
-df_filtrado["Disciplinas"] = df_filtrado["Disciplinas"].apply(
-    lambda x: ", ".join(x) if isinstance(x, list) else str(x) if x is not None else ""
-)
-
-# ✅ Mostrar contador de atestados encontrados
-total = len(df_filtrado)
-st.markdown(f"### Atestados encontrados: **{total}**")
-
-# Mostrar tabela
-st.dataframe(df_filtrado, use_container_width=True)
+    docs = db.collection("atestados").stream()
+    
+    # Lista para armazenar os dados
+    registros = []
+    
+    # Extrair os campos desejados
+    for doc in docs:
+        data = doc.to_dict()
+        registros.append({
+            "Empresa": data.get("Empresa"),
+            "Cliente": data.get("Cliente"),
+            "Número Interno": data.get("Número Interno"),
+            "Caminho": data.get("Caminho"),
+            "Serviço": data.get("Servico"),
+            "Objeto": data.get("Objeto"),
+            "Participação": data.get("Participação"),
+            "Disciplinas": data.get("Disciplina"),
+            "Área": data.get("Área (m²)"),
+            "Data Inicial": data.get("Data Início"),
+            "Data Final": data.get("Data Final")
+        })
+    
+    # Criar DataFrame
+    df = pd.DataFrame(registros)
+    
+    # Filtros
+    colf1, colf2, colf3 = st.columns(3)
+    
+    with colf1:
+        empresas_disponiveis = df["Empresa"].dropna().unique().tolist()
+        filtro_empresas = st.multiselect("Filtrar por Empresa", ["Todos"] + empresas_disponiveis)
+    
+    with colf2:
+        servicos_disponiveis = df["Serviço"].dropna().unique().tolist()
+        filtro_servicos = st.multiselect("Filtrar por Tipo de Serviço", ["Todos"] + servicos_disponiveis)
+    
+    with colf3:
+        filtro_numero_interno = st.text_input("Número Interno (parcial ou completo)", key="filtronumintvi")
+    
+    # Aplicar os filtros
+    empresas_filtradas = empresas_disponiveis if not filtro_empresas or "Todos" in filtro_empresas else filtro_empresas
+    servicos_filtrados = servicos_disponiveis if not filtro_servicos or "Todos" in filtro_servicos else filtro_servicos
+    
+    df_filtrado = df[
+        (df["Empresa"].isin(empresas_filtradas)) &
+        (df["Serviço"].isin(servicos_filtrados)) &
+        (df["Número Interno"].str.contains(filtro_numero_interno, case=False, na=False)
+         if filtro_numero_interno else True)
+    ]
+    
+    # Garantir que todas as disciplinas sejam strings
+    df_filtrado["Disciplinas"] = df_filtrado["Disciplinas"].apply(
+        lambda x: ", ".join(x) if isinstance(x, list) else str(x) if x is not None else ""
+    )
+    
+    # ✅ Mostrar contador de atestados encontrados
+    total = len(df_filtrado)
+    st.markdown(f"### Atestados encontrados: **{total}**")
+    
+    # Mostrar tabela
+    st.dataframe(df_filtrado, use_container_width=True)
