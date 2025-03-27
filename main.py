@@ -996,4 +996,4 @@ with abas[0]:
     st.markdown(f"### Atestados encontrados: **{total}**")
     
     # Mostrar tabela
-    st.dataframe(df_filtrado, use_container_width=True)
+    st.dataframe(df_filtrado, use_container_width=True, hide_index=True)
