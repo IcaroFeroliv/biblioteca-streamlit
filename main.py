@@ -15,7 +15,7 @@ if not firebase_admin._apps:
     firebase_admin.initialize_app(cred)
 db = firestore.client()
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Grupo Projeta", layout="wide")
 
 st.markdown("""
 <style>
