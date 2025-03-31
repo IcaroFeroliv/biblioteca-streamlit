@@ -17,18 +17,18 @@ db = firestore.client()
 
 st.set_page_config(page_title="Grupo Projeta", layout="wide")
 
-# Força o tema escuro via CSS
+# Aplica apenas o fundo preto, sem mudar os outros elementos
 st.markdown("""
     <style>
-        /* Esconde a barra de ferramentas do Streamlit */
-        .stAppToolbar.st-emotion-cache-15ecox0.e4hpqof2 {
-            visibility: hidden;
+        /* Define apenas o fundo do site como preto */
+        html, body {
+            background-color: #121212 !important;
         }
 
-        /* Define o fundo escuro e texto branco */
-        html, body, [class*="st-"] {
-            background-color: #121212 !important;
-            color: white !important;
+        /* Mantém os elementos interativos com cores padrão */
+        [class*="stTextInput"], [class*="stSelectbox"], [class*="stButton"] {
+            background-color: white !important;
+            color: black !important;
         }
     </style>
 """, unsafe_allow_html=True)
