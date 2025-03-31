@@ -17,7 +17,15 @@ db = firestore.client()
 
 st.set_page_config(layout="wide")
 
-
+st.markdown("""
+<style>
+.stMainMenu.st-emotion-cache-czk5ss.ev04twb8
+.stToolbarActionButton
+{
+    visibility: hidden;
+}
+</style>
+""", unsafe_allow_html=True)
 
 abas = st.tabs(["Visualizar","Adicionar", "Editar"])
 
