@@ -17,7 +17,7 @@ db = firestore.client()
 
 st.set_page_config(page_title="Grupo Projeta", layout="wide")
 
-# Aplica apenas o fundo preto, sem mudar os outros elementos
+# Aplica o fundo preto e ajusta os campos de entrada
 st.markdown("""
     <style>
         /* Define apenas o fundo do site como preto */
@@ -25,11 +25,25 @@ st.markdown("""
             background-color: #121212 !important;
         }
 
-        /* Mantém os elementos interativos com cores padrão */
-        [class*="stTextInput"], [class*="stSelectbox"], [class*="stButton"] {
-            background-color: white !important;
-            color: black !important;
+        /* Ajusta os campos de entrada, selectbox e botões */
+        [class*="stTextInput"], [class*="stSelectbox"], [class*="stNumberInput"], [class*="stDateInput"] {
+            background-color: #1e1e1e !important; /* Cinza escuro */
+            color: white !important; /* Texto branco */
+            border-radius: 5px !important; /* Cantos arredondados */
+            border: 1px solid #333 !important; /* Borda sutil */
         }
+
+        /* Ajusta os placeholders (texto dentro dos inputs) */
+        input::placeholder, textarea::placeholder {
+            color: #aaa !important; /* Cinza claro para legibilidade */
+        }
+
+        /* Esconde a barra de ferramentas do Streamlit */
+        .stAppToolbar.st-emotion-cache-15ecox0.e4hpqof2 {
+            visibility: hidden;
+        }
+        
+
     </style>
 """, unsafe_allow_html=True)
 
