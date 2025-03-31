@@ -5,6 +5,13 @@ from datetime import datetime
 import firebase_admin
 from firebase_admin import credentials, firestore
 
+:root {
+    color-scheme: dark;
+    background-color: #121212;
+    color: white;
+}
+
+
 # Corrigir quebra de linha da chave
 firebase_config = dict(st.secrets["firebase"])
 firebase_config["private_key"] = firebase_config["private_key"].replace("\\n", "\n")
