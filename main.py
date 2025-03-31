@@ -19,7 +19,7 @@ st.set_page_config(layout="wide")
 
 st.markdown("""
 <style>
-.stToolbarActions.st-emotion-cache-1p1m4ay.ekuhni82
+.stAppToolbar.st-emotion-cache-15ecox0.e4hpqof2
 {
     visibility: hidden;
 }
