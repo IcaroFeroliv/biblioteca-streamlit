@@ -17,7 +17,6 @@ db = firestore.client()
 
 st.set_page_config(page_title="Grupo Projeta", layout="wide")
 
-# Aplica o fundo preto e ajusta os campos de entrada
 st.markdown("""
     <style>
         /* Esconde a barra de ferramentas do Streamlit */
