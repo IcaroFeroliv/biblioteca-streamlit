@@ -15,7 +15,14 @@ if not firebase_admin._apps:
     firebase_admin.initialize_app(cred)
 db = firestore.client()
 
-st.set_page_config(layout="wide")
+st.markdown("""
+<style>
+.stAppToolbar.st-emotion-cache-15ecox0.e4hpqof2
+{
+    visibility: hidden;
+}
+</style>
+""", unsafe_allow_html=True)
 abas = st.tabs(["Visualizar","Adicionar", "Editar"])
 
 
