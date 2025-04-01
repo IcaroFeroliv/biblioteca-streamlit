@@ -978,11 +978,11 @@ with abas[0]:
     
     with colf1:
         empresas_disponiveis = df["Empresa"].dropna().unique().tolist()
-        filtro_empresas = st.multiselect("Filtrar por Empresa", ["Todos"] + empresas_disponiveis, default=["Todos"])
+        filtro_empresas = st.multiselect("Filtrar por Empresa", empresas_disponiveis)
     
     with colf2:
         servicos_disponiveis = df["Serviço"].dropna().unique().tolist()
-        filtro_servicos = st.multiselect("Filtrar por Tipo de Serviço", ["Todos"] + servicos_disponiveis, default=["Todos"])
+        filtro_servicos = st.multiselect("Filtrar por Tipo de Serviço", servicos_disponiveis)
     
     with colf3:
         filtro_numero_interno = st.text_input("Número Interno (parcial ou completo)", key="filtronumintvi")
