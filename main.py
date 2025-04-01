@@ -943,7 +943,7 @@ with abas[0]:
 
     col1, col2 = st.columns([2,1])
     with col1:
-        st.title("Visualizar")
+        st.title("Biblioteca de Atestados")
     with col2:
         st.image("logoprojeta.png", width=350)
 
