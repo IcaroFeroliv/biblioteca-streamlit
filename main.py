@@ -964,7 +964,7 @@ with abas[0]:
     df = pd.DataFrame(registros)
     
     # Filtros
-    colf1, colf2, colf3 = st.columns(3)
+    colf1, colf2, colf3, colf4 = st.columns(4)
     
     with colf1:
         empresas_disponiveis = df["Empresa"].dropna().unique().tolist()
@@ -976,6 +976,9 @@ with abas[0]:
     
     with colf3:
         filtro_CAT = st.text_input("Número CAT (parcial ou completo)", key="filtronumcat")
+
+    with colf4:
+        filtro_objeto = st.text_input("Objeto (parcial ou completo)", key="filtroobjeto")
     
     # Aplicar os filtros
     empresas_filtradas = empresas_disponiveis if not filtro_empresas or "Todos" in filtro_empresas else filtro_empresas
@@ -985,7 +988,10 @@ with abas[0]:
         (df["Empresa"].isin(empresas_filtradas)) &
         (df["Serviço"].isin(servicos_filtrados)) &
         (df["CAT"].str.contains(filtro_CAT, case=False, na=False)
-         if filtro_CAT else True)
+         if filtro_CAT else True) &
+        (df["Objeto"].str.contains(filtro_objeto, case=False, na=False)
+         if filtro_objeto else True)
+        
     ]
     
     # Garantir que todas as disciplinas sejam strings
