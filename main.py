@@ -868,13 +868,15 @@ with abas[2]:
         st.session_state.atestado_selecionado = None
 
     # Filtros dinâmicos
-    colf1, colf2, colf3 = st.columns(3)
+    colf1, colf2, colf3, colf4 = st.columns(4)
     with colf1:
         empresas_grupo = st.selectbox("Filtrar por Empresa", empresas_opcoes)
     with colf2:
         servico = st.selectbox("Filtrar por Tipo de Serviço", servicos_opcoes)
     with colf3:
         filtro_CAT = st.text_input("Número CAT (parcial ou completo)")
+    with colf4:
+        filtro_objeto = st.text_input("Objeto (parcial ou completo)")
 
     # Botão para pesquisar atestados
     if st.button("Pesquisar"):
@@ -887,8 +889,12 @@ with abas[2]:
                     filtro_CAT.strip() == "" or
                     filtro_CAT.lower() in str(data.get("CAT", "")).lower()
             )
+            cond_objeto = (
+                    filtro_objeto.strip() == "" or
+                    filtro_pbjeto.lower() in str(data.get("Objeto", "")).lower()
+            )
 
-            if cond_empresa and cond_servico and cond_num_interno:
+            if cond_empresa and cond_servico and cond_num_interno and cond_objeto:
                 encontrados[doc_id] = data
 
         if not encontrados:
