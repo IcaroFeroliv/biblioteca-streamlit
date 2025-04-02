@@ -61,7 +61,14 @@ with abas[1]:
         cat_numero = st.text_input("Número da CAT")
     with co2:
         caminho_rede = st.text_input("Caminho da Rede")
-    objeto = st.text_input("Objeto")
+        
+    colf1, colf2 = st.columns(2)
+    with colf1:
+        objeto = st.text_input("Objeto")
+    with colf2:
+        nome_profissionais = ["Juliana", "Matheus", "Danilo", "Isabela", "Tiago", "Ayana", "Moises", "Márcio", "Sayuri", "Ana", "Christian", "Daniel", "Vicente", "André", "Debora", "Pablo", "Sérgio", "Érika", "Bruno", "Cláudio", "Emanuel"]
+        nome_profissional = st.multiselect("Nome dos Profissionais", nome_profissionais)
+
 
     # Período
     st.subheader("Período")
@@ -813,6 +820,7 @@ with abas[1]:
                 "Empresa": empresas_grupo,
                 "Cliente": cliente,
                 "Servico": servico,
+                "Profissional" : nome_profissional,
                 "Disciplina": tipo_servico,
                 "Participação": participacao,
                 "Caminho": caminho_rede,
