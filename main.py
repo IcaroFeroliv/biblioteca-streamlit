@@ -984,7 +984,7 @@ with abas[0]:
     df_filtrado = df[
         (df["Empresa"].isin(empresas_filtradas)) &
         (df["Serviço"].isin(servicos_filtrados)) &
-        (df["CAT"].str.contains(filtro_numero_interno, case=False, na=False)
+        (df["CAT"].str.contains(filtro_CAT, case=False, na=False)
          if filtro_CAT else True)
     ]
     
