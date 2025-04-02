@@ -891,7 +891,7 @@ with abas[2]:
             )
             cond_objeto = (
                     filtro_objeto.strip() == "" or
-                    filtro_pbjeto.lower() in str(data.get("Objeto", "")).lower()
+                    filtro_objeto.lower() in str(data.get("Objeto", "")).lower()
             )
 
             if cond_empresa and cond_servico and cond_num_interno and cond_objeto:
