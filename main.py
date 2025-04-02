@@ -56,17 +56,12 @@ with abas[1]:
     with c3:
         participacao = st.number_input("Participação (%)", min_value=0.0, max_value=100.0, step=1.0, format="%.2f")
 
-    # Número
-    st.subheader("Número")
     co1, co2 = st.columns(2)
     with co1:
-        interno = st.text_input("Número Interno")
-    with co2:
         cat_numero = st.text_input("Número da CAT")
-
-    #Caminho
-    st.subheader("Caminho")
-    caminho_rede = st.text_input("Caminho da Rede")
+    with co2:
+        caminho_rede = st.text_input("Caminho da Rede")
+    objeto = st.text_input("Objeto")
 
     # Período
     st.subheader("Período")
@@ -83,10 +78,6 @@ with abas[1]:
             st.success(f"O Prazo para o projeto é de {meses:.1f} meses.")
         else:
             st.error("A data final não pode ser antes da data inicial!")
-
-    # Objeto
-
-    objeto = st.text_input("Objeto")
 
     # Informações Gerais
 
@@ -808,7 +799,7 @@ with abas[1]:
             tipo_servico = st.number_input("Unidade Habitacional²", min_value=0.0, step=1.0, key="uni_reurb")
 
     if cliente and data_inicial and servico:
-        nome_atestado = f"{empresas_grupo}_{cliente}_{interno}_{servico}"
+        nome_atestado = f"{empresas_grupo}_{cliente}_{cat_numero}_{servico}"
     else:
         nome_atestado = None
 
@@ -824,7 +815,6 @@ with abas[1]:
                 "Servico": servico,
                 "Disciplina": tipo_servico,
                 "Participação": participacao,
-                "Número Interno": interno,
                 "Caminho": caminho_rede,
                 "CAT": cat_numero,
                 "Data Início": str(data_inicial),
@@ -884,7 +874,7 @@ with abas[2]:
     with colf2:
         servico = st.selectbox("Filtrar por Tipo de Serviço", servicos_opcoes)
     with colf3:
-        filtro_numero_interno = st.text_input("Número Interno (parcial ou completo)")
+        filtro_CAT = st.text_input("Número CAT (parcial ou completo)")
 
     # Botão para pesquisar atestados
     if st.button("Pesquisar"):
@@ -894,8 +884,8 @@ with abas[2]:
             cond_empresa = (empresas_grupo == "Todos") or (data.get("Empresa") == empresas_grupo)
             cond_servico = (servico == "Todos") or (data.get("Servico") == servico)
             cond_num_interno = (
-                    filtro_numero_interno.strip() == "" or
-                    filtro_numero_interno.lower() in str(data.get("Número Interno", "")).lower()
+                    filtro_CAT.strip() == "" or
+                    filtro_CAT.lower() in str(data.get("CAT", "")).lower()
             )
 
             if cond_empresa and cond_servico and cond_num_interno:
@@ -958,12 +948,12 @@ with abas[0]:
         data = doc.to_dict()
         registros.append({
             "Empresa": data.get("Empresa"),
+            "Participação": data.get("Participação"),
             "Cliente": data.get("Cliente"),
-            "Número Interno": data.get("Número Interno"),
+            "CAT": data.get("CAT"),
             "Caminho": data.get("Caminho"),
             "Serviço": data.get("Servico"),
             "Objeto": data.get("Objeto"),
-            "Participação": data.get("Participação"),
             "Disciplinas": data.get("Disciplina"),
             "Área": data.get("Área (m²)"),
             "Data Inicial": data.get("Data Início"),
@@ -985,7 +975,7 @@ with abas[0]:
         filtro_servicos = st.multiselect("Filtrar por Tipo de Serviço", servicos_disponiveis)
     
     with colf3:
-        filtro_numero_interno = st.text_input("Número Interno (parcial ou completo)", key="filtronumintvi")
+        filtro_CAT = st.text_input("Número CAT (parcial ou completo)", key="filtronumcat")
     
     # Aplicar os filtros
     empresas_filtradas = empresas_disponiveis if not filtro_empresas or "Todos" in filtro_empresas else filtro_empresas
@@ -994,8 +984,8 @@ with abas[0]:
     df_filtrado = df[
         (df["Empresa"].isin(empresas_filtradas)) &
         (df["Serviço"].isin(servicos_filtrados)) &
-        (df["Número Interno"].str.contains(filtro_numero_interno, case=False, na=False)
-         if filtro_numero_interno else True)
+        (df["CAT"].str.contains(filtro_numero_interno, case=False, na=False)
+         if filtro_CAT else True)
     ]
     
     # Garantir que todas as disciplinas sejam strings
