@@ -1016,7 +1016,7 @@ with abas[0]:
     
     # Mostrar contador de atestados encontrados
     total = len(df_filtrado)
-    st.markdown(f"### Atestados encontrados: **{total}**")
+    st.markdown(f"### Atestados Encontrados: **{total}**")
     
     # Mostrar tabela
     st.dataframe(df_filtrado, use_container_width=True, hide_index=True)
