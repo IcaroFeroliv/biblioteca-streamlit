@@ -34,7 +34,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-
+abas = st.tabs(["Visualizar","Adicionar", "Editar"])
 
 with abas[1]:
     col1, col2 = st.columns([2,1])
