@@ -23,12 +23,16 @@ st.markdown("""
         .stAppHeader.st-emotion-cache-h4xjwg.e4hpqof0 {
             visibility: hidden;
         }
-        
+
+        /* Oculta os novos elementos */
+        ._container_gzau3_1._viewerBadge_nim44_23,
+        ._profilePreview_gzau3_63 {
+            display: none;
+        }
 
     </style>
 """, unsafe_allow_html=True)
 
-abas = st.tabs(["Visualizar","Adicionar", "Editar"])
 
 
 
