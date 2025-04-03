@@ -807,8 +807,9 @@ with abas[1]:
 
     if cliente and data_inicial and servico:
         nome_atestado = f"{empresas_grupo}_{cliente}_{cat_numero}_{servico}"
+        nome_atestado_formatado = nome_atestado.replace("/", "-")
     else:
-        nome_atestado = None
+        nome_atestado_formatado = None
 
     st.write(f"Nome do Atestado: `{nome_atestado}`")
 
@@ -835,7 +836,7 @@ with abas[1]:
             }
 
             # Enviar para o Firebase com nome personalizado como ID
-            db.collection("atestados").document(nome_atestado).set(dados_atestado)
+            db.collection("atestados").document(nome_atestado_formatado).set(dados_atestado)
 
             st.success(f"Atestado `{nome_atestado}` salvo com sucesso!")
             time.sleep(1)
