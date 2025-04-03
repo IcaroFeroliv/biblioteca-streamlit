@@ -39,7 +39,7 @@ abas = st.tabs(["Visualizar","Adicionar", "Editar"])
 with abas[1]:
     col1, col2 = st.columns([2,1])
     with col1:
-        st.title("Formulário de Cadastro")
+        st.title("TESTE")
     with col2:
         st.image("logoprojeta.png", width=350)
 
