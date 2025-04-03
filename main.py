@@ -25,8 +25,7 @@ st.markdown("""
         }
 
         /* Oculta os novos elementos */
-        ._container_gzau3_1._viewerBadge_nim44_23,
-        ._profilePreview_gzau3_63 {
+        ._terminalButton_rix23_138 {
             display: none;
         }
 
