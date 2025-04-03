@@ -1048,6 +1048,34 @@ with abas[0]:
     # Expandir os profissionais (explode transforma listas em múltiplas linhas)
     df = df.explode("Profissional")
 
+    # Dicionário de formações dos profissionais
+    formacoes = {
+        "Matheus": "Engenheiro Civil",
+        "Juliana": "Engenheiro Civil",
+        "Danilo": "Engenheiro Civil",
+        "Moises": "Engenheiro Eletricista",
+        "Tiago": "Engenheiro Mecânico",
+        "Pablo": "Engenheiro Agrimensor",
+        "Sergio": "Engenheiro Civil",
+        "Ayana": "Engenheiro Ambiental",
+        "Ana": "Engenheiro Ambiental",
+        "Christian": "Engenheiro Florestal",
+        "Grazielle": "Engenheiro Ambiental",
+        "Mauricio": "Engenheiro Civil",
+        "Sayuri": "Arquiteto",
+        "Isabela": "Arquiteto",
+        "Debora": "Arquiteto",
+        "Marcio": "Arquiteto",
+        "Daniel": "Engenheiro Eletricista",
+        "André": "Engenheiro Eletricista",
+        "Bruno": "Engenheiro Mecânico",
+        "Patricia": "Arquiteto",
+        "Vicente": "Engenheiro Civil",
+        "Cláudio": "Engenheiro Civil",
+        "Emanuel": "Engenheiro Civil",
+        "Érika": "Engenheiro Civil",
+    }
+
 
     # Função para calcular a experiência de cada profissional
     def calcular_experiencia(df):
@@ -1070,8 +1098,9 @@ with abas[0]:
             anos_experiencia = round(dias_experiencia / 365, 1)
 
             experiencia_por_profissional[profissional] = {
-                "Dias": dias_experiencia,
-                "Anos": anos_experiencia
+                "Formação": formacoes.get(profissional, "Desconhecida"),  # Pega a formação do profissional
+                "Experiência (Dias)": dias_experiencia,
+                "Experiência (Anos)": anos_experiencia
             }
 
         return experiencia_por_profissional
@@ -1081,11 +1110,9 @@ with abas[0]:
     if not df.empty:
         experiencia = calcular_experiencia(df)
         df_experiencia = pd.DataFrame.from_dict(experiencia, orient="index").reset_index()
-        df_experiencia.columns = ["Profissional", "Experiência (Dias)", "Experiência (Anos)"]
+        df_experiencia.columns = ["Profissional", "Formação", "Experiência (Dias)", "Experiência (Anos)"]
 
         st.write("### Tempo De Experiência")
-        st.dataframe(df_experiencia, use_container_width=True, hide_index=True, )
+        st.dataframe(df_experiencia, use_container_width=True, hide_index=True)
     else:
         st.write("Nenhum dado encontrado.")
-
-
