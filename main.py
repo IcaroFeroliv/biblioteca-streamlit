@@ -66,7 +66,7 @@ with abas[1]:
     with colf1:
         objeto = st.text_input("Objeto")
     with colf2:
-        nome_profissionais = ["Juliana", "Matheus", "Danilo", "Isabela", "Tiago", "Ayana", "Moises", "Márcio", "Sayuri", "Ana", "Christian", "Daniel", "Vicente", "André", "Debora", "Pablo", "Sérgio", "Érika", "Bruno", "Cláudio", "Emanuel"]
+        nome_profissionais = ["Juliana", "Matheus", "Danilo", "Isabela", "Tiago", "Ayana", "Moises", "Márcio", "Sayuri", "Ana", "Christian", "Daniel", "Vicente", "André", "Debora", "Pablo", "Sérgio", "Érika", "Bruno", "Cláudio", "Emanuel", "Grazielle", "Mauricio", "Patricia"]
         nome_profissional = st.multiselect("Nome dos Profissionais", nome_profissionais)
 
 
