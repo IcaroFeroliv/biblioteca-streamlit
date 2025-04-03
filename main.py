@@ -1013,9 +1013,78 @@ with abas[0]:
         lambda x: ", ".join(x) if isinstance(x, list) else str(x) if x is not None else ""
     )
     
-    # ✅ Mostrar contador de atestados encontrados
+    # Mostrar contador de atestados encontrados
     total = len(df_filtrado)
     st.markdown(f"### Atestados encontrados: **{total}**")
     
     # Mostrar tabela
     st.dataframe(df_filtrado, use_container_width=True, hide_index=True)
+
+    # Função para buscar dados do Firebase
+    def obter_dados_firebase():
+        colecao = db.collection("atestados")  # Nome correto da coleção no Firebase
+        documentos = colecao.stream()
+
+        data = []
+        for doc in documentos:
+            doc_data = doc.to_dict()
+            if "Profissional" in doc_data and "Data Início" in doc_data and "Data Final" in doc_data:
+                data.append({
+                    "Profissional": doc_data["Profissional"],
+                    "Data Início": pd.to_datetime(doc_data["Data Início"]),
+                    "Data Final": pd.to_datetime(doc_data["Data Final"]),
+                })
+
+        return pd.DataFrame(data)
+
+
+    # Buscar os dados
+    df = obter_dados_firebase()
+
+    # Garantir que "Profissional" seja sempre uma string ou lista
+    df["Profissional"] = df["Profissional"].apply(lambda x: x if isinstance(x, list) else [x])
+
+    # Expandir os profissionais (explode transforma listas em múltiplas linhas)
+    df = df.explode("Profissional")
+
+
+    # Função para calcular a experiência de cada profissional
+    def calcular_experiencia(df):
+        experiencia_por_profissional = {}
+
+        for profissional in df["Profissional"].unique():
+            df_profissional = df[df["Profissional"] == profissional].sort_values("Data Início")
+            periodos = []
+            inicio_atual, fim_atual = df_profissional.iloc[0]["Data Início"], df_profissional.iloc[0]["Data Final"]
+
+            for _, row in df_profissional.iterrows():
+                if row["Data Início"] <= fim_atual:  # Há sobreposição
+                    fim_atual = max(fim_atual, row["Data Final"])
+                else:  # Novo período
+                    periodos.append((inicio_atual, fim_atual))
+                    inicio_atual, fim_atual = row["Data Início"], row["Data Final"]
+
+            periodos.append((inicio_atual, fim_atual))
+            dias_experiencia = sum((fim - inicio).days + 1 for inicio, fim in periodos)
+            anos_experiencia = round(dias_experiencia / 365, 1)
+
+            experiencia_por_profissional[profissional] = {
+                "Dias": dias_experiencia,
+                "Anos": anos_experiencia
+            }
+
+        return experiencia_por_profissional
+
+
+    # Calcular experiência se houver dados
+    if not df.empty:
+        experiencia = calcular_experiencia(df)
+        df_experiencia = pd.DataFrame.from_dict(experiencia, orient="index").reset_index()
+        df_experiencia.columns = ["Profissional", "Experiência (Dias)", "Experiência (Anos)"]
+
+        st.write("### Tempo De Experiência")
+        st.dataframe(df_experiencia, use_container_width=True, hide_index=True, )
+    else:
+        st.write("Nenhum dado encontrado.")
+
+
