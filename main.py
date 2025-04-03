@@ -811,7 +811,7 @@ with abas[1]:
     else:
         nome_atestado_formatado = None
 
-    st.write(f"Nome do Atestado: `{nome_atestado}`")
+    st.write(f"Nome do Atestado: `{nome_atestado_formatado}`")
 
     if st.button("Enviar"):
 
@@ -838,7 +838,7 @@ with abas[1]:
             # Enviar para o Firebase com nome personalizado como ID
             db.collection("atestados").document(nome_atestado_formatado).set(dados_atestado)
 
-            st.success(f"Atestado `{nome_atestado}` salvo com sucesso!")
+            st.success(f"Atestado `{nome_atestado_formatado}` salvo com sucesso!")
             time.sleep(1)
 
             # JavaScript para recarregar a pagina
