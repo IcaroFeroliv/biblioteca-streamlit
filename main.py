@@ -5,8 +5,10 @@ from datetime import datetime
 import firebase_admin
 from firebase_admin import credentials, firestore
 
-# Corrigir quebra de linha da chave
+# Pega as credenciais do secrets.toml
 firebase_config = dict(st.secrets["firebase"])
+
+# Corrigir quebra de linha da chave
 firebase_config["private_key"] = firebase_config["private_key"].replace("\\n", "\n")
 
 # Inicializar Firebase somente se ainda não foi iniciado
@@ -38,7 +40,7 @@ abas = st.tabs(["Visualizar","Adicionar", "Editar"])
 with abas[1]:
     col1, col2 = st.columns([2,1])
     with col1:
-        st.title("TESTE")
+        st.title("O RICARDO É MUITO LINDO")
     with col2:
         st.image("logoprojeta.png", width=350)
 
