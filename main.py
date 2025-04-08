@@ -22,13 +22,11 @@ st.set_page_config(page_title="Grupo Projeta", layout="wide")
 st.markdown("""
     <style>
         /* Esconde a barra de ferramentas do Streamlit */
-        .stAppHeader.st-emotion-cache-h4xjwg.e4hpqof0 {
+        .stAppHeader.st-emotion-cache-h4xjwg.e4hpqof0,
+        ._terminalButton_rix23_138 
+         {
+        
             visibility: hidden;
-        }
-
-        /* Oculta os novos elementos */
-        ._terminalButton_rix23_138 {
-            display: none;
         }
 
     </style>
@@ -40,7 +38,7 @@ abas = st.tabs(["Visualizar","Adicionar", "Editar"])
 with abas[1]:
     col1, col2 = st.columns([2,1])
     with col1:
-        st.title("O RICARDO É MUITO LINDO")
+        st.title("Formulário de Cadastro")
     with col2:
         st.image("logoprojeta.png", width=350)
 
@@ -982,49 +980,54 @@ with abas[0]:
     
     # Criar DataFrame
     df = pd.DataFrame(registros)
-    
+
     # Filtros
-    colf1, colf2, colf3, colf4 = st.columns(4)
-    
+    colf1, colf2, colf3, colf4, colf5 = st.columns(5)
+
     with colf1:
         empresas_disponiveis = df["Empresa"].dropna().unique().tolist()
         filtro_empresas = st.multiselect("Filtrar por Empresa", empresas_disponiveis)
-    
+
     with colf2:
         servicos_disponiveis = df["Serviço"].dropna().unique().tolist()
         filtro_servicos = st.multiselect("Filtrar por Tipo de Serviço", servicos_disponiveis)
-    
+
     with colf3:
         filtro_CAT = st.text_input("Número CAT (parcial ou completo)", key="filtronumcat")
 
     with colf4:
         filtro_objeto = st.text_input("Objeto (parcial ou completo)", key="filtroobjeto")
-    
+
+    with colf5:
+        # Filtro de Área com valores fixos
+        area_minima, area_maxima = st.slider(
+            "Filtrar por Área (m²)", 0.0, 5000.0, (0.0, 1000.0)
+        )
+
     # Aplicar os filtros
     empresas_filtradas = empresas_disponiveis if not filtro_empresas or "Todos" in filtro_empresas else filtro_empresas
     servicos_filtrados = servicos_disponiveis if not filtro_servicos or "Todos" in filtro_servicos else filtro_servicos
-    
+
     df_filtrado = df[
         (df["Empresa"].isin(empresas_filtradas)) &
         (df["Serviço"].isin(servicos_filtrados)) &
-        (df["CAT"].str.contains(filtro_CAT, case=False, na=False)
-         if filtro_CAT else True) &
-        (df["Objeto"].str.contains(filtro_objeto, case=False, na=False)
-         if filtro_objeto else True)
-        
-    ]
-    
+        (df["CAT"].str.contains(filtro_CAT, case=False, na=False) if filtro_CAT else True) &
+        (df["Objeto"].str.contains(filtro_objeto, case=False, na=False) if filtro_objeto else True) &
+        (df["Área"] >= area_minima) & (df["Área"] <= area_maxima)  # Aplicando filtro de área
+        ]
+
     # Garantir que todas as disciplinas sejam strings
     df_filtrado["Disciplinas"] = df_filtrado["Disciplinas"].apply(
         lambda x: ", ".join(x) if isinstance(x, list) else str(x) if x is not None else ""
     )
-    
+
     # Mostrar contador de atestados encontrados
     total = len(df_filtrado)
     st.markdown(f"### Atestados Encontrados: **{total}**")
-    
+
     # Mostrar tabela
     st.dataframe(df_filtrado, use_container_width=True, hide_index=True)
+
 
     # Função para buscar dados do Firebase
     def obter_dados_firebase():
