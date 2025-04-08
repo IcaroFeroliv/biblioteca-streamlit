@@ -1001,7 +1001,7 @@ with abas[0]:
     with colf5:
         # Filtro de Área com valores fixos
         area_minima, area_maxima = st.slider(
-            "Filtrar por Área (m²)", 0.0, 5000.0, (0.0, 1000.0)
+            "Filtrar por Área (m²)", 0.0, 5000.0, (0.0, 5000.0)
         )
 
     # Aplicar os filtros
