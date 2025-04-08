@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 * .streamlit
 * .idea
 
 .idea/
 .streamlit/
-=======
-# Ignorar arquivos de configuração do Streamlit
-.streamlit/secrets.toml
-* .streamlit
->>>>>>> dev
