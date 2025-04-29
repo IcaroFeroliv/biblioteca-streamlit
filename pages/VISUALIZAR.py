@@ -955,10 +955,13 @@ with abas[2]:
             if not col_area_existentes:
                 st.warning("Nenhum atestado possui a disciplina ou campo selecionado.")
             else:
-                # Aplica filtro de área mínima
-                for col in col_area_existentes:
-                    if col in df_filtrado.columns and df_filtrado[col].dtype != object:
-                        df_filtrado = df_filtrado[df_filtrado[col] >= area_filtro]
+                # Aplica filtro apenas se o valor for maior que zero OU se tiver algum campo da disciplina presente
+                if area_filtro > 0:
+                    mask = pd.Series(False, index=df_filtrado.index)
+                    for col in col_area_existentes:
+                        if col in df_filtrado.columns and pd.api.types.is_numeric_dtype(df_filtrado[col]):
+                            mask = mask | (df_filtrado[col] >= area_filtro)
+                    df_filtrado = df_filtrado[mask]
 
                 colunas_tabela = set(["Empresa", "Cliente", "Servico", "CAT", "Objeto", "Tempo do projeto"])
 
