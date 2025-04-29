@@ -119,8 +119,8 @@ with abas[0]:
         (df["Serviço"].isin(servicos_filtrados)) &
         (df["CAT"].str.contains(filtro_CAT, case=False, na=False) if filtro_CAT else True) &
         (df["Objeto"].str.contains(filtro_objeto, case=False, na=False) if filtro_objeto else True) &
-        ((df["Área"] >= filtro_area_min) | df["Área"].isna()) &
-        ((df["Extensão"] >= filtro_extensao_min) | df["Extensão"].isna())
+        ((df["Área"] >= filtro_area_min) if filtro_area_min > 0 else True) &
+        ((df["Extensão"] >= filtro_extensao_min) if filtro_extensao_min > 0 else True)
         ]
 
     # Garantir que "Disciplinas" seja string
