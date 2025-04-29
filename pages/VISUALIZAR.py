@@ -73,12 +73,13 @@ with abas[0]:
             "Participação": data.get("Participação"),
             "Cliente": data.get("Cliente"),
             "CAT": data.get("CAT"),
-            "PDF": pdf_final,
             "Coordenação": data.get("Profissional-Cordenação"),
+            "PDF": pdf_final,
             "Serviço": data.get("Servico"),
             "Objeto": data.get("Objeto"),
             "Disciplinas": data.get("Disciplina"),
             "Área": data.get("Área (m²)"),
+            "Extensão": data.get("Extensão (km)"),
             "Data Inicial": data.get("Data Início"),
             "Data Final": data.get("Data Final")
         })
@@ -87,7 +88,7 @@ with abas[0]:
     df = pd.DataFrame(registros)
 
     # Filtros
-    colf1, colf2, colf3, colf4, colf5 = st.columns(5)
+    colf1, colf2, colf3, colf4, colf5, colf6 = st.columns(6)
 
     with colf1:
         empresas_disponiveis = df["Empresa"].dropna().unique().tolist()
@@ -104,34 +105,43 @@ with abas[0]:
         filtro_objeto = st.text_input("Objeto (parcial ou completo)", key="filtroobjeto")
 
     with colf5:
-        # Filtro de Área com valores fixos
-        area_minima, area_maxima = st.slider(
-            "Filtrar por Área (m²)", 0.0, 10000.0, (0.0, 10000.0)
-        )
+        filtro_area_min = st.number_input("Área mínima (m²)", min_value=0.0, step=1.0, value=0.0)
+
+    with colf6:
+        filtro_extensao_min = st.number_input("Extensão mínima (km)", min_value=0.0, step=0.1, value=0.0)
 
     # Aplicar os filtros
-    empresas_filtradas = empresas_disponiveis if not filtro_empresas or "Todos" in filtro_empresas else filtro_empresas
-    servicos_filtrados = servicos_disponiveis if not filtro_servicos or "Todos" in filtro_servicos else filtro_servicos
+    empresas_filtradas = empresas_disponiveis if not filtro_empresas else filtro_empresas
+    servicos_filtrados = servicos_disponiveis if not filtro_servicos else filtro_servicos
 
     df_filtrado = df[
         (df["Empresa"].isin(empresas_filtradas)) &
         (df["Serviço"].isin(servicos_filtrados)) &
         (df["CAT"].str.contains(filtro_CAT, case=False, na=False) if filtro_CAT else True) &
         (df["Objeto"].str.contains(filtro_objeto, case=False, na=False) if filtro_objeto else True) &
-        (df["Área"] >= area_minima) & (df["Área"] <= area_maxima)  # Aplicando filtro de área
+        ((df["Área"] >= filtro_area_min) | df["Área"].isna()) &
+        ((df["Extensão"] >= filtro_extensao_min) | df["Extensão"].isna())
         ]
 
-    # Garantir que todas as disciplinas sejam strings
+    # Garantir que "Disciplinas" seja string
     df_filtrado["Disciplinas"] = df_filtrado["Disciplinas"].apply(
         lambda x: ", ".join(x) if isinstance(x, list) else str(x) if x is not None else ""
     )
 
-    # Contador de atestados com filtros aplicados
-    total = len(df_filtrado)
-    st.markdown(f"##### Atestados Encontrados: {total}")
+    # Formatar colunas de área e extensão com duas casas decimais ou 'Não informado'
+    df_filtrado["Área"] = df_filtrado["Área"].apply(
+        lambda x: f"{x:.2f}" if pd.notnull(x) else "Não informado"
+    )
+
+    df_filtrado["Extensão"] = df_filtrado["Extensão"].apply(
+        lambda x: f"{x:.2f}" if pd.notnull(x) else "Não informado"
+    )
+
+    # Contador
+    st.markdown(f"##### Atestados Encontrados: {len(df_filtrado)}")
 
 
-    # Mostrar a tabela
+
     st.write(df_filtrado.to_html(escape=False, index=False), unsafe_allow_html=True)
 
 with abas[1]:
