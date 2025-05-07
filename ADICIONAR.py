@@ -3,7 +3,7 @@ import streamlit as st
 from datetime import datetime
 import firebase_admin
 from firebase_admin import credentials, firestore, storage
-import re
+from streamlit import title
 
 # Pega as credenciais do secrets.toml
 firebase_config = dict(st.secrets["firebase"])
@@ -118,27 +118,14 @@ with co2:
 
 objeto = st.text_input("Objeto")
 
-MAX_NOME_ARQUIVO = 100
-
-# Dicionário para armazenar os arquivos PDF válidos de cada profissional
+# Dicionário para armazenar os arquivos PDF de cada profissional
 pdfs_profissionais = {}
 
 # Gera dinamicamente os uploads de acordo com os profissionais selecionados
 for profissional in nome_profissional:
     pdf = st.file_uploader(f"Anexe o PDF de {profissional}", type=["pdf"], key=f"pdf_{profissional}")
-
     if pdf:
-        nome_original = pdf.name
-        nome_limpo = re.sub(r"[^\w\-_\.]", "_", nome_original)
-
-        if len(nome_limpo) > MAX_NOME_ARQUIVO:
-            st.warning(f"O nome do arquivo enviado para `{profissional}` é muito longo "
-                       f"(`{nome_original}`). Por favor, renomeie o arquivo com um nome mais curto e sem acentos ou símbolos especiais.")
-        elif not nome_limpo.lower().endswith(".pdf"):
-            st.warning(f"O arquivo enviado para `{profissional}` não é um PDF válido.")
-        else:
-            # Nome seguro e tamanho OK
-            pdfs_profissionais[profissional] = pdf
+        pdfs_profissionais[profissional] = pdf
 
 # Período
 st.subheader("Período")
