@@ -2993,16 +2993,23 @@ if "REURB Regularização Fundiária" in servico:
 
     st.divider()
 
-if cliente and data_inicial and servico:
-    nome_atestado = f"{empresas_grupo}_{cliente}_{cat_numero}_{servico}"
-    nome_atestado_formatado = nome_atestado.replace("/", "-")
-else:
-    nome_atestado_formatado = None
-
-st.write(f"Nome do Atestado: `{nome_atestado_formatado}`")
-
 if st.button("Enviar"):
-    if nome_atestado:
+    # Verifica os campos obrigatórios
+    campos_obrigatorios = {
+        "Empresa do Grupo": empresas_grupo,
+        "Cliente": cliente,
+        "CAT": cat_numero,
+        "Serviço": servico,
+    }
+
+    campos_faltando = [nome for nome, valor in campos_obrigatorios.items() if not valor]
+
+    if campos_faltando:
+        st.error(f"Por favor, preencha todos os campos obrigatórios: {', '.join(campos_faltando)}.")
+    else:
+        nome_atestado = f"{empresas_grupo}_{cliente}_{cat_numero}_{servico}"
+        nome_atestado_formatado = nome_atestado.replace("/", "-")
+
         # Dicionário para armazenar as URLs no Firebase
         pdf_urls_profissionais = {}
 
@@ -3023,7 +3030,7 @@ if st.button("Enviar"):
             "Profissional": nome_profissional,
             "Disciplina": tipo_servico,
             "Participação": participacao,
-            "Tempo do projeto": meses_projeto,
+                "Tempo do projeto": meses_projeto,
             "CAT": cat_numero,
             "Data Início": str(data_inicial),
             "Data Final": str(data_final),
