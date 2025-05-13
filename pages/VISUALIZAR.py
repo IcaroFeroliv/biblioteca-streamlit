@@ -77,6 +77,7 @@ with abas[0]:
             "PDF": pdf_final,
             "Serviço": data.get("Servico"),
             "Objeto": data.get("Objeto"),
+            "BIM": data.get("BIM"),
             "Disciplinas": data.get("Disciplina"),
             "Área": data.get("Área (m²)"),
             "Extensão": data.get("Extensão (km)"),
@@ -398,6 +399,9 @@ with abas[2]:
         "area": "SPCI(m²)",
         "prancha": "PRANCHA SPCI"
     },
+        "SONDAGEM": {
+            "tipo": "Sondagem"
+        },
     "TERRAPLENAGEM": {
         "area": "TERRAPLENAGEM (PLANTA/SEÇÕES)(m²)",
         "prancha": "PRANCHA TERRAPLENAGEM (PLANTA/SEÇÕES)"
@@ -417,6 +421,11 @@ with abas[2]:
         "area": "ELÉTRICO(m²)",
         "kva": "KVA",
         "prancha": "PRANCHA ELÉTRICO"
+    },
+    "GERAÇÃO FOTOVOLTAICA": {
+        "area": "GERAÇÃO FOTOVOLTAICA(m²)",
+        "kva": "GERAÇÃO FOTOVOLTAICA(kva)",
+        "prancha": "PRANCHA GERAÇÃO FOTOVOLTAICA"
     },
     "CAB. ESTRUTURADO": {
         "area": "CAB. ESTRUTURADO(m²)",
@@ -482,6 +491,10 @@ with abas[2]:
                 "area": ["VU-ANTEPROJETO DE INFRA(KM)", "PR-ANTEPROJETO DE INFRA(KM)"],
                 "prancha": ["VU-PRANCHA ANTEPROJETO DE INFRA", "PR-PRANCHA ANTEPROJETO DE INFRA"]
             },
+            "BATIMETRIA": {
+                "area": ["VU-BATIMETRIA(m²)", "PR-BATIMETRIA(m²)"],
+                "prancha": ["VU-PRANCHA BATIMETRIA", "PR-PRANCHA BATIMETRIA"]
+            },
             "GEOMÉTRICO": {
                 "area": ["VU-GEOMÉTRICO(KM)", "PR-GEOMÉTRICO(KM)"],
                 "prancha": ["VU-PRANCHA GEOMÉTRICO", "PR-PRANCHA GEOMÉTRICO"]
@@ -490,6 +503,11 @@ with abas[2]:
                 "area": ["VU-TERRAPLENAGEM(KM)", "PR-TERRAPLENAGEM(KM)"],
                 "prancha": ["VU-PRANCHA TERRAPLENAGEM", "PR-PRANCHA TERRAPLENAGEM"]
             },
+            "HIDROLOGIA": {
+                "area": ["VU-HIDROLOGIA(l/s)", "PR-HIDROLOGIA(l/s)"],
+                "prancha": ["VU-PRANCHA HIDROLOGIA", "PR-PRANCHA HIDROLOGIA"]
+            },
+
             "DRENAGEM": {
                 "area": ["VU-DRENAGEM(KM)", "PR-DRENAGEM(KM)"],
                 "prancha": ["VU-PRANCHA DRENAGEM", "PR-PRANCHA DRENAGEM"]
@@ -503,6 +521,9 @@ with abas[2]:
             "SINALIZAÇÃO": {
                 "area": ["VU-SINALIZAÇÃO(KM)", "PR-SINALIZAÇÃO(KM)"],
                 "prancha": ["VU-PRANCHA SINALIZAÇÃO", "PR-PRANCHA SINALIZAÇÃO"]
+            },
+            "SONDAGEM": {
+                "tipo": ["VU-SONDAGEM", "PR-SONDAGEM"]
             },
             "TOPOGRAFIA": {
                 "tipo": ["VU-TOPOGRAFIA", "PR-TOPOGRAFIA(m²)", "PR-TOPOGRAFIA(KM)"],
@@ -532,6 +553,11 @@ with abas[2]:
                 "area": ["VU-ELÉTRICO(m²)", "PR-ELÉTRICO(m²)", "PS-ELÉTRICO(m²)"],
                 "kva": ["VU-KVA", "PR-KVA", "PS-KVA"],
                 "prancha": ["VU-PRANCHA ELÉTRICO", "PR-PRANCHA ELÉTRICO", "PS-PRANCHA ELÉTRICO"]
+            },
+            "GERAÇÃO FOTOVOLTAICA": {
+                "area": ["VU-GERAÇÃO FOTOVOLTAICA(m²)", "PR-GERAÇÃO FOTOVOLTAICA(m²)"],
+                "kva": ["VU-GERAÇÃO FOTOVOLTAICA(kva)", "PR-GERAÇÃO FOTOVOLTAICA(kva)"],
+                "prancha": ["VU-PRANCHA GERAÇÃO FOTOVOLTAICA", "PR-PRANCHA GERAÇÃO FOTOVOLTAICA"]
             },
             "EXTENSÃO DE REDE": {
                 "area": ["VU-EXTENSÃO DE REDE(KM)", "PR-EXTENSÃO DE REDE(KM)", "PS-EXTENSÃO DE REDE(KM)"],
@@ -576,8 +602,127 @@ with abas[2]:
     }
 
     disciplinas_saneamento = {
+        "ADUTORA": {
+            "area": ["PS-ADUTORA(m)", "PS-ADUTORA(l/s)"],
+            "unidade": "PS-ADUTORA(uni)",
+            "prancha": "PS-PRANCHA ADUTORA"
+        },
+        "ANTEPROJETO DE INFRA": {
+            "area": "PS-ANTEPROJETO DE INFRA(km)",
+            "prancha": "PS-PRANCHA ANTEPROJETO DE INFRA"
+        },
+        "BATIMETRIA": {
+            "area": "PS-BATIMETRIA(m²)",
+            "prancha": "PS-PRANCHA BATIMETRIA"
+        },
+        "COMPAT. PROJETOS": {
+            "area": "PS-COMPAT. PROJETOS(m²)",
+            "prancha": "PS-PRANCHA COMPAT. PROJETOS"
+        },
+        "CONJUNTO MOTOBOMBA": {
+            "area": "PS-CONJUNTO MOTOBOMBA(uni)",
+            "prancha": "PS-PRANCHA CONJUNTO MOTOBOMBA"
+        },
+        "CONTENÇÃO": {
+            "tipo": "PS-CONTENÇÃO"
+        },
+        "DRENAGEM": {
+            "area": "PS-DRENAGEM(km)",
+            "prancha": "PS-PRANCHA DRENAGEM"
+        },
+        "ELEVATÓRIA": {
+            "area": "PS-ELEVATÓRIA(l/s)",
+            "unidade": "PS-ELEVATÓRIA(uni)",
+            "prancha": "PS-PRANCHA ELEVATÓRIA"
+        },
+        "ELÉTRICO": {
+            "area": "PS-ELÉTRICO(m²)",
+            "kva": "PS-KVA",
+            "prancha": "PS-PRANCHA ELÉTRICO"
+        },
+        "ESTRUTURAL": {
+            "tipo": "PS-ESTRUTURAL"
+        },
+        "ETA": {
+            "area": ["PS-ETA Vazão(l/s)", "PS-ETA VOL(m³)"],
+            "unidade": "PS-ETA(uni)",
+            "prancha": "PS-PRANCHA ETA"
+        },
+        "ETE": {
+            "area": ["PS-ETE Vazão(l/s)", "PS-ETE VOL(m³)"],
+            "unidade": "PS-ETE(uni)",
+            "prancha": "PS-PRANCHA ETE"
+        },
+        "EXTENSÃO DE REDE": {
+            "area": "PS-EXTENSÃO DE REDE(KM)",
+            "prancha": "PS-PRANCHA EXTENSÃO DE REDE"
+        },
         "FUNDAÇÃO": {
             "tipo": "PS-FUNDAÇÃO"
+        },
+        "GEOMÉTRICO": {
+            "area": "PS-GEOMÉTRICO(KM)",
+            "prancha": "PS-PRANCHA GEOMÉTRICO"
+        },
+        "GERAÇÃO FOTOVOLTAICA": {
+            "area": "PS-GERAÇÃO FOTOVOLTAICA(m²)",
+            "kva": "PS-GERAÇÃO FOTOVOLTAICA(kva)",
+            "prancha": "PS-PRANCHA GERAÇÃO FOTOVOLTAICA"
+        },
+        "HIDROLOGIA": {
+            "area": "PS-HIDROLOGIA(l/s)",
+            "prancha": "PS-PRANCHA HIDROLOGIA"
+        },
+        "ILUMINAÇÃO PUBLICA": {
+            "area": "PS-ILUMINAÇÃO PUBLICA(Pontos)",
+            "prancha": "PS-PRANCHA ILUMINAÇÃO PUBLICA"
+        },
+        "INTERCEPTOR": {
+            "area": ["PS-INTERCEPTOR(m)", "PS-INTERCEPTOR(l/s)"],
+            "unidade": "PS-INTERCEPTOR(uni)",
+            "prancha": "PS-PRANCHA INTERCEPTOR"
+        },
+        "LINHA DE RECALQUE": {
+            "area": ["PS-LINHA DE RECALQUE(m)", "PS-LINHA DE RECALQUE(l/s)", "PS-LINHA DE RECALQUE(uni)"],
+            "prancha": "PS-PRANCHA LINHA DE RECALQUE"
+        },
+        "MEIO AMBIENTE": {
+            "tipo": "PS-MEIO AMBIENTE"
+        },
+        "OAE": {
+            "tipo": "PS-OAE"
+        },
+        "ORÇAMENTO": {
+            "area": "PS-ORÇAMENTO(m²)",
+            "prancha": "PS-PRANCHA ORÇAMENTO"
+        },
+        "PAISAGISTICO": {
+            "area": "PS-PAISAGISTICO(m²)",
+            "prancha": "PS-PRANCHA PAISAGISTICO"
+        },
+        "PAVIMENTAÇÃO": {
+            "tipo": "PS-PAVIMENTAÇÃO"
+        },
+        "REDE COLETORA": {
+            "area": ["PS-REDE COLETORA(m)", "PS-REDE COLETORA(l/s)"],
+            "unidade": "PS-REDE COLETORA(uni)" ,
+            "prancha": "PS-PRANCHA REDE COLETORA"
+        },
+        "REDE DE DISTRIBUIÇÃO": {
+            "area": ["PS-REDE DE DISTRIBUIÇÃO(m)", "PS-REDE DE DISTRIBUIÇÃO(l/s)"],
+            "unidade": "PS-REDE DE DISTRIBUIÇÃO(uni)",
+            "prancha": "PS-PRANCHA REDE DE DISTRIBUIÇÃO"
+        },
+        "SINALIZAÇÃO": {
+            "area": "PS-SINALIZAÇÃO(KM)",
+            "prancha": "PS-PRANCHA SINALIZAÇÃO"
+        },
+        "SONDAGEM": {
+            "tipo": "PS-SONDAGEM"
+        },
+        "TERRAPLENAGEM": {
+            "area": "PS-TERRAPLENAGEM(KM)",
+            "prancha": "PS-PRANCHA TERRAPLENAGEM"
         },
         "TOPOGRAFIA": {
             "tipo": "PS-TIPOTOPS",
@@ -585,52 +730,10 @@ with abas[2]:
             "drone": "PS-DRONE",
             "area": "PS-AREATOP(m²)"
         },
-        "ELÉTRICO": {
-            "area": "PS-ELÉTRICO(m²)",
-            "kva": "PS-KVA",
-            "prancha": "PS-PRANCHA ELÉTRICO"
+        "URBANISTICO": {
+            "area": "PS-URBANISTICO(m²)",
+            "prancha": "PS-PRANCHA URBANISTICO"
         },
-        "ORÇAMENTO": {
-            "area": "PS-ORÇAMENTO(m²)",
-            "prancha": "PS-PRANCHA ORÇAMENTO"
-        },
-        "REDE COLETORA": {
-            "area": "PS-REDE COLETORA(m)",
-            "prancha": "PS-PRANCHA REDE COLETORA"
-        },
-        "INTERCEPTOR": {
-            "area": "PS-INTERCEPTOR(m)",
-            "prancha": "PS-PRANCHA INTERCEPTOR"
-        },
-        "ELEVATÓRIO": {
-            "area": "PS-ELEVATÓRIO(m)",
-            "prancha": "PS-PRANCHA ELEVATÓRIO"
-        },
-        "ETE": {
-            "area": "PS-ETE Vazão(l/s)",
-            "prancha": "PS-PRANCHA ETE"
-        },
-        "ADUTORA": {
-            "area": "PS-ADUTORA(m)",
-            "prancha": "PS-PRANCHA ADUTORA"
-        },
-        "ETA": {
-            "area": ["PS-ETA Vazão(l/s)", "PS-ETA VOL(m³)"],
-            "prancha": "PS-PRANCHA ETA"
-        },
-        "REDE DE DISTRIBUIÇÃO": {
-            "area": "PS-REDE DE DISTRIBUIÇÃO(m)",
-            "prancha": "PS-PRANCHA REDE DE DISTRIBUIÇÃO"
-        },
-        "EXTENSÃO DE REDE": {
-            "area": "PS-EXTENSÃO DE REDE(KM)",
-            "prancha": "PS-PRANCHA EXTENSÃO DE REDE"
-        },
-        "ILUMINAÇÃO PUBLICA": {
-            "area": "PS-ILUMINAÇÃO PUBLICA(Pontos)",
-            "prancha": "PS-PRANCHA ILUMINAÇÃO PUBLICA"
-        }
-
     }
 
     disciplinas_projetoambientais_edi = {
@@ -862,7 +965,7 @@ with abas[2]:
 
     # Se disciplina não selecionada, mostra apenas os básicos
     if disciplina_selecionada == "Selecione":
-        colunas_basicas = ["Empresa", "Cliente", "Servico", "CAT", "Objeto", "Tempo do projeto"]
+        colunas_basicas = ["Empresa", "Cliente", "Servico", "CAT", "Objeto", "BIM", "Tempo do projeto"]
         colunas_exibir = [col for col in colunas_basicas if col in df_filtrado.columns]
         st.markdown("#### Atestados (sem disciplina específica)")
         st.dataframe(df_filtrado[colunas_exibir], use_container_width=True, hide_index=True)
@@ -871,7 +974,6 @@ with abas[2]:
         # Recupera campos da disciplina
         col_area = disciplinas_info[disciplina_selecionada].get("area")
         col_tipo = disciplinas_info[disciplina_selecionada].get("tipo")
-        col_base = disciplinas_info[disciplina_selecionada].get("Base sub base")
         col_kva = disciplinas_info[disciplina_selecionada].get("kva")
         col_cadastral = disciplinas_info[disciplina_selecionada].get("cadastral")
         col_drone = disciplinas_info[disciplina_selecionada].get("drone")
@@ -880,7 +982,6 @@ with abas[2]:
 
         col_area = [col_area] if isinstance(col_area, str) else col_area or []
         col_tipo = [col_tipo] if isinstance(col_tipo, str) else col_tipo or []
-        col_base = [col_base] if isinstance(col_base, str) else col_base or []
         col_kva = [col_kva] if isinstance(col_kva, str) else col_kva or []
         col_cadastral = [col_cadastral] if isinstance(col_cadastral, str) else col_cadastral or []
         col_drone = [col_drone] if isinstance(col_drone, str) else col_drone or []
@@ -955,20 +1056,16 @@ with abas[2]:
             if not col_area_existentes:
                 st.warning("Nenhum atestado possui a disciplina ou campo selecionado.")
             else:
-                # Aplica filtro de área mínima
-                for col in col_area_existentes:
-                    if col in df_filtrado.columns and df_filtrado[col].dtype != object:
-                        df_filtrado = df_filtrado[df_filtrado[col] >= area_filtro]
+                # Mantém apenas linhas com pelo menos uma coluna com valor >= area_filtro
+                filtro_area = df_filtrado[col_area_existentes].ge(area_filtro).any(axis=1)
+                df_filtrado = df_filtrado[filtro_area]
 
-                colunas_tabela = set(["Empresa", "Cliente", "Servico", "CAT", "Objeto", "Tempo do projeto"])
+                colunas_tabela = set(["Empresa", "Cliente", "Servico", "CAT", "Objeto", "BIM", "Tempo do projeto"])
 
 
                 colunas_tabela.update([
                     col for col in col_area_existentes if
                     col in df_filtrado.columns and df_filtrado[col].notnull().any()
-                ])
-                colunas_tabela.update([
-                    col for col in col_base if col in df_filtrado.columns and df_filtrado[col].notnull().any()
                 ])
                 colunas_tabela.update([
                     col for col in col_kva if col in df_filtrado.columns and df_filtrado[col].notnull().any()
@@ -988,9 +1085,17 @@ with abas[2]:
                     col in df_filtrado.columns and df_filtrado[col].notnull().any()
                 ])
 
-                # Converte para lista e ordena (opcional)
                 # Define colunas fixas em ordem
-                colunas_fixas = ["Empresa", "Cliente", "Servico", "CAT", "Objeto", "Tempo do projeto"]
+                colunas_fixas = ["Empresa", "Cliente", "Servico", "CAT", "Objeto", "BIM", "Tempo do projeto"]
+
+                # Adiciona colunas específicas conforme o tipo de serviço
+                if "Projeto Edificação" in servico_selecionado or "Supervisão Gerenciamento Edificação" in servico_selecionado:
+                    if "Patrimônio Tombado" in df_filtrado.columns:
+                        colunas_fixas.append("Patrimonio Tombado")
+
+                elif "Projeto Saneamento" in servico_selecionado or "Supervisão Gerenciamento Saneamento" in servico_selecionado:
+                    if "População" in df_filtrado.columns:
+                        colunas_fixas.append("População")
 
                 # Garante que colunas fixas estejam presentes no DataFrame
                 colunas_fixas = [col for col in colunas_fixas if col in df_filtrado.columns]
