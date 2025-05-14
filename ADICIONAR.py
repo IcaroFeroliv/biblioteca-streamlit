@@ -486,9 +486,9 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
         with d1:
             st.write("###### \nOrçamento")
         with d2:
-            area_orc = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_orc")
+            area_orc = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_orc")
         with d3:
-            prancha_orc = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_orc", format="%0.f")
+            prancha_orc = st.number_input("Área(km)", min_value=0.0, step=1.0, key="prancha_orc")
         st.divider()
 
     if "ELÉTRICO" in tipo_servico:
@@ -950,9 +950,9 @@ if "Supervisão Gerenciamento Edificação" in servico:
         with d1:
             st.write("###### \nOrçamento")
         with d2:
-            area_orc = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_orc")
+            area_orc = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_orc")
         with d3:
-            prancha_orc = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_orc", format="%0.f")
+            prancha_orc = st.number_input("Área(km)", min_value=0.0, step=1.0, key="prancha_orc")
         st.divider()
 
     if "ELÉTRICO" in tipo_servico:
@@ -1304,15 +1304,13 @@ if "Projeto Vias Urbanas" in servico:
         st.divider()
 
     if "ORÇAMENTO" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
+        d1, d2, d3 = st.columns(3)
         with d1:
             st.write("""###### \nOrçamento""")
         with d2:
-            km_orc = st.number_input("KM", min_value=0.0, step=1.0, key="km_orc")
+            km_orc = st.number_input("Área(km)", min_value=0.0, step=1.0, key="km_orc")
         with d3:
-            area_infraorc = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_infraorc")
-        with d4:
-            prancha_orc = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_orc")
+            area_infraorc = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_infraorc")
         st.divider()
 
     if "CONTENÇÃO" in tipo_servico:
@@ -1685,15 +1683,13 @@ if "Supervisão Gerenciamento Vias Urbanas" in servico:
         st.divider()
 
     if "ORÇAMENTO" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
+        d1, d2, d3 = st.columns(3)
         with d1:
             st.write("""###### \nOrçamento""")
         with d2:
-            km_orc = st.number_input("KM", min_value=0.0, step=1.0, key="km_orc")
+            km_orc = st.number_input("Área(km)", min_value=0.0, step=1.0, key="km_orc")
         with d3:
-            area_infraorc = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_infraorc")
-        with d4:
-            prancha_orc = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_orc")
+            area_infraorc = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_infraorc")
         st.divider()
 
     if "CONTENÇÃO" in tipo_servico:
@@ -2052,15 +2048,13 @@ if "Projeto Rodovias" in servico:
         st.divider()
 
     if "ORÇAMENTO" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
+        d1, d2, d3 = st.columns(3)
         with d1:
             st.write("###### \nOrçamento")
         with d2:
-            km_orcpr = st.number_input("KM", min_value=0.0, step=1.0, key="km_orcpr")
+            km_orcpr = st.number_input("Área(km)", min_value=0.0, step=1.0, key="km_orcpr")
         with d3:
-            area_infraorcpr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_infraorcpr")
-        with d4:
-            prancha_orcpr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_orcpr")
+            area_infraorcpr = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_infraorcpr")
         st.divider()
 
     if "CONTENÇÃO" in tipo_servico:
@@ -2414,15 +2408,13 @@ if "Supervisão Gerenciamento Rodovias" in servico:
         st.divider()
 
     if "ORÇAMENTO" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
+        d1, d2, d3 = st.columns(3)
         with d1:
             st.write("###### \nOrçamento")
         with d2:
-            km_orcpr = st.number_input("KM", min_value=0.0, step=1.0, key="km_orcpr")
+            km_orcpr = st.number_input("Área(km)", min_value=0.0, step=1.0, key="km_orcpr")
         with d3:
-            area_infraorcpr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_infraorcpr")
-        with d4:
-            prancha_orcpr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_orcpr")
+            area_infraorcpr = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_infraorcpr")
         st.divider()
 
     if "CONTENÇÃO" in tipo_servico:
@@ -3074,9 +3066,9 @@ if "Projeto Saneamento" in servico:
         with d1:
             st.write("###### \nOrçamento")
         with d2:
-            area_orcsaps = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_orcsaps")
+            area_orcsaps = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_orcsaps")
         with d3:
-            prancha_orcsaps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_orcsaps")
+            prancha_orcsaps = st.number_input("Área(km)", min_value=0.0, step=1.0, key="prancha_orcsaps")
         st.divider()
 
     if "PAISAGISTICO" in tipo_servico:
@@ -3562,9 +3554,9 @@ if "Supervisão Gerenciamento Saneamento" in servico:
         with d1:
             st.write("###### \nOrçamento")
         with d2:
-            area_orcsaps = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_orcsaps")
+            area_orcsaps = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_orcsaps")
         with d3:
-            prancha_orcsaps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_orcsaps")
+            prancha_orcsaps = st.number_input("Área(km)", min_value=0, step=1, key="prancha_orcsaps")
         st.divider()
 
     if "PAISAGISTICO" in tipo_servico:
@@ -4112,7 +4104,7 @@ if st.button("Enviar"):
             "Sondagem": edi_sondagem_info,
             "TERRAPLENAGEM (PLANTA/SEÇÕES)(m²)": area_tps, "PRANCHA TERRAPLENAGEM (PLANTA/SEÇÕES)": prancha_tps,
             "TOPOGRAFIA(m²)": area_top, "PRANCHA TOPOGRAFIA": prancha_top, "TIPO TOPOGRAFIA": tipo_toppep, "CADASTRAL-TOP": cadastral, "DRONE-TOP": drone,
-            "ORÇAMENTO(m²)": area_orc, "PRANCHA ORÇAMENTO": prancha_orc,
+            "ORÇAMENTO(m²)": area_orc, "ORÇAMENTO(km)": prancha_orc,
             "ELÉTRICO(m²)": area_ele, "KVA": kva, "PRANCHA ELÉTRICO": prancha_ele,
             "GERAÇÃO FOTOVOLTAICA(m²)": area_gerafoto, "GERAÇÃO FOTOVOLTAICA(kva)": kva_gerafoto, "PRANCHA GERAÇÃO FOTOVOLTAICA": prancha_gerafoto,
             "CAB. ESTRUTURADO(m²)": area_cets, "PRANCHA CAB. ESTRUTURADO": prancha_cets,
@@ -4141,7 +4133,7 @@ if st.button("Enviar"):
             "VU-SINALIZAÇÃO(KM)": km_sinal, "VU-PRANCHA SINALIZAÇÃO": prancha_sinal,
             "VU-SONDAGEM": vu_sondagem_info,
             "VU-TOPOGRAFIA": vu_topografia_info,
-            "VU-ORÇAMENTO(KM)": km_orc, "VU-ORÇAMENTO(m²)": area_infraorc, "VU-PRANCHA ORÇAMENTO": prancha_orc,
+            "VU-ORÇAMENTO(KM)": km_orc, "VU-ORÇAMENTO(m²)": area_infraorc,
             "VU-CONTENÇÃO": vu_contencao_info,
             "VU-OAE": vu_oae_info,
             "VU-FUNDAÇÃO": vu_fundacao_info,
@@ -4183,6 +4175,7 @@ if st.button("Enviar"):
             "PDI-NUMERO HABITANTE": pdi_habitantes, "PDI-PRANCHA": prancha_pdi,
             "DIVERSOS-PRANCHA":prancha_diversos,
             "REUR_HABITANTES": reur_habitantes, "REUR-PRANCHA":prancha_reur,
+
             "PR-URBANISTICO(m²)": area_urpr, "PR-PRANCHA URBANISTICO": prancha_urpr,
             "PR-PAISAGISTICO(m²)": area_paisapr, "PR-PRANCHA PAISAGISTICO": prancha_paisapr,
             "PR-ANTEPROJETO DE INFRA(KM)": km_antipr, "PR-PRANCHA ANTEPROJETO DE INFRA": prancha_antipr,
@@ -4196,7 +4189,7 @@ if st.button("Enviar"):
             "PR-SINALIZAÇÃO(KM)": km_sinalpr, "PR-PRANCHA SINALIZAÇÃO": prancha_sinalpr,
             "PR-SONDAGEM": rod_sondagem_info,
             "PR-TOPOGRAFIA(m²)": area_toppr, "PR-TOPOGRAFIA(KM)": km_toppr, "PR-PRANCHA TOPOGRAFIA": prancha_toppr,
-            "PR-ORÇAMENTO(KM)": km_orcpr, "PR-ORÇAMENTO(m²)": area_infraorcpr, "PR-PRANCHA ORÇAMENTO": prancha_orcpr,
+            "PR-ORÇAMENTO(KM)": km_orcpr, "PR-ORÇAMENTO(m²)": area_infraorcpr,
             "PR-CONTENÇÃO": contencaopr_info,
             "PR-OAE": oaepr_info,
             "PR-FUNDAÇÃO": fundacaopr_info,
@@ -4230,7 +4223,7 @@ if st.button("Enviar"):
             "PS-LINHA DE RECALQUE(l/s)": vazao_ldrps, "PS-PRANCHA LINHA DE RECALQUE": prancha_ldrps,
             "PS-MEIO AMBIENTE": ps_meioambiente_info,
             "PS-OAE":ps_oae_info,
-            "PS-ORÇAMENTO(m²)": area_orcsaps, "PS-PRANCHA ORÇAMENTO": prancha_orcsaps,
+            "PS-ORÇAMENTO(m²)": area_orcsaps, "PS-ORÇAMENTO(km)": prancha_orcsaps,
             "PS-PAISAGISTICO(m²)": area_paisavips, "PS-PRANCHA PAISAGISTICO": prancha_paisavips,
             "PS-PAVIMENTAÇÃO": ps_pavimentacao_info,
             "PS-REDE COLETORA(l/s)":vazao_redecoleps, "PS-REDE COLETORA(uni)":uni_redecoleps, "PS-REDE COLETORA(m)": m_redecoleps, "PS-PRANCHA REDE COLETORA": prancha_redecoleps,

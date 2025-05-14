@@ -419,7 +419,7 @@ with abas[2]:
     },
     "ORÇAMENTO": {
         "area": "ORÇAMENTO(m²)",
-        "prancha": "PRANCHA ORÇAMENTO"
+        "prancha": "ORÇAMENTO(km)"
     },
     "ELÉTRICO": {
         "area": "ELÉTRICO(m²)",
@@ -534,8 +534,8 @@ with abas[2]:
                 "prancha": ["VU-PRANCHA TOPOGRAFIA", "PR-PRANCHA TOPOGRAFIA"]
             },
             "ORÇAMENTO": {
-                "area": ["VU-ORÇAMENTO(KM)", "VU-ORÇAMENTO(m²)", "PR-ORÇAMENTO(KM)", "PR-ORÇAMENTO(m²)"],
-                "prancha": ["VU-PRANCHA ORÇAMENTO", "PR-PRANCHA ORÇAMENTO"]
+                "area": ["VU-ORÇAMENTO(m²)", "PR-ORÇAMENTO(m²)"],
+                "prancha": ["VU-ORÇAMENTO(KM)", "PR-ORÇAMENTO(KM)"]
             },
             "CONTENÇÃO": {
                 "tipo": ["VU-CONTENÇÃO", "PR-CONTENÇÃO"]
@@ -698,7 +698,7 @@ with abas[2]:
         },
         "ORÇAMENTO": {
             "area": "PS-ORÇAMENTO(m²)",
-            "prancha": "PS-PRANCHA ORÇAMENTO"
+            "prancha": "PS-ORÇAMENTO(km)"
         },
         "PAISAGISTICO": {
             "area": "PS-PAISAGISTICO(m²)",
