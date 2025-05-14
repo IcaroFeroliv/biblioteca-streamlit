@@ -359,6 +359,10 @@ with abas[2]:
         "area": "COMUNICAÇÃO VISUAL(m²)",
         "prancha": "PRANCHA COMUNICAÇÃO VISUAL"
     },
+    "DRENAGEM": {
+        "area": "DRENAGEM(m²)",
+        "prancha": "PRANCHA DRENAGEM"
+    },
     "MOBILIÁRIO": {
         "tipo": "MOBILIÁRIO"
     },
