@@ -102,14 +102,14 @@ with c4:
 
 co1, co2 = st.columns(2)
 with co1:
-    nome_profissionais_coor = ["Ana Carolina", "André", "Ayana Lemos","Bárbara Izabela","Bruno Andrelli", "Cláudio", "Christian Sorensen", "Daniel Pinheiro", "Danilo Vitor", "Debora", "Debora Dayane",
+    nome_profissionais_coor = ["Ana Carolina", "André", "Ayana Lemos","Bárbara Izabela","Bruno Andrelli", "Bruno Tizoni", "Cláudio", "Christian Sorensen", "Daniel Pinheiro", "Danilo Vitor", "Debora", "Debora Dayane",
                                "Douglas Lins","Emanuel da Silva", "Emanuel Jose", "Érika", "Fabiane Ferreira", "Grazielle", "Isabela", "Juliana Goncalves", "Julio Cesar", "Lucas Bastos", "Luiz Felipe",
                                "Mariane de Paula", "Matheus Comanduci", "Mauricio Otavio", "Márcio", "Moises Coelho", "Pablo Otoni", "Patricia", "Sarah Malta", "Sayuri", "Sérgio Henrique", "Thiago Figueiredo",
                                "Tiago Guedes", "Vicente", "Vinicius Gama", "Welington de Avila"]
     nome_profissional_coor = st.selectbox("Nome do Profissional de Coordenação", ["Selecione"] + nome_profissionais_coor)
 
 with co2:
-    nome_profissionais = ["Ana Carolina", "André", "Ayana Lemos","Bárbara Izabela","Bruno Andrelli", "Cláudio", "Christian Sorensen", "Daniel Pinheiro", "Danilo Vitor", "Debora", "Debora Dayane",
+    nome_profissionais = ["Ana Carolina", "André", "Ayana Lemos","Bárbara Izabela","Bruno Andrelli", "Bruno Tizoni", "Cláudio", "Christian Sorensen", "Daniel Pinheiro", "Danilo Vitor", "Debora", "Debora Dayane",
                                "Douglas Lins","Emanuel da Silva", "Emanuel Jose", "Érika", "Fabiane Ferreira", "Grazielle", "Isabela", "Juliana Goncalves", "Julio Cesar", "Lucas Bastos", "Luiz Felipe",
                                "Mariane de Paula", "Matheus Comanduci", "Mauricio Otavio", "Márcio", "Moises Coelho", "Pablo Otoni", "Patricia", "Sarah Malta", "Sayuri", "Sérgio Henrique", "Thiago Figueiredo",
                                "Tiago Guedes", "Vicente", "Vinicius Gama", "Welington de Avila"]
@@ -560,7 +560,7 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
         with d1:
             st.write("###### \nIluminação Pública")
         with d2:
-            area_ilupu = st.number_input("Pontos", min_value=0.0, step=1.0, key="area_ilupu")
+            area_ilupu = st.number_input("Pontos", min_value=0, step=1, key="area_ilupu")
         with d3:
             prancha_ilupu = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_ilupu", format="%0.f")
         st.divider()
@@ -1025,7 +1025,7 @@ if "Supervisão Gerenciamento Edificação" in servico:
         with d1:
             st.write("###### \nIluminação Pública")
         with d2:
-            area_ilupu = st.number_input("Pontos", min_value=0.0, step=1.0, key="area_ilupu")
+            area_ilupu = st.number_input("Pontos", min_value=0, step=1, key="area_ilupu")
         with d3:
             prancha_ilupu = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_ilupu", format="%0.f")
         st.divider()

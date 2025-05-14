@@ -1,7 +1,7 @@
 import time
 import streamlit as st
 import firebase_admin
-from firebase_admin import credentials, firestore, storage
+from firebase_admin import credentials, firestore
 
 
 st.set_page_config(page_title="Grupo Projeta", layout="wide")
