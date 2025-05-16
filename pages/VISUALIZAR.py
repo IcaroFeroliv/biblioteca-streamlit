@@ -341,6 +341,18 @@ with abas[2]:
 
     # Dicionário de disciplinas com os campos de tipo e área relacionados
     disciplinas_edificacoes = {
+    "ACÚSTICA": {
+        "area": "ACÚSTICA(m²)",
+        "prancha": "PRANCHA ACÚSTICA"
+    },
+    "ALARME/CFTV": {
+        "area": "ALARME/CFTV(m²)",
+        "prancha": "PRANCHA ALARME/CFTV"
+    },
+    "AR CONDICIONADO": {
+        "area": "AR CONDICIONADO(m²)",
+        "prancha": "PRANCHA AR CONDICIONADO"
+    },
     "ARQUITETÔNICO ANTEPROJETO": {
         "area": "ARQUITETÔNICO ANTEPROJETO(m²)",
         "prancha": "PRANCHA ARQUITETÔNICO ANTEPROJETO"
@@ -357,57 +369,105 @@ with abas[2]:
         "area": "ARQUITETÔNICO RESTAURO(m²)",
         "prancha": "PRANCHA ARQUITETÔNICO RESTAURO"
     },
-    "COMUNICAÇÃO VISUAL": {
-        "area": "COMUNICAÇÃO VISUAL(m²)",
-        "prancha": "PRANCHA COMUNICAÇÃO VISUAL"
-    },
-    "DRENAGEM": {
-        "area": "DRENAGEM(m²)",
-        "prancha": "PRANCHA DRENAGEM"
-    },
-    "MOBILIÁRIO": {
-        "tipo": "MOBILIÁRIO"
-    },
-    "URBANISTICO": {
-        "area": "URBANISTICO(m²)",
-        "prancha": "PRANCHA URBANISTICO"
-    },
-    "PAISAGISTICO": {
-        "area": "PAISAGISTICO(m²)",
-        "prancha": "PRANCHA PAISAGISTICO"
-    },
     "AS BUILT": {
         "tipo": "TIPO AS BUILT",
         "area": "AS BUILT(m²)",
         "prancha": "PRANCHA AS BUILT"
     },
-    "MAQ ELET / 3D": {
-        "tipo": "MAQ ELET/3D"
+    "CAB. ESTRUTURADO": {
+        "area": "CAB. ESTRUTURADO(m²)",
+        "prancha": "PRANCHA CAB. ESTRUTURADO"
+    },
+    "CLIMATIZAÇÃO": {
+        "area": "CLIMATIZAÇÃO(m²)",
+        "kva": "CLIMATIZAÇÃO(kbtu/h)",
+        "prancha": "PRANCHA CLIMATIZAÇÃO"
+        },
+    "COMUNICAÇÃO VISUAL": {
+        "area": "COMUNICAÇÃO VISUAL(m²)",
+        "prancha": "PRANCHA COMUNICAÇÃO VISUAL"
+    },
+    "COMPAT. PROJETOS": {
+        "area": "COMPAT. PROJETOS(m²)",
+        "prancha": "PRANCHA COMPAT. PROJETOS"
+    },
+    "CONTENÇÃO": {
+        "tipo": "CONTENÇÃO"
+    },
+    "DRENAGEM": {
+        "area": "DRENAGEM(m²)",
+        "prancha": "PRANCHA DRENAGEM"
+    },
+    "ELÉTRICO": {
+        "area": "ELÉTRICO(m²)",
+        "kva": "KVA",
+        "prancha": "PRANCHA ELÉTRICO"
     },
     "ESTRUTURAL": {
         "tipo": "ESTRUTURAL"
     },
+    "EXTENSÃO DE REDE": {
+        "area": "EXTENSÃO DE REDE(km)",
+        "prancha": "PRANCHA EXTENSÃO DE REDE"
+    },
     "FUNDAÇÃO": {
         "tipo": "FUNDAÇÃO"
     },
-    "CONTENÇÃO": {
-        "tipo": "CONTENÇÃO"
+    "GASES MEDICINAIS": {
+        "area": ["GASES MEDICINAIS(m²)", "GASES MEDICINAIS(m³)"],
+        "prancha": "PRANCHA GASES MEDICINAIS"
+    },
+    "GERAÇÃO FOTOVOLTAICA": {
+        "area": "GERAÇÃO FOTOVOLTAICA(m²)",
+        "kva": "GERAÇÃO FOTOVOLTAICA(kva)",
+        "prancha": "PRANCHA GERAÇÃO FOTOVOLTAICA"
+    },
+    "GLP": {
+        "area": ["GLP(m²)", "GLP(m³)"],
+        "prancha": "PRANCHA GLP"
     },
     "HIDROSANITÁRIO": {
         "area": "HIDROSANITÁRIO(m²)",
         "prancha": "PRANCHA HIDROSANITÁRIO"
     },
+    "ILUMINAÇÃO PUBLICA": {
+        "area": "ILUMINAÇÃO PUBLICA(m²)",
+        "kva": "ILUMINAÇÃO PUBLICA(ponto)",
+        "prancha": "PRANCHA ILUMINAÇÃO PUBLICA"
+    },
     "IRRIGAÇÃO": {
         "area": "IRRIGAÇÃO(m²)",
         "prancha": "PRANCHA IRRIGAÇÃO"
+    },
+    "MAQ ELET / 3D": {
+        "tipo": "MAQ ELET/3D"
+    },
+    "MOBILIÁRIO": {
+        "tipo": "MOBILIÁRIO"
+    },
+    "ORÇAMENTO": {
+        "area": "ORÇAMENTO(m²)",
+        "prancha": "ORÇAMENTO(km)"
+    },
+    "PAISAGISTICO": {
+        "area": "PAISAGISTICO(m²)",
+        "prancha": "PRANCHA PAISAGISTICO"
+    },
+    "REURB": {
+        "area": "Un.Habitacionais",
+        "prancha": "PRANCHA REURB"
+    },
+    "SONDAGEM": {
+        "tipo": "Sondagem"
     },
     "SPCI": {
         "area": "SPCI(m²)",
         "prancha": "PRANCHA SPCI"
     },
-        "SONDAGEM": {
-            "tipo": "Sondagem"
-        },
+    "SPDA": {
+        "area": "SPDA(m²)",
+        "prancha": "PRANCHA SPDA"
+    },
     "TERRAPLENAGEM": {
         "area": "TERRAPLENAGEM (PLANTA/SEÇÕES)(m²)",
         "prancha": "PRANCHA TERRAPLENAGEM (PLANTA/SEÇÕES)"
@@ -419,189 +479,112 @@ with abas[2]:
         "area": "TOPOGRAFIA(m²)",
         "prancha": "PRANCHA TOPOGRAFIA"
     },
-    "ORÇAMENTO": {
-        "area": "ORÇAMENTO(m²)",
-        "prancha": "ORÇAMENTO(km)"
-    },
-    "ELÉTRICO": {
-        "area": "ELÉTRICO(m²)",
-        "kva": "KVA",
-        "prancha": "PRANCHA ELÉTRICO"
-    },
-    "GERAÇÃO FOTOVOLTAICA": {
-        "area": "GERAÇÃO FOTOVOLTAICA(m²)",
-        "kva": "GERAÇÃO FOTOVOLTAICA(kva)",
-        "prancha": "PRANCHA GERAÇÃO FOTOVOLTAICA"
-    },
-    "CAB. ESTRUTURADO": {
-        "area": "CAB. ESTRUTURADO(m²)",
-        "prancha": "PRANCHA CAB. ESTRUTURADO"
-    },
-    "SPDA": {
-        "area": "SPDA(m²)",
-        "prancha": "PRANCHA SPDA"
-    },
-    "ALARME/CFTV": {
-        "area": "ALARME/CFTV(m²)",
-        "prancha": "PRANCHA ALARME/CFTV"
-    },
-    "EXTENSÃO DE REDE": {
-        "area": "EXTENSÃO DE REDE(km)",
-        "prancha": "PRANCHA EXTENSÃO DE REDE"
-    },
-    "ILUMINAÇÃO PUBLICA": {
-        "area": "ILUMINAÇÃO PUBLICA(pontos)",
-        "prancha": "PRANCHA ILUMINAÇÃO PUBLICA"
-    },
-    "AR CONDICIONADO": {
-        "area": "AR CONDICIONADO(m²)",
-        "prancha": "PRANCHA AR CONDICIONADO"
+    "URBANISTICO": {
+        "area": "URBANISTICO(m²)",
+        "prancha": "PRANCHA URBANISTICO"
     },
     "VENTILAÇÃO/EXAUSTÃO": {
         "area": "VENTILAÇÃO/EXAUSTÃO(m²)",
+        "kva": "VENTILAÇÃO/EXAUSTÃO(kbtu/h)",
         "prancha": "PRANCHA VENTILAÇÃO/EXAUSTÃO"
-    },
-    "GLP": {
-        "area": "GLP(m²)",
-        "prancha": "PRANCHA GLP"
-    },
-    "GASES MEDICINAIS": {
-        "area": "GASES MEDICINAIS(m²)",
-        "prancha": "PRANCHA GASES MEDICINAIS"
-    },
-    "COMPAT. PROJETOS": {
-        "area": "COMPAT. PROJETOS(m²)",
-        "prancha": "PRANCHA COMPAT. PROJETOS"
-    },
-    "ACÚSTICA": {
-        "area": "ACÚSTICA(m²)",
-        "prancha": "PRANCHA ACÚSTICA"
-    },
-    "REURB": {
-        "area": "Un.Habitacionais",
-        "prancha": "PRANCHA REURB"
     }
 }
 
     disciplinas_vu = {
-
-            "URBANISTICO": {
-                "area": ["VU-URBANISTICO(m²)", "PR-URBANISTICO(m²)"],
-                "prancha": ["VU-PRANCHA URBANISTICO", "PR-PRANCHA URBANISTICO"]
-            },
-            "PAISAGISTICO": {
-                "area": ["VU-PAISAGISTICO(m²)", "PR-PAISAGISTICO(m²)"],
-                "prancha": ["VU-PRANCHA PAISAGISTICO", "PR-PRANCHA PAISAGISTICO"]
-            },
-            "ANTEPROJETO DE INFRA": {
-                "area": ["VU-ANTEPROJETO DE INFRA(KM)", "PR-ANTEPROJETO DE INFRA(KM)"],
-                "prancha": ["VU-PRANCHA ANTEPROJETO DE INFRA", "PR-PRANCHA ANTEPROJETO DE INFRA"]
-            },
-            "BATIMETRIA": {
-                "area": ["VU-BATIMETRIA(m²)", "PR-BATIMETRIA(m²)"],
-                "prancha": ["VU-PRANCHA BATIMETRIA", "PR-PRANCHA BATIMETRIA"]
-            },
-            "GEOMÉTRICO": {
-                "area": ["VU-GEOMÉTRICO(KM)", "PR-GEOMÉTRICO(KM)"],
-                "prancha": ["VU-PRANCHA GEOMÉTRICO", "PR-PRANCHA GEOMÉTRICO"]
-            },
-            "TERRAPLENAGEM": {
-                "area": ["VU-TERRAPLENAGEM(KM)", "PR-TERRAPLENAGEM(KM)"],
-                "prancha": ["VU-PRANCHA TERRAPLENAGEM", "PR-PRANCHA TERRAPLENAGEM"]
-            },
-            "HIDROLOGIA": {
-                "area": ["VU-HIDROLOGIA(l/s)", "PR-HIDROLOGIA(l/s)"],
-                "prancha": ["VU-PRANCHA HIDROLOGIA", "PR-PRANCHA HIDROLOGIA"]
-            },
-
-            "DRENAGEM": {
-                "area": ["VU-DRENAGEM(KM)", "PR-DRENAGEM(KM)"],
-                "prancha": ["VU-PRANCHA DRENAGEM", "PR-PRANCHA DRENAGEM"]
-            },
-            "ESTRUTURAL": {
-                "tipo": ["VU-ESTRUTURAL", "PR-ESTRUTURAL"]
-            },
-            "PAVIMENTAÇÃO": {
-                "tipo": ["VU-PAVIMENTAÇÃO", "PR-PAVIMENTAÇÃO"]
-            },
-            "SINALIZAÇÃO": {
-                "area": ["VU-SINALIZAÇÃO(KM)", "PR-SINALIZAÇÃO(KM)"],
-                "prancha": ["VU-PRANCHA SINALIZAÇÃO", "PR-PRANCHA SINALIZAÇÃO"]
-            },
-            "SONDAGEM": {
-                "tipo": ["VU-SONDAGEM", "PR-SONDAGEM"]
-            },
-            "TOPOGRAFIA": {
-                "tipo": ["VU-TOPOGRAFIA", "PR-TOPOGRAFIA(m²)", "PR-TOPOGRAFIA(KM)"],
-                "prancha": ["VU-PRANCHA TOPOGRAFIA", "PR-PRANCHA TOPOGRAFIA"]
-            },
-            "ORÇAMENTO": {
-                "area": ["VU-ORÇAMENTO(m²)", "PR-ORÇAMENTO(m²)"],
-                "prancha": ["VU-ORÇAMENTO(KM)", "PR-ORÇAMENTO(KM)"]
-            },
-            "CONTENÇÃO": {
-                "tipo": ["VU-CONTENÇÃO", "PR-CONTENÇÃO"]
-            },
-            "OAE": {
-                "tipo": ["VU-OAE", "PR-OAE"]
-            },
-            "FUNDAÇÃO": {
-                "tipo": ["VU-FUNDAÇÃO", "PR-FUNDAÇÃO", "PS-FUNDAÇÃO"]
-            },
-            "MEIO AMBIENTE": {
-                "tipo": ["VU-MEIO AMBIENTE", "PR-MEIO AMBIENTE"]
-            },
-            "COMPAT. PROJETOS": {
-                "area": ["VU-COMPAT. PROJETOS(m²)", "PR-COMPAT. PROJETOS(m²)"],
-                "prancha": ["VU-PRANCHA COMPAT. PROJETOS", "PR-PRANCHA COMPAT. PROJETOS"]
-            },
-            "ELÉTRICO": {
-                "area": ["VU-ELÉTRICO(m²)", "PR-ELÉTRICO(m²)", "PS-ELÉTRICO(m²)"],
-                "kva": ["VU-KVA", "PR-KVA", "PS-KVA"],
-                "prancha": ["VU-PRANCHA ELÉTRICO", "PR-PRANCHA ELÉTRICO", "PS-PRANCHA ELÉTRICO"]
-            },
-            "GERAÇÃO FOTOVOLTAICA": {
-                "area": ["VU-GERAÇÃO FOTOVOLTAICA(m²)", "PR-GERAÇÃO FOTOVOLTAICA(m²)"],
-                "kva": ["VU-GERAÇÃO FOTOVOLTAICA(kva)", "PR-GERAÇÃO FOTOVOLTAICA(kva)"],
-                "prancha": ["VU-PRANCHA GERAÇÃO FOTOVOLTAICA", "PR-PRANCHA GERAÇÃO FOTOVOLTAICA"]
-            },
-            "EXTENSÃO DE REDE": {
-                "area": ["VU-EXTENSÃO DE REDE(KM)", "PR-EXTENSÃO DE REDE(KM)", "PS-EXTENSÃO DE REDE(KM)"],
-                "prancha": ["VU-PRANCHA EXTENSÃO DE REDE", "PR-PRANCHA EXTENSÃO DE REDE", "PS-PRANCHA EXTENSÃO DE REDE"]
-            },
-            "ILUMINAÇÃO PUBLICA": {
-                "area": ["VU-ILUMINAÇÃO PUBLICA(Pontos)", "PR-ILUMINAÇÃO PUBLICA(Pontos)", "PS-ILUMINAÇÃO PUBLICA(Pontos)"],
-                "prancha": ["VU-PRANCHA ILUMINAÇÃO PUBLICA", "PR-PRANCHA ILUMINAÇÃO PUBLICA", "PS-PRANCHA ILUMINAÇÃO PUBLICA"]
-            },
-            "REDE COLETORA": {
-                "area": ["PS-REDE COLETORA(m)"],
-                "prancha": ["PS-PRANCHA REDE COLETORA"]
-            },
-            "INTERCEPTOR": {
-                "area": ["PS-INTERCEPTOR(m)"],
-                "prancha": ["PS-PRANCHA INTERCEPTOR"]
-            },
-            "ELEVATÓRIO": {
-                "area": ["PS-ELEVATÓRIO(m)"],
-                "prancha": ["PS-PRANCHA ELEVATÓRIO"]
-            },
-            "ETE": {
-                "area": ["PS-ETE Vazão(l/s)"],
-                "prancha": ["PS-PRANCHA ETE"]
-            },
-            "ADUTORA": {
-                "area": ["PS-ADUTORA(m)"],
-                "prancha": ["PS-PRANCHA ADUTORA"]
-            },
-            "ETA": {
-                "area": ["PS-ETA Vazão(l/s)", "PS-ETA VOL(m³)"],
-                "prancha": ["PS-PRANCHA ETA"]
-            },
-            "REDE DE DISTRIBUIÇÃO": {
-                "area": ["PS-REDE DE DISTRIBUIÇÃO(m)"],
-                "prancha": ["PS-PRANCHA REDE DE DISTRIBUIÇÃO"]
-            }
-        }
+    "ANTEPROJETO DE INFRA": {
+        "area": ["VU-ANTEPROJETO DE INFRA(KM)", "PR-ANTEPROJETO DE INFRA(KM)"],
+        "prancha": ["VU-PRANCHA ANTEPROJETO DE INFRA", "PR-PRANCHA ANTEPROJETO DE INFRA"]
+    },
+    "BATIMETRIA": {
+        "area": ["VU-BATIMETRIA(m²)", "PR-BATIMETRIA(m²)"],
+        "prancha": ["VU-PRANCHA BATIMETRIA", "PR-PRANCHA BATIMETRIA"]
+    },
+    "COMPAT. PROJETOS": {
+        "area": ["VU-COMPAT. PROJETOS(m²)", "PR-COMPAT. PROJETOS(m²)"],
+        "prancha": ["VU-PRANCHA COMPAT. PROJETOS", "PR-PRANCHA COMPAT. PROJETOS"]
+    },
+    "CONTENÇÃO": {
+        "tipo": ["VU-CONTENÇÃO", "PR-CONTENÇÃO"]
+    },
+    "DRENAGEM": {
+        "area": ["VU-DRENAGEM(KM)", "PR-DRENAGEM(KM)"],
+        "prancha": ["VU-PRANCHA DRENAGEM", "PR-PRANCHA DRENAGEM"]
+    },
+    "ELÉTRICO": {
+        "area": ["VU-ELÉTRICO(m²)", "PR-ELÉTRICO(m²)"],
+        "kva": ["VU-KVA", "PR-KVA"],
+        "prancha": ["VU-PRANCHA ELÉTRICO", "PR-PRANCHA ELÉTRICO"]
+    },
+    "ESTRUTURAL": {
+        "tipo": ["VU-ESTRUTURAL", "PR-ESTRUTURAL"]
+    },
+    "EXTENSÃO DE REDE": {
+        "area": ["VU-EXTENSÃO DE REDE(KM)", "PR-EXTENSÃO DE REDE(KM)"],
+        "prancha": ["VU-PRANCHA EXTENSÃO DE REDE", "PR-PRANCHA EXTENSÃO DE REDE"]
+    },
+    "FUNDAÇÃO": {
+        "tipo": ["VU-FUNDAÇÃO", "PR-FUNDAÇÃO", "PS-FUNDAÇÃO"]
+    },
+    "GEOMÉTRICO": {
+        "area": ["VU-GEOMÉTRICO(KM)", "PR-GEOMÉTRICO(KM)"],
+        "prancha": ["VU-PRANCHA GEOMÉTRICO", "PR-PRANCHA GEOMÉTRICO"]
+    },
+    "GERAÇÃO FOTOVOLTAICA": {
+        "area": ["VU-GERAÇÃO FOTOVOLTAICA(m²)", "PR-GERAÇÃO FOTOVOLTAICA(m²)"],
+        "kva": ["VU-GERAÇÃO FOTOVOLTAICA(kva)", "PR-GERAÇÃO FOTOVOLTAICA(kva)"],
+        "prancha": ["VU-PRANCHA GERAÇÃO FOTOVOLTAICA", "PR-PRANCHA GERAÇÃO FOTOVOLTAICA"]
+    },
+    "HIDROLOGIA": {
+        "area": ["VU-HIDROLOGIA(l/s)", "PR-HIDROLOGIA(l/s)"],
+        "prancha": ["VU-PRANCHA HIDROLOGIA", "PR-PRANCHA HIDROLOGIA"]
+    },
+    "ILUMINAÇÃO PUBLICA": {
+        "area": ["VU-ILUMINAÇÃO PUBLICA(km)", "PR-ILUMINAÇÃO PUBLICA(km)"],
+        "kva": ["VU-ILUMINAÇÃO PUBLICA(Pontos)", "PR-ILUMINAÇÃO PUBLICA(Pontos)"],
+        "prancha": ["VU-PRANCHA ILUMINAÇÃO PUBLICA", "PR-PRANCHA ILUMINAÇÃO PUBLICA"]
+    },
+    "MEIO AMBIENTE": {
+        "tipo": ["VU-MEIO AMBIENTE", "PR-MEIO AMBIENTE"]
+    },
+    "OAE": {
+        "tipo": ["VU-OAE", "PR-OAE"]
+    },
+    "ORÇAMENTO": {
+        "area": ["VU-ORÇAMENTO(m²)", "PR-ORÇAMENTO(m²)"],
+        "prancha": ["VU-ORÇAMENTO(KM)", "PR-ORÇAMENTO(KM)"]
+    },
+    "PAISAGISTICO": {
+        "area": ["VU-PAISAGISTICO(m²)", "PR-PAISAGISTICO(m²)"],
+        "prancha": ["VU-PRANCHA PAISAGISTICO", "PR-PRANCHA PAISAGISTICO"]
+    },
+    "PAVIMENTAÇÃO": {
+        "tipo": ["VU-PAVIMENTAÇÃO", "PR-PAVIMENTAÇÃO"]
+    },
+    "SANEAMENTO": {
+        "area": ["VU-SANEAMENTO(m)", "PR-SANEAMENTO(m)"],
+        "kva": ["VU-SANEAMENTO(l/s)", "PR-SANEAMENTO(l/s)"],
+        "prancha": ["VU-PRANCHA SANEAMENTO", "PR-PRANCHA SANEAMENTO"]
+        },
+    "SINALIZAÇÃO": {
+        "area": ["VU-SINALIZAÇÃO(KM)", "PR-SINALIZAÇÃO(KM)"],
+        "prancha": ["VU-PRANCHA SINALIZAÇÃO", "PR-PRANCHA SINALIZAÇÃO"]
+    },
+    "SONDAGEM": {
+        "tipo": ["VU-SONDAGEM", "PR-SONDAGEM"]
+    },
+    "TERRAPLENAGEM": {
+        "area": ["VU-TERRAPLENAGEM(KM)", "PR-TERRAPLENAGEM(KM)"],
+        "prancha": ["VU-PRANCHA TERRAPLENAGEM", "PR-PRANCHA TERRAPLENAGEM"]
+    },
+    "TOPOGRAFIA": {
+        "tipo": ["VU-TOPOGRAFIA", "PR-TOPOGRAFIA(m²)", "PR-TOPOGRAFIA(KM)"],
+        "prancha": ["VU-PRANCHA TOPOGRAFIA", "PR-PRANCHA TOPOGRAFIA"]
+    },
+    "URBANISTICO": {
+        "area": ["VU-URBANISTICO(m²)", "PR-URBANISTICO(m²)"],
+        "prancha": ["VU-PRANCHA URBANISTICO", "PR-PRANCHA URBANISTICO"]
+    }
+}
 
     disciplinas_pmsb = {
         "Plano Saneamento Basico - PMBS": {"area": "PMSB-NUMERO HABITANTES", "prancha": "PMSB-PRANCHA"}
@@ -743,137 +726,138 @@ with abas[2]:
     }
 
     disciplinas_projetoambientais_edi = {
-        "EIA/RIMA": {
-            "area": "EDI-EIA/RIMA(Área)",
-            "unidade": "EDI-EIA/RIMA(UN)",
-            "prancha": "EDI-PRANCHA EIA/RIMA"
-        },
-        "PCA – Plano de Controle Ambiental": {
-            "area": "EDI-PCA(Área)",
-            "unidade": "EDI-PCA(UN)",
-            "prancha": "EDI-PRANCHA PCA"
-        },
-        "RAS – Relatório Ambiental Simplificado": {
-            "area": "EDI-RAS(Área)",
-            "unidade": "EDI-RAS(UN)",
-            "prancha": "EDI-PRANCHA RAS"
-        },
-        "Licença Ambiental Concomitante": {
-            "area": "EDI-LAC(Área)",
-            "unidade": "EDI-LAC(UN)",
-            "prancha": "EDI-PRANCHA LAC"
-        },
-        "RCA – Relatório de Controle Ambiental": {
-            "area": "EDI-RCA(Área)",
-            "unidade": "EDI-RCA(UN)",
-            "prancha": "EDI-PRANCHA RCA"
-        },
-        "PRADA – Projeto de Recuperação de Águas Degradadas e Alteradas": {
-            "area": "EDI-PRADA(Área)",
-            "unidade": "EDI-PRADA(UN)",
-            "prancha": "EDI-PRANCHA PRADA"
-        },
-        "PMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos": {
-            "area": "EDI-PMGIRS(Área)",
-            "unidade": "EDI-PMGIRS(UN)",
-            "prancha": "EDI-PRANCHA PMGIRS"
-        },
-        "PIA – Plano de Intervenção Ambiental": {
-            "area": "EDI-PIA(Área)",
-            "unidade": "EDI-PIA(UN)",
-            "prancha": "EDI-PRANCHA PIA"
-        },
-        "Relatório de Outorga": {
-            "area": "EDI-RdeO(Área)",
-            "unidade": "EDI-RdeO(UN)",
-            "prancha": "EDI-PRANCHA RdeO"
+        "Dispensa de licenciamento": {
+            "area": "EDI-DDL(Área)",
+            "unidade": "EDI-DDL(UN)",
+            "prancha": "EDI-PRANCHA DDL"
         },
         "Dispensa de outorga": {
             "area": "EDI-DDO(Área)",
             "unidade": "EDI-DDO(UN)",
             "prancha": "EDI-PRANCHA DDO"
         },
-        "Dispensa de licenciamento": {
-            "area": "EDI-DDL(Área)",
-            "unidade": "EDI-DDL(UN)",
-            "prancha": "EDI-PRANCHA DDL"
+        "EIA/RIMA": {
+            "area": "EDI-EIA/RIMA(Área)",
+            "unidade": "EDI-EIA/RIMA(UN)",
+            "prancha": "EDI-PRANCHA EIA/RIMA"
         },
         "Inventário florestal/Plano Manejo": {
             "area": "EDI-IFPM(Área)",
             "unidade": "EDI-IFPM(UN)",
             "prancha": "EDI-PRANCHA If/PM"
+        },
+        "Licença Ambiental Concomitante": {
+            "area": "EDI-LAC(Área)",
+            "unidade": "EDI-LAC(UN)",
+            "prancha": "EDI-PRANCHA LAC"
+        },
+        "PCA – Plano de Controle Ambiental": {
+            "area": "EDI-PCA(Área)",
+            "unidade": "EDI-PCA(UN)",
+            "prancha": "EDI-PRANCHA PCA"
+        },
+        "PIA – Plano de Intervenção Ambiental": {
+            "area": "EDI-PIA(Área)",
+            "unidade": "EDI-PIA(UN)",
+            "prancha": "EDI-PRANCHA PIA"
+        },
+        "PMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos": {
+            "area": "EDI-PMGIRS(Área)",
+            "unidade": "EDI-PMGIRS(UN)",
+            "prancha": "EDI-PRANCHA PMGIRS"
+        },
+        "PRADA – Projeto de Recuperação de Águas Degradadas e Alteradas": {
+            "area": "EDI-PRADA(Área)",
+            "unidade": "EDI-PRADA(UN)",
+            "prancha": "EDI-PRANCHA PRADA"
+        },
+        "RCA – Relatório de Controle Ambiental": {
+            "area": "EDI-RCA(Área)",
+            "unidade": "EDI-RCA(UN)",
+            "prancha": "EDI-PRANCHA RCA"
+        },
+        "RAS – Relatório Ambiental Simplificado": {
+            "area": "EDI-RAS(Área)",
+            "unidade": "EDI-RAS(UN)",
+            "prancha": "EDI-PRANCHA RAS"
+        },
+        "Relatório de Outorga": {
+            "area": "EDI-RdeO(Área)",
+            "unidade": "EDI-RdeO(UN)",
+            "prancha": "EDI-PRANCHA RdeO"
         }
     }
 
     disciplinas_projetoambientais_inf = {
-        "EIA/RIMA": {
-            "area": "INF-EIA(Área)",
-            "unidade": "INF-EIA(UN)",
-            "prancha": "INF-PRANCHA EIA"
-        },
-        "PCA – Plano de Controle Ambiental": {
-            "area": "INF-PCA(Área)",
-            "unidade": "INF-PCA(UN)",
-            "prancha": "INF-PRANCHA PCA"
-        },
-        "RAS – Relatório Ambiental Simplificado": {
-            "area": "INF-RAS(Área)",
-            "unidade": "INF-RAS(UN)",
-            "prancha": "INF-PRANCHA RAS"
-        },
-        "Licença Ambiental Concomitante": {
-            "area": "INF-LAC(Área)",
-            "unidade": "INF-LAC(UN)",
-            "prancha": "INF-PRANCHA LAC"
-        },
-        "RCA – Relatório de Controle Ambiental": {
-            "area": "INF-RCA(Área)",
-            "unidade": "INF-RCA(UN)",
-            "prancha": "INF-PRANCHA RCA"
-        },
-        "PRADA – Projeto de Recuperação de Águas Degradadas e Alteradas": {
-            "area": "INF-PRADA(Área)",
-            "unidade": "INF-PRADA(UN)",
-            "prancha": "INF-PRANCHA PRADA"
-        },
-        "PMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos": {
-            "area": "INF-PMGIRS(Área)",
-            "unidade": "INF-PMGIRS(UN)",
-            "prancha": "INF-PRANCHA PMGIRS"
-        },
-        "PIA – Plano de Intervenção Ambiental": {
-            "area": "INF-PIA(Área)",
-            "unidade": "INF-PIA(UN)",
-            "prancha": "INF-PRANCHA PIA"
-        },
-        "Relatório de Outorga": {
-            "area": "INF-RDO(Área)",
-            "unidade": "INF-RDO(UN)",
-            "prancha": "INF-PRANCHA RDO"
+        "Dispensa de licenciamento": {
+            "area": "INF-DDL(Área)",
+            "unidade": "INF-DDL(UN)",
+            "prancha": "INF-PRANCHA DDL"
         },
         "Dispensa de outorga": {
             "area": "INF-DDO(Área)",
             "unidade": "INF-DDO(UN)",
             "prancha": "INF-PRANCHA DDO"
         },
-        "Dispensa de licenciamento": {
-            "area": "INF-DDL(Área)",
-            "unidade": "INF-DDL(UN)",
-            "prancha": "INF-PRANCHA DDL"
+        "EIA/RIMA": {
+            "area": "INF-EIA(Área)",
+            "unidade": "INF-EIA(UN)",
+            "prancha": "INF-PRANCHA EIA"
         },
         "Inventário florestal/Plano Manejo": {
             "area": "INF-IFPM(Área)",
             "unidade": "INF-IFPM(UN)",
             "prancha": "INF-PRANCHA IFPM"
+        },
+        "Licença Ambiental Concomitante": {
+            "area": "INF-LAC(Área)",
+            "unidade": "INF-LAC(UN)",
+            "prancha": "INF-PRANCHA LAC"
+        },
+        "PCA – Plano de Controle Ambiental": {
+            "area": "INF-PCA(Área)",
+            "unidade": "INF-PCA(UN)",
+            "prancha": "INF-PRANCHA PCA"
+        },
+        "PIA – Plano de Intervenção Ambiental": {
+            "area": "INF-PIA(Área)",
+            "unidade": "INF-PIA(UN)",
+            "prancha": "INF-PRANCHA PIA"
+        },
+        "PMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos": {
+            "area": "INF-PMGIRS(Área)",
+            "unidade": "INF-PMGIRS(UN)",
+            "prancha": "INF-PRANCHA PMGIRS"
+        },
+        "PRADA – Projeto de Recuperação de Águas Degradadas e Alteradas": {
+            "area": "INF-PRADA(Área)",
+            "unidade": "INF-PRADA(UN)",
+            "prancha": "INF-PRANCHA PRADA"
+        },
+        "RCA – Relatório de Controle Ambiental": {
+            "area": "INF-RCA(Área)",
+            "unidade": "INF-RCA(UN)",
+            "prancha": "INF-PRANCHA RCA"
+        },
+        "RAS – Relatório Ambiental Simplificado": {
+            "area": "INF-RAS(Área)",
+            "unidade": "INF-RAS(UN)",
+            "prancha": "INF-PRANCHA RAS"
+        },
+        "Relatório de Outorga": {
+            "area": "INF-RDO(Área)",
+            "unidade": "INF-RDO(UN)",
+            "prancha": "INF-PRANCHA RDO"
         }
+
     }
 
     disciplinas_ensaios = {
-        "SONDAGEM": {"tipo": "SONDAGEM"},
-        "SOLO": {"tipo": "SOLO"},
+        "AÇO": {"tipo": "AÇO"},
         "ASFALTO": {"tipo":"ASFALTO"},
         "CONCRETO": {"tipo":"CONCRETO"},
-        "AÇO": {"tipo": "AÇO"}
+        "SOLO": {"tipo": "SOLO"},
+        "SONDAGEM": {"tipo": "SONDAGEM"},
     }
 
     disciplinas_planodiretor = {
@@ -1143,7 +1127,33 @@ with abas[2]:
                     if df_filtrado.empty:
                         st.warning("Nenhum atestado encontrado com os filtros aplicados.")
                     else:
+                        # Mapeia prefixos conhecidos para cabeçalhos mais limpos
+                        colunas_renomeadas = {
+                            col: col.replace("ESTRUTURAL - ", "").replace("VU-ESTRUTURAL -", "") .replace("PR-ESTRUTURAL - ", "") .replace("PS-ESTRUTURAL -", "")
+                            .replace("CONTENÇÃO - ", "").replace("VU-CONTENÇÃO -", "") .replace("PR-CONTENÇÃO -", "") .replace("PS-CONTENÇÃO -", "")
+                            .replace("FUNDAÇÃO - ", "") .replace("VU-FUNDAÇÃO -", "") .replace("PR-FUNDAÇÃO -", "") .replace("PS-FUNDAÇÃO", "")
+                            .replace("Sondagem - ", "") .replace("VU-SONDAGEM -", "") .replace("PR-SONDAGEM -", "").replace("PS-SONDAGEM -", "")
+                            .replace("MAQ ELET/3D - ", "") .replace("PS-MEIO AMBIENTE -", "")
+                            .replace("MOBILIÁRIO - ", "")
+                            .replace("VU-OAE -", "") .replace("PR-OAE - ", "") .replace("PS-OAE -", "")
+                            .replace("ASFALTO -", "") .replace("CONCRETO -", "") .replace("SOLO - ", "") .replace("SONDAGEM - ", "") .replace("AÇO - ", "")
+                            .replace("VU-PAVIMENTAÇÃO - ", "") .replace("PR-PAVIMENTAÇÃO -", "") .replace("PS-PAVIMENTAÇÃO -", "")
+                            for col in colunas_tabela
+                            if col.startswith("ESTRUTURAL - ") or col.startswith("VU-ESTRUTURAL -") or col.startswith("PR-ESTRUTURAL - ") or col.startswith("PS-ESTRUTURAL -")
+                               or col.startswith("CONTENÇÃO - ") or col.startswith("VU-CONTENÇÃO -") or col.startswith("PR-CONTENÇÃO -") or col.startswith("PS-CONTENÇÃO -")
+                               or col.startswith("Sondagem - ") or col.startswith("VU-SONDAGEM -") or col.startswith("PR-SONDAGEM -") or col.startswith("PS-SONDAGEM -")
+                               or col.startswith("FUNDAÇÃO - ") or col.startswith("VU-FUNDAÇÃO -") or col.startswith("PR-FUNDAÇÃO -") or col.startswith("PS-FUNDAÇÃO")
+                               or col.startswith("MAQ ELET/3D - ") or col.startswith("PS-MEIO AMBIENTE -")
+                               or col.startswith("VU-OAE -") or col.startswith("PR-OAE - ") or col.startswith("PS-OAE -")
+                               or col.startswith("MOBILIÁRIO - ")
+                               or col.startswith("VU-PAVIMENTAÇÃO - ") or col.startswith("PR-PAVIMENTAÇÃO -") or col.startswith("PS-PAVIMENTAÇÃO -")
+                               or col.startswith("ASFALTO -") or col.startswith("CONCRETO -") or col.startswith("SOLO - ") or col.startswith("SONDAGEM - ") or col.startswith("AÇO - ")
+                        }
+                        # Aplica renomeação apenas para exibição
+                        df_visual = df_filtrado[colunas_tabela].rename(columns=colunas_renomeadas)
+
+                        # Exibe a tabela com os nomes limpos
                         st.write(
-                            df_filtrado[colunas_tabela].to_html(escape=False, index=False),
+                            df_visual.to_html(escape=False, index=False),
                             unsafe_allow_html=True
                         )

@@ -178,13 +178,44 @@ else:
     with cola3:
         bim = st.selectbox("BIM", ["Não", "Sim"])
 
-m2_drec = prancha_drec = area_gerafotops = kva_gerafotops = prancha_gerafotops = area_gerafotopr = kva_gerafotopr = prancha_gerafotopr = area_gerafotovu = kva_gerafotovu = prancha_gerafotovu = area_gerafoto = kva_gerafoto = prancha_gerafoto = vazao_interceptorps = uni_interceptorps = uni_rededisps = vazao_rededisps = vazao_elevatoriaps = vazao_adutoraps = uni_adutoraps = uni_eteps = vazao_redecoleps = uni_redecoleps = uni_etaps = area_urvips = prancha_urvips = prancha_terps = km_terps = prancha_sinalps = km_sinalps = ps_pavimentacao_info = prancha_paisavips = area_paisavips = ps_oae_info = ps_meioambiente_info = prancha_hidrops = vazao_hidrops = prancha_geops = km_geops = ps_estrutural_info = prancha_dreps = km_dreps = ps_contencao_info = prancha_infracompps = area_infracompps = prancha_batips = m2_batips = prancha_antips = km_antips = prancha_hidropr = vazao_hidropr = prancha_hidro = vazao_hidro = prancha_ldrps = vazao_ldrps = area_ldrps = uni_ldrps = prancha_comotops = uni_comotops = vol_eteps = prancha_elevatoriapsfdp = prancha_batipr = m2_batipr = prancha_bati = m2_bati = san_sondagem_info = rod_sondagem_info = vu_sondagem_info = edi_sondagem_info = prancha_pmbs = prancha_reur = cadastral_topografia = drone_topografia = area_topografia = prancha_topografia = prancha_diversos = prancha_pdi = prancha_ifpminf = prancha_ddlinf = prancha_ddoinf = prancha_rdoinf = prancha_piainf = prancha_pmgirsinf = prancha_pradainf = prancha_rcainf = prancha_lacinf = prancha_rasinf = prancha_pcainf = prancha_eiainf = prancha_ifpmedi = prancha_ddledi = prancha_ddoedi = prancha_rdoedi = prancha_piaedi = prancha_pmgirsedi = prancha_pradaedi = prancha_rcaedi = prancha_lacedi = prancha_rasedi = prancha_eiaedi = prancha_pcaedi = prancha_rededisps = prancha_etaps = prancha_adutoraps = prancha_eteps = prancha_elevatoriopsfdp = prancha_interceptorps = prancha_redecoleps = prancha_orcsaps = prancha_elesaps = prancha_topps = fundacao_ps_info = aco_info = concreto_info = asfalto_info = solo_info = sondagem_info = prancha_infracomppr = prancha_iluppr = area_iluppr = prancha_extpr = area_extpr = prancha_elepr = kva_pr = area_elepr = prancha_orcpr = prancha_toppr = prancha_sinalpr = prancha_drepr = prancha_terpr = prancha_geopr = prancha_antipr = prancha_paisapr = prancha_urpr = meioambientepr_info = fundacaopr_info = oaepr_info = contencaopr_info = pavimentacaopr_info = estruturalpr_info = prancha_sinal = prancha_infracomp = rancha_sinal = prancha_dre = prancha_ter = prancha_geo = prancha_anti = prancha_paisavi = prancha_urvi = vu_meioambiente_info = vu_fundacao_info = vu_oae_info = vu_contencao_info = vu_topografia_info = vu_pavimentacao_info = vu_estrutural_info = prancha_reurb = prancha_acus = prancha_comp = prancha_hvac = prancha_glp = prancha_venex = prancha_arcond = prancha_ilupu = prancha_extr = prancha_cftv = prancha_spda = prancha_cets = prancha_ele = prancha_orc = prancha_top = area_ab = prancha_spci = area_urb = tipo_ab =  area_paisag = prancha_tps =prancha_irri = prancha_hds = pranchas_ab = pranchas_paisag = pranchas_cv = pranchas_are = pranchas_urb = pranchas_aa = pranchas_ar = pranchas_ac = fundacao_info = contencao_info = mobiliario_info = maqelet_info = tipo_estedi = estrutural_info = area_infraorcpr = tipo_contpr = area_est = tipo_estpep = m_cont = m_pav = cadastral_top = m2 = m3 = cadastral = drone = kva = uni_aco = kva_vu = tipo_aco = uni_Concreto = tipo_concreto = uni_asfalto = tipo_asfalto = uni_solos = tipo_solo = m_geo = furos_geo = tipo_sonda = tipo_fundps = area_fusaps = Tipo_topps = cadastral_ps = drone_os = area_topsaps = area_elesaps = kva_ps = area_orcsaps = m_redecoleps = m_interceptorps = vazao_eteps = m_adutoraps = m_elevatoriaps = vazao_etaps = vol_etaps = m_rededisps =  area_urpr = area_paisapr = km_antipr = km_geopr = km_terpr = km_drepr = km_pavpr = m_pavpr = tipo_pavpr = tipo_subasepr = km_sinalpr = tipo_toppr = cadastral_toppr = km_toppr = area_toppr = km_orcpr = area_infraorcprtipo_contpr = m_contpr = m2_contpr = m3_contpr = tipo_oaevupr = area_oaepr = vao_oaepr = tipo_funduvpr = m2_fundpr = tipo_meivupr = uni_meipr = area_infracomppr = reur_habitantes = pdi_habitantes = un_eiainf = area_eiainf = un_pcainf = area_pcainf = un_rasinf = area_rasinf = un_lacinf = area_lacinf = un_rcainf = area_rcainf = un_pradainf = area_pradainf = un_pmgirsinf = area_pmgirsinf = un_piainf = area_piainf = un_rdoinf = area_rdoinf = un_ddoinf = area_ddoinf = un_ddlinf = area_ddlinf = un_ifpminf = area_ifpminf = un_ifpmedi = area_ifpmedi = un_ddledi = area_ddledi = un_ddoedi = area_ddoedi = un_rdoedi = area_rdoedi = un_piaedi = area_piaedi = un_pmgirsedi = area_pmgirsedi = un_pradaedi = area_pradaedi = un_rcaedi = area_rcaedi = area_lacedi = un_lacedi = area_rasedi = un_rasedi = un_pcaedi = area_pcaedi = area_eiaedi = un_eiaedi = area_aa = area_ac = area_ar = area_are = area_cv = edi_mobpep = area_mo = area_ue = area_paisa = tipo_abupep = area_abu = tipo_me3dpep = area_me3d = area_mt = tipo_fupep = area_fu = tipo_conpep = area_con = area_hds = area_irri = area_spci = area_tps = tipo_toppep = area_top = area_orc = area_ele = area_cets = area_spda = area_cftv = area_extr = area_ilupu = area_arcond = area_venex = area_glp = area_hvac = area_comp = area_acus = area_reurb = area_urvi = area_paisavi = km_anti = km_geo = km_ter = km_dre = km_pav = tipo_pavvu = tipo_subasevu = km_sinal = tipo_topvu = km_top = km_orc = area_infraorc = tipo_contvu = m2_cont = m3_cont = tipo_oaevu = area_oae = vao_oae = tipo_funduv = m2_fund = tipo_meivu = uni_mei = area_infracomp = pmbs_habitantes = None
+ponto_iluppr = area_sanepr = vazao_sanepr = prancha_sanepr = area_sane = vazao_sane = prancha_sane = prancha_ilupuvu = ponto_ilupuvu = area_ilupuvu = kbtuh_venex = m3_glp = m3_hvac = ponto_ilupu = area_clima = kbtuh_clima = prancha_clima = m2_drec = prancha_drec = area_gerafotops = kva_gerafotops = prancha_gerafotops = area_gerafotopr = kva_gerafotopr = prancha_gerafotopr = area_gerafotovu = kva_gerafotovu = prancha_gerafotovu = area_gerafoto = kva_gerafoto = prancha_gerafoto = vazao_interceptorps = uni_interceptorps = uni_rededisps = vazao_rededisps = vazao_elevatoriaps = vazao_adutoraps = uni_adutoraps = uni_eteps = vazao_redecoleps = uni_redecoleps = uni_etaps = area_urvips = prancha_urvips = prancha_terps = km_terps = prancha_sinalps = km_sinalps = ps_pavimentacao_info = prancha_paisavips = area_paisavips = ps_oae_info = ps_meioambiente_info = prancha_hidrops = vazao_hidrops = prancha_geops = km_geops = ps_estrutural_info = prancha_dreps = km_dreps = ps_contencao_info = prancha_infracompps = area_infracompps = prancha_batips = m2_batips = prancha_antips = km_antips = prancha_hidropr = vazao_hidropr = prancha_hidro = vazao_hidro = prancha_ldrps = vazao_ldrps = area_ldrps = uni_ldrps = prancha_comotops = uni_comotops = vol_eteps = prancha_elevatoriapsfdp = prancha_batipr = m2_batipr = prancha_bati = m2_bati = san_sondagem_info = rod_sondagem_info = vu_sondagem_info = edi_sondagem_info = prancha_pmbs = prancha_reur = cadastral_topografia = drone_topografia = area_topografia = prancha_topografia = prancha_diversos = prancha_pdi = prancha_ifpminf = prancha_ddlinf = prancha_ddoinf = prancha_rdoinf = prancha_piainf = prancha_pmgirsinf = prancha_pradainf = prancha_rcainf = prancha_lacinf = prancha_rasinf = prancha_pcainf = prancha_eiainf = prancha_ifpmedi = prancha_ddledi = prancha_ddoedi = prancha_rdoedi = prancha_piaedi = prancha_pmgirsedi = prancha_pradaedi = prancha_rcaedi = prancha_lacedi = prancha_rasedi = prancha_eiaedi = prancha_pcaedi = prancha_rededisps = prancha_etaps = prancha_adutoraps = prancha_eteps = prancha_elevatoriopsfdp = prancha_interceptorps = prancha_redecoleps = prancha_orcsaps = prancha_elesaps = prancha_topps = fundacao_ps_info = aco_info = concreto_info = asfalto_info = solo_info = sondagem_info = prancha_infracomppr = prancha_iluppr = area_iluppr = prancha_extpr = area_extpr = prancha_elepr = kva_pr = area_elepr = prancha_orcpr = prancha_toppr = prancha_sinalpr = prancha_drepr = prancha_terpr = prancha_geopr = prancha_antipr = prancha_paisapr = prancha_urpr = meioambientepr_info = fundacaopr_info = oaepr_info = contencaopr_info = pavimentacaopr_info = estruturalpr_info = prancha_sinal = prancha_infracomp = rancha_sinal = prancha_dre = prancha_ter = prancha_geo = prancha_anti = prancha_paisavi = prancha_urvi = vu_meioambiente_info = vu_fundacao_info = vu_oae_info = vu_contencao_info = vu_topografia_info = vu_pavimentacao_info = vu_estrutural_info = prancha_reurb = prancha_acus = prancha_comp = prancha_hvac = prancha_glp = prancha_venex = prancha_arcond = prancha_ilupu = prancha_extr = prancha_cftv = prancha_spda = prancha_cets = prancha_ele = prancha_orc = prancha_top = area_ab = prancha_spci = area_urb = tipo_ab =  area_paisag = prancha_tps =prancha_irri = prancha_hds = pranchas_ab = pranchas_paisag = pranchas_cv = pranchas_are = pranchas_urb = pranchas_aa = pranchas_ar = pranchas_ac = fundacao_info = contencao_info = mobiliario_info = maqelet_info = tipo_estedi = estrutural_info = area_infraorcpr = tipo_contpr = area_est = tipo_estpep = m_cont = m_pav = cadastral_top = m2 = m3 = cadastral = drone = kva = uni_aco = kva_vu = tipo_aco = uni_Concreto = tipo_concreto = uni_asfalto = tipo_asfalto = uni_solos = tipo_solo = m_geo = furos_geo = tipo_sonda = tipo_fundps = area_fusaps = Tipo_topps = cadastral_ps = drone_os = area_topsaps = area_elesaps = kva_ps = area_orcsaps = m_redecoleps = m_interceptorps = vazao_eteps = m_adutoraps = m_elevatoriaps = vazao_etaps = vol_etaps = m_rededisps =  area_urpr = area_paisapr = km_antipr = km_geopr = km_terpr = km_drepr = km_pavpr = m_pavpr = tipo_pavpr = tipo_subasepr = km_sinalpr = tipo_toppr = cadastral_toppr = km_toppr = area_toppr = km_orcpr = area_infraorcprtipo_contpr = m_contpr = m2_contpr = m3_contpr = tipo_oaevupr = area_oaepr = vao_oaepr = tipo_funduvpr = m2_fundpr = tipo_meivupr = uni_meipr = area_infracomppr = reur_habitantes = pdi_habitantes = un_eiainf = area_eiainf = un_pcainf = area_pcainf = un_rasinf = area_rasinf = un_lacinf = area_lacinf = un_rcainf = area_rcainf = un_pradainf = area_pradainf = un_pmgirsinf = area_pmgirsinf = un_piainf = area_piainf = un_rdoinf = area_rdoinf = un_ddoinf = area_ddoinf = un_ddlinf = area_ddlinf = un_ifpminf = area_ifpminf = un_ifpmedi = area_ifpmedi = un_ddledi = area_ddledi = un_ddoedi = area_ddoedi = un_rdoedi = area_rdoedi = un_piaedi = area_piaedi = un_pmgirsedi = area_pmgirsedi = un_pradaedi = area_pradaedi = un_rcaedi = area_rcaedi = area_lacedi = un_lacedi = area_rasedi = un_rasedi = un_pcaedi = area_pcaedi = area_eiaedi = un_eiaedi = area_aa = area_ac = area_ar = area_are = area_cv = edi_mobpep = area_mo = area_ue = area_paisa = tipo_abupep = area_abu = tipo_me3dpep = area_me3d = area_mt = tipo_fupep = area_fu = tipo_conpep = area_con = area_hds = area_irri = area_spci = area_tps = tipo_toppep = area_top = area_orc = area_ele = area_cets = area_spda = area_cftv = area_extr = area_ilupu = area_arcond = area_venex = area_glp = area_hvac = area_comp = area_acus = area_reurb = area_urvi = area_paisavi = km_anti = km_geo = km_ter = km_dre = km_pav = tipo_pavvu = tipo_subasevu = km_sinal = tipo_topvu = km_top = km_orc = area_infraorc = tipo_contvu = m2_cont = m3_cont = tipo_oaevu = area_oae = vao_oae = tipo_funduv = m2_fund = tipo_meivu = uni_mei = area_infracomp = pmbs_habitantes = None
 
 if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
-    tipo_servicos = ["ARQUITETÔNICO ANTEPROJETO", "ARQUITETÔNICO CONSTRUÇÃO", "ARQUITETÔNICO REFORMA", "ARQUITETÔNICO RESTAURO", "COMUNICAÇÃO VISUAL", "DRENAGEM", "MOBILIÁRIO", "URBANISTICO", "AS BUILT", "MAQ ELET / 3D", "ESTRUTURAL", "FUNDAÇÃO", "CONTENÇÃO", "HIDROSANITÁRIO", "IRRIGAÇÃO", "SPCI", "SONDAGEM","TERRAPLENAGEM (PLANTA/SEÇÕES)","TOPOGRAFIA", "ORÇAMENTO", "ELÉTRICO", "GERAÇÃO FOTOVOLTAICA","CAB. ESTRUTURADO", "SPDA", "ALARME/CFTV", "EXTENSÃO DE REDE", "ILUMINAÇÃO PUBLICA", "AR CONDICIONADO", "VENTILAÇÃO/EXAUSTÃO", "GLP", "GASES MEDICINAIS", "COMPAT. PROJETOS", "ACÚSTICA", "REURB", "PAISAGISTICO"]
+    tipo_servicos = ["ACÚSTICA", "ALARME/CFTV", "AR CONDICIONADO", "ARQUITETÔNICO ANTEPROJETO", "ARQUITETÔNICO CONSTRUÇÃO","ARQUITETÔNICO REFORMA",
+                    "ARQUITETÔNICO RESTAURO","AS BUILT", "CAB. ESTRUTURADO", "CLIMATIZAÇÃO","COMPAT. PROJETOS", "COMUNICAÇÃO VISUAL", "CONTENÇÃO", "DRENAGEM", "ELÉTRICO",
+                    "ESTRUTURAL", "EXTENSÃO DE REDE", "FUNDAÇÃO", "GASES MEDICINAIS", "GERAÇÃO FOTOVOLTAICA", "GLP", "HIDROSANITÁRIO", "ILUMINAÇÃO PUBLICA", "IRRIGAÇÃO", "MAQ ELET / 3D", "MOBILIÁRIO",
+                    "ORÇAMENTO", "PAISAGISTICO", "REURB", "SONDAGEM", "SPCI", "SPDA", "TERRAPLENAGEM (PLANTA/SEÇÕES)", "TOPOGRAFIA", "URBANISTICO","VENTILAÇÃO/EXAUSTÃO"]
     tipo_servico =  st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
 
-    tp_serv = tipo_servico
+    if "ACÚSTICA" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nAcústica")
+        with d2:
+            area_acus = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_acus")
+        with d3:
+            prancha_acus = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_acus", format="%0.f")
+        st.divider()
+
+    if "ALARME/CFTV" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nAlarme/CFTV")
+        with d2:
+            area_cftv = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_cftv")
+        with d3:
+            prancha_cftv = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_cftv", format="%0.f")
+        st.divider()
+
+    if "AR CONDICIONADO" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nAr Condicionado")
+        with d2:
+            area_arcond = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_arcond")
+        with d3:
+            prancha_arcond = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_arcond", format="%0.f")
+        st.divider()
 
     if "ARQUITETÔNICO ANTEPROJETO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
@@ -227,66 +258,6 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
             pranchas_are = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_are")
         st.divider()
 
-    if "COMUNICAÇÃO VISUAL" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nComunicação Visual")
-        with d2:
-            area_cv = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_cv")
-        with d3:
-            pranchas_cv = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_cv")
-        st.divider()
-
-    if "DRENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nDrenagem")
-        with d2:
-            m2_drec = st.number_input("M²", min_value=0.0, step=1.0, key="m2_dre")
-        with d3:
-            prancha_drec = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_dre")
-        st.divider()
-
-    if "MOBILIÁRIO" in tipo_servico:
-        mobiliario_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Mobiliário")
-        with d2:
-            tipo_mob = st.multiselect("Tipo", ["Edificação", "Urbano"], key="tipo_mob")
-
-        if tipo_mob:
-            colunas = st.columns(min(len(tipo_mob), 3))
-            for i, tipo in enumerate(tipo_mob):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_mob_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, format="%0.f",
-                                              key=f"prancha_mob_{tipo}")
-                    if area > 0 or prancha > 0:
-                        mobiliario_info[tipo] = {"área": area, "prancha": prancha}
-        st.divider()
-
-    if "URBANISTICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nUrbanístico")
-        with d2:
-            area_urb = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_urb")
-        with d3:
-            pranchas_urb = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_urb")
-        st.divider()
-
-    if "PAISAGISTICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nPaisagístico")
-        with d2:
-            area_paisag = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_paisag")
-        with d3:
-            pranchas_paisag = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_paisag")
-        st.divider()
-
     if "AS BUILT" in tipo_servico:
         d1, d2, d3, d4 = st.columns(4)
         with d1:
@@ -299,72 +270,46 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
             pranchas_ab = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ab")
         st.divider()
 
-    if "MAQ ELET / 3D" in tipo_servico:
-        maqelet_info = {}
-        d1, d2 = st.columns(2)
+    if "CAB. ESTRUTURADO" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
         with d1:
-            st.title("MAQ ELET / 3D")
+            st.write("###### \nCAB. Estruturado")
         with d2:
-            tipo_me3d = st.multiselect("Tipo MAQ ELET / 3D", ["Modelagem 3D", "Maquete Eletrônica"], key="tipo_me3d")
-
-        if tipo_me3d:
-            colunas = st.columns(min(len(tipo_me3d), 3))
-            for i, tipo in enumerate(tipo_me3d):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_maq_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, format="%0.f",
-                                              key=f"prancha_maq_{tipo}")
-                    if area > 0 or prancha > 0:
-                        maqelet_info[tipo] = {"área": area, "prancha": prancha}
+            area_cets = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_cest")
+        with d3:
+            prancha_cets = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_cest", format="%0.f")
         st.divider()
 
-    if "ESTRUTURAL" in tipo_servico:
-        estrutural_info = {}
-        d1, d2 = st.columns(2)
+    if "CLIMATIZAÇÃO" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
-            st.title("Estrutural")
+            st.write("###### \nClimatização")
         with d2:
-            tipo_estedi = st.multiselect("Tipos Estruturais", ["Concreto", "Madeira", "Metálica"], key="tipo_estedi")
-
-        if tipo_estedi:
-            colunas = st.columns(min(len(tipo_estedi), 3))
-            for i, tipo in enumerate(tipo_estedi):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_est_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_est_{tipo}",
-                                              format="%0.f")
-
-                    toneladas = 0.0
-                    if tipo.lower() == "metálica":
-                        toneladas = st.number_input("Toneladas", min_value=0.0, step=0.1, key=f"ton_est_{tipo}")
-
-                    if area > 0 or prancha > 0 or (tipo.lower() == "metálica" and toneladas > 0):
-                        estrutural_info[tipo] = {"área": area, "prancha": prancha}
-                        if tipo.lower() == "metálica":
-                            estrutural_info[tipo]["toneladas"] = toneladas
+            area_clima = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_clima")
+        with d3:
+            kbtuh_clima = st.number_input("kbtu/h", min_value=0.0, step=1.0, key="kbtuh_clima")
+        with d4:
+            prancha_clima = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_clima", format="%0.f")
         st.divider()
 
-    if "FUNDAÇÃO" in tipo_servico:
-        fundacao_info = {}
-        d1, d2 = st.columns(2)
+    if "COMPAT. PROJETOS" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
         with d1:
-            st.title("Fundação")
+            st.write("###### \nCompat. Projetos")
         with d2:
-            tipo_funedi = st.multiselect("Tipo", ["Rasa(sapata, blocos e radier", "Profunda(estaca, tubulão e caixões",
-                                                  "Rasa e Profunda"], key="tipo_funedi")
+            area_comp = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_comp")
+        with d3:
+            prancha_comp = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_comp", format="%0.f")
+        st.divider()
 
-        if tipo_funedi:
-            colunas = st.columns(min(len(tipo_funedi), 3))
-            for i, tipo in enumerate(tipo_funedi):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_fun_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, format="%0.f",
-                                              key=f"prancha_fun_{tipo}")
-                    if area > 0 or prancha > 0:
-                        fundacao_info[tipo] = {"área": area, "prancha": prancha}
+    if "COMUNICAÇÃO VISUAL" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nComunicação Visual")
+        with d2:
+            area_cv = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_cv")
+        with d3:
+            pranchas_cv = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_cv")
         st.divider()
 
     if "CONTENÇÃO" in tipo_servico:
@@ -396,6 +341,142 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
                         }
         st.divider()
 
+    if "DRENAGEM" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nDrenagem")
+        with d2:
+            m2_drec = st.number_input("M²", min_value=0.0, step=1.0, key="m2_dre")
+        with d3:
+            prancha_drec = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_dre")
+        st.divider()
+
+    if "ELÉTRICO" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nElétrico")
+        with d2:
+            area_ele = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_ele")
+        with d3:
+            kva = st.number_input("KVA", min_value=0.0, step=0.1, key="kva")
+        with d4:
+            prancha_ele = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_ele", format="%0.f")
+        st.divider()
+
+    if "ESTRUTURAL" in tipo_servico:
+        estrutural_info = {}
+        d1, d2 = st.columns(2)
+        with d1:
+            st.title("Estrutural")
+        with d2:
+            tipo_estedi = st.multiselect("Tipos Estruturais", ["Concreto", "Madeira", "Metálica"], key="tipo_estedi")
+
+        if tipo_estedi:
+            colunas = st.columns(min(len(tipo_estedi), 3))
+            for i, tipo in enumerate(tipo_estedi):
+                with colunas[i % 3]:
+                    st.markdown(f"**{tipo}**")
+                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_est_{tipo}")
+                    prancha = st.number_input("Prancha", min_value=0, step=1, key=f"prancha_est_{tipo}")
+
+                    toneladas = 0.0
+                    if tipo.lower() == "metálica":
+                        toneladas = st.number_input("Toneladas", min_value=0.0, step=0.1, key=f"ton_est_{tipo}")
+
+                    intervencoes = st.multiselect(
+                        "Tipo(s) de Intervenção",
+                        ["Restauro", "Laudo"],
+                        key=f"intervencao_multi_{tipo}"
+                    )
+
+                    extra_info = {}
+                    if "Restauro" in intervencoes:
+                        area_reparo = st.number_input("Área de Reparo (m²)", min_value=0.0, step=0.1,
+                                                      key=f"area_reparo_{tipo}")
+                        extra_info["Reparo"] = area_reparo
+
+                    if "Laudo" in intervencoes:
+                        unidade_laudo = st.number_input("Unidade Laudo", min_value=0, step=1, key=f"unidade_laudo_{tipo}")
+                        extra_info["Laudo"] = unidade_laudo
+
+                    if area > 0 or prancha > 0 or (tipo.lower() == "metálica" and toneladas > 0) or extra_info:
+                        estrutural_info[tipo] = {
+                            "área": area,
+                            "prancha": prancha,
+                            **extra_info
+                        }
+                        if tipo.lower() == "metálica":
+                            estrutural_info[tipo]["toneladas"] = toneladas
+
+        st.divider()
+
+    if "EXTENSÃO DE REDE" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nExtensão de Rede")
+        with d2:
+            area_extr = st.number_input("KM", min_value=0.0, step=0.1, key="area_extr")
+        with d3:
+            prancha_extr = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_extr", format="%0.f")
+        st.divider()
+
+    if "FUNDAÇÃO" in tipo_servico:
+        fundacao_info = {}
+        d1, d2 = st.columns(2)
+        with d1:
+            st.title("Fundação")
+        with d2:
+            tipo_funedi = st.multiselect("Tipo", ["Rasa(sapata, blocos e radier", "Profunda(estaca, tubulão e caixões",
+                                                  "Rasa e Profunda"], key="tipo_funedi")
+
+        if tipo_funedi:
+            colunas = st.columns(min(len(tipo_funedi), 3))
+            for i, tipo in enumerate(tipo_funedi):
+                with colunas[i % 3]:
+                    st.markdown(f"**{tipo}**")
+                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_fun_{tipo}")
+                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, format="%0.f",
+                                              key=f"prancha_fun_{tipo}")
+                    if area > 0 or prancha > 0:
+                        fundacao_info[tipo] = {"área": area, "prancha": prancha}
+        st.divider()
+
+    if "GASES MEDICINAIS" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nGases Medicinais")
+        with d2:
+            area_hvac = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_hvac")
+        with d3:
+            m3_hvac = st.number_input("m³/h", min_value=0.0, step=1.0, key="m3_hvac")
+        with d4:
+            prancha_hvac = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_hvac", format="%0.f")
+        st.divider()
+
+    if "GERAÇÃO FOTOVOLTAICA" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nGeração Fotovoltaica")
+        with d2:
+            area_gerafoto = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_gerafoto")
+        with d3:
+            kva_gerafoto = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_gerafoto")
+        with d4:
+            prancha_gerafoto = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_gerafoto", format="%0.f")
+        st.divider()
+
+    if "GLP" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nGLP")
+        with d2:
+            area_glp = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_glp")
+        with d3:
+            m3_glp = st.number_input("m³/h", min_value=0.0, step=1.0, key="m3_glp")
+        with d4:
+            prancha_glp = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_glp", format="%0.f")
+        st.divider()
+
     if "HIDROSANITÁRIO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
@@ -404,6 +485,18 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
             area_hds = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_hds")
         with d3:
             prancha_hds = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_hds", format="%0.f")
+        st.divider()
+
+    if "ILUMINAÇÃO PUBLICA" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nIluminação Pública")
+        with d2:
+            area_ilupu = st.number_input("Área (km)", min_value=0.0, step=1.0, key="area_ilupu")
+        with d3:
+            ponto_ilupu = st.number_input("Pontos", min_value=0, step=1, key="ponto_ilupu")
+        with d4:
+            prancha_ilupu = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_ilupu", format="%0.f")
         st.divider()
 
     if "IRRIGAÇÃO" in tipo_servico:
@@ -416,14 +509,74 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
             prancha_irri = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_irri", format="%0.f")
         st.divider()
 
-    if "SPCI" in tipo_servico:
+    if "MAQ ELET / 3D" in tipo_servico:
+        maqelet_info = {}
+        d1, d2 = st.columns(2)
+        with d1:
+            st.title("MAQ ELET / 3D")
+        with d2:
+            tipo_me3d = st.multiselect("Tipo MAQ ELET / 3D", ["Modelagem 3D", "Maquete Eletrônica"], key="tipo_me3d")
+
+        if tipo_me3d:
+            colunas = st.columns(min(len(tipo_me3d), 3))
+            for i, tipo in enumerate(tipo_me3d):
+                with colunas[i % 3]:
+                    st.markdown(f"**{tipo}**")
+                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_maq_{tipo}")
+                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, format="%0.f",
+                                              key=f"prancha_maq_{tipo}")
+                    if area > 0 or prancha > 0:
+                        maqelet_info[tipo] = {"área": area, "prancha": prancha}
+        st.divider()
+
+    if "MOBILIÁRIO" in tipo_servico:
+        mobiliario_info = {}
+        d1, d2 = st.columns(2)
+        with d1:
+            st.title("Mobiliário")
+        with d2:
+            tipo_mob = st.multiselect("Tipo", ["Edificação", "Urbano"], key="tipo_mob")
+
+        if tipo_mob:
+            colunas = st.columns(min(len(tipo_mob), 3))
+            for i, tipo in enumerate(tipo_mob):
+                with colunas[i % 3]:
+                    st.markdown(f"**{tipo}**")
+                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_mob_{tipo}")
+                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, format="%0.f",
+                                              key=f"prancha_mob_{tipo}")
+                    if area > 0 or prancha > 0:
+                        mobiliario_info[tipo] = {"área": area, "prancha": prancha}
+        st.divider()
+
+    if "ORÇAMENTO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("###### \nSPCI")
+            st.write("###### \nOrçamento")
         with d2:
-            area_spci = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_spci")
+            area_orc = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_orc")
         with d3:
-            prancha_spci = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_spci", format="%0.f")
+            prancha_orc = st.number_input("Área(km)", min_value=0.0, step=1.0, key="prancha_orc")
+        st.divider()
+
+    if "PAISAGISTICO" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nPaisagístico")
+        with d2:
+            area_paisag = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_paisag")
+        with d3:
+            pranchas_paisag = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_paisag")
+        st.divider()
+
+    if "REURB" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nREURB")
+        with d2:
+            area_reurb = st.number_input("Un. Habitacionais", min_value=0.0, step=1.0, key="area_reurb", format="%0.f")
+        with d3:
+            prancha_reurb = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_reurb", format="%0.f")
         st.divider()
 
     if "SONDAGEM" in tipo_servico:
@@ -451,6 +604,26 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
                         }
         st.divider()
 
+    if "SPCI" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nSPCI")
+        with d2:
+            area_spci = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_spci")
+        with d3:
+            prancha_spci = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_spci", format="%0.f")
+        st.divider()
+
+    if "SPDA" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nSPDA")
+        with d2:
+            area_spda = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_spda")
+        with d3:
+            prancha_spda = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_spda", format="%0.f")
+        st.divider()
+
     if "TERRAPLENAGEM (PLANTA/SEÇÕES)" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
@@ -481,58 +654,47 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
             area_top = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_top")
         st.divider()
 
-    if "ORÇAMENTO" in tipo_servico:
+    if "URBANISTICO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("###### \nOrçamento")
+            st.write("###### \nUrbanístico")
         with d2:
-            area_orc = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_orc")
+            area_urb = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_urb")
         with d3:
-            prancha_orc = st.number_input("Área(km)", min_value=0.0, step=1.0, key="prancha_orc")
+            pranchas_urb = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_urb")
         st.divider()
 
-    if "ELÉTRICO" in tipo_servico:
+    if "VENTILAÇÃO/EXAUSTÃO" in tipo_servico:
         d1, d2, d3, d4 = st.columns(4)
         with d1:
-            st.write("###### \nElétrico")
+            st.write("###### \nVentilação/Exaustão")
         with d2:
-            area_ele = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_ele")
+            area_venex = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_venex")
         with d3:
-            kva = st.number_input("KVA", min_value=0.0, step=0.1, key="kva")
+            kbtuh_venex = st.number_input("kbtu/h", min_value=0.0, step=1.0, key="kbtuh_venex")
         with d4:
-            prancha_ele = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_ele", format="%0.f")
+            prancha_venex = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_venex", format="%0.f")
         st.divider()
 
-    if "GERAÇÃO FOTOVOLTAICA" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("###### \nGeração Fotovoltaica")
-        with d2:
-            area_gerafoto = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_gerafoto")
-        with d3:
-            kva_gerafoto = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_gerafoto")
-        with d4:
-            prancha_gerafoto = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_gerafoto", format="%0.f")
-        st.divider()
+if "Supervisão Gerenciamento Edificação" in servico:
+    tipo_servicos = ["ACÚSTICA", "ALARME/CFTV", "AR CONDICIONADO", "ARQUITETÔNICO ANTEPROJETO",
+                     "ARQUITETÔNICO CONSTRUÇÃO", "ARQUITETÔNICO REFORMA",
+                     "ARQUITETÔNICO RESTAURO", "AS BUILT", "CAB. ESTRUTURADO", "CLIMATIZAÇÃO", "COMPAT. PROJETOS",
+                     "COMUNICAÇÃO VISUAL", "CONTENÇÃO", "DRENAGEM", "ELÉTRICO",
+                     "ESTRUTURAL", "EXTENSÃO DE REDE", "FUNDAÇÃO", "GASES MEDICINAIS", "GERAÇÃO FOTOVOLTAICA", "GLP",
+                     "HIDROSANITÁRIO", "ILUMINAÇÃO PUBLICA", "IRRIGAÇÃO", "MAQ ELET / 3D", "MOBILIÁRIO",
+                     "ORÇAMENTO", "PAISAGISTICO", "REURB", "SONDAGEM", "SPCI", "SPDA", "TERRAPLENAGEM (PLANTA/SEÇÕES)",
+                     "TOPOGRAFIA", "URBANISTICO", "VENTILAÇÃO/EXAUSTÃO"]
+    tipo_servico = st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
 
-    if "CAB. ESTRUTURADO" in tipo_servico:
+    if "ACÚSTICA" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("###### \nCAB. Estruturado")
+            st.write("###### \nAcústica")
         with d2:
-            area_cets = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_cest")
+            area_acus = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_acus")
         with d3:
-            prancha_cets = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_cest", format="%0.f")
-        st.divider()
-
-    if "SPDA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nSPDA")
-        with d2:
-            area_spda = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_spda")
-        with d3:
-            prancha_spda = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_spda", format="%0.f")
+            prancha_acus = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_acus", format="%0.f")
         st.divider()
 
     if "ALARME/CFTV" in tipo_servico:
@@ -545,26 +707,6 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
             prancha_cftv = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_cftv", format="%0.f")
         st.divider()
 
-    if "EXTENSÃO DE REDE" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nExtensão de Rede")
-        with d2:
-            area_extr = st.number_input("KM", min_value=0.0, step=0.1, key="area_extr")
-        with d3:
-            prancha_extr = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_extr", format="%0.f")
-        st.divider()
-
-    if "ILUMINAÇÃO PUBLICA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nIluminação Pública")
-        with d2:
-            area_ilupu = st.number_input("Pontos", min_value=0, step=1, key="area_ilupu")
-        with d3:
-            prancha_ilupu = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_ilupu", format="%0.f")
-        st.divider()
-
     if "AR CONDICIONADO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
@@ -574,78 +716,6 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
         with d3:
             prancha_arcond = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_arcond", format="%0.f")
         st.divider()
-
-    if "VENTILAÇÃO/EXAUSTÃO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nVentilação/Exaustão")
-        with d2:
-            area_venex = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_venex")
-        with d3:
-            prancha_venex = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_venex", format="%0.f")
-        st.divider()
-
-    if "GLP" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nGLP")
-        with d2:
-            area_glp = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_glp")
-        with d3:
-            prancha_glp = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_glp", format="%0.f")
-        st.divider()
-
-    if "GASES MEDICINAIS" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nGases Medicinais")
-        with d2:
-            area_hvac = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_hvac")
-        with d3:
-            prancha_hvac = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_hvac", format="%0.f")
-        st.divider()
-
-    if "COMPAT. PROJETOS" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nCompat. Projetos")
-        with d2:
-            area_comp = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_comp")
-        with d3:
-            prancha_comp = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_comp", format="%0.f")
-        st.divider()
-
-    if "ACÚSTICA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nAcústica")
-        with d2:
-            area_acus = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_acus")
-        with d3:
-            prancha_acus = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_acus", format="%0.f")
-        st.divider()
-
-    if "REURB" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nREURB")
-        with d2:
-            area_reurb = st.number_input("Un. Habitacionais", min_value=0.0, step=1.0, key="area_reurb", format="%0.f")
-        with d3:
-            prancha_reurb = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_reurb", format="%0.f")
-        st.divider()
-
-if "Supervisão Gerenciamento Edificação" in servico:
-    tipo_servicos = ["ARQUITETÔNICO ANTEPROJETO", "ARQUITETÔNICO CONSTRUÇÃO", "ARQUITETÔNICO REFORMA",
-                     "ARQUITETÔNICO RESTAURO", "COMUNICAÇÃO VISUAL", "DRENAGEM", "MOBILIÁRIO", "URBANISTICO", "AS BUILT",
-                     "MAQ ELET / 3D", "ESTRUTURAL", "FUNDAÇÃO", "CONTENÇÃO", "HIDROSANITÁRIO", "IRRIGAÇÃO", "SPCI",
-                     "SONDAGEM", "TERRAPLENAGEM (PLANTA/SEÇÕES)", "TOPOGRAFIA", "ORÇAMENTO", "ELÉTRICO",
-                     "GERAÇÃO FOTOVOLTAICA", "CAB. ESTRUTURADO", "SPDA", "ALARME/CFTV", "EXTENSÃO DE REDE",
-                     "ILUMINAÇÃO PUBLICA", "AR CONDICIONADO", "VENTILAÇÃO/EXAUSTÃO", "GLP", "GASES MEDICINAIS",
-                     "COMPAT. PROJETOS", "ACÚSTICA", "REURB", "PAISAGISTICO"]
-    tipo_servico = st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
-
-    tp_serv = tipo_servico
 
     if "ARQUITETÔNICO ANTEPROJETO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
@@ -688,66 +758,6 @@ if "Supervisão Gerenciamento Edificação" in servico:
             pranchas_are = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_are")
         st.divider()
 
-    if "COMUNICAÇÃO VISUAL" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nComunicação Visual")
-        with d2:
-            area_cv = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_cv")
-        with d3:
-            pranchas_cv = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_cv")
-        st.divider()
-
-    if "DRENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nDrenagem")
-        with d2:
-            m2_drec = st.number_input("M²", min_value=0.0, step=1.0, key="m2_dre")
-        with d3:
-            prancha_drec = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_dre")
-        st.divider()
-
-    if "MOBILIÁRIO" in tipo_servico:
-        mobiliario_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Mobiliário")
-        with d2:
-            tipo_mob = st.multiselect("Tipo", ["Edificação", "Urbano"], key="tipo_mob")
-
-        if tipo_mob:
-            colunas = st.columns(min(len(tipo_mob), 3))
-            for i, tipo in enumerate(tipo_mob):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_mob_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, format="%0.f",
-                                              key=f"prancha_mob_{tipo}")
-                    if area > 0 or prancha > 0:
-                        mobiliario_info[tipo] = {"área": area, "prancha": prancha}
-        st.divider()
-
-    if "URBANISTICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nUrbanístico")
-        with d2:
-            area_urb = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_urb")
-        with d3:
-            pranchas_urb = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_urb")
-        st.divider()
-
-    if "PAISAGISTICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nPaisagístico")
-        with d2:
-            area_paisag = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_paisag")
-        with d3:
-            pranchas_paisag = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_paisag")
-        st.divider()
-
     if "AS BUILT" in tipo_servico:
         d1, d2, d3, d4 = st.columns(4)
         with d1:
@@ -760,72 +770,46 @@ if "Supervisão Gerenciamento Edificação" in servico:
             pranchas_ab = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ab")
         st.divider()
 
-    if "MAQ ELET / 3D" in tipo_servico:
-        maqelet_info = {}
-        d1, d2 = st.columns(2)
+    if "CAB. ESTRUTURADO" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
         with d1:
-            st.title("MAQ ELET / 3D")
+            st.write("###### \nCAB. Estruturado")
         with d2:
-            tipo_me3d = st.multiselect("Tipo MAQ ELET / 3D", ["Modelagem 3D", "Maquete Eletrônica"], key="tipo_me3d")
-
-        if tipo_me3d:
-            colunas = st.columns(min(len(tipo_me3d), 3))
-            for i, tipo in enumerate(tipo_me3d):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_maq_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, format="%0.f",
-                                              key=f"prancha_maq_{tipo}")
-                    if area > 0 or prancha > 0:
-                        maqelet_info[tipo] = {"área": area, "prancha": prancha}
+            area_cets = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_cest")
+        with d3:
+            prancha_cets = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_cest", format="%0.f")
         st.divider()
 
-    if "ESTRUTURAL" in tipo_servico:
-        estrutural_info = {}
-        d1, d2 = st.columns(2)
+    if "CLIMATIZAÇÃO" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
-            st.title("Estrutural")
+            st.write("###### \nClimatização")
         with d2:
-            tipo_estedi = st.multiselect("Tipos Estruturais", ["Concreto", "Madeira", "Metálica"], key="tipo_estedi")
-
-        if tipo_estedi:
-            colunas = st.columns(min(len(tipo_estedi), 3))
-            for i, tipo in enumerate(tipo_estedi):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_est_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_est_{tipo}",
-                                              format="%0.f")
-
-                    toneladas = 0.0
-                    if tipo.lower() == "metálica":
-                        toneladas = st.number_input("Toneladas", min_value=0.0, step=0.1, key=f"ton_est_{tipo}")
-
-                    if area > 0 or prancha > 0 or (tipo.lower() == "metálica" and toneladas > 0):
-                        estrutural_info[tipo] = {"área": area, "prancha": prancha}
-                        if tipo.lower() == "metálica":
-                            estrutural_info[tipo]["toneladas"] = toneladas
+            area_clima = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_clima")
+        with d3:
+            kbtuh_clima = st.number_input("kbtu/h", min_value=0.0, step=1.0, key="kbtuh_clima")
+        with d4:
+            prancha_clima = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_clima", format="%0.f")
         st.divider()
 
-    if "FUNDAÇÃO" in tipo_servico:
-        fundacao_info = {}
-        d1, d2 = st.columns(2)
+    if "COMPAT. PROJETOS" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
         with d1:
-            st.title("Fundação")
+            st.write("###### \nCompat. Projetos")
         with d2:
-            tipo_funedi = st.multiselect("Tipo", ["Rasa(sapata, blocos e radier", "Profunda(estaca, tubulão e caixões",
-                                                  "Rasa e Profunda"], key="tipo_funedi")
+            area_comp = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_comp")
+        with d3:
+            prancha_comp = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_comp", format="%0.f")
+        st.divider()
 
-        if tipo_funedi:
-            colunas = st.columns(min(len(tipo_funedi), 3))
-            for i, tipo in enumerate(tipo_funedi):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_fun_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, format="%0.f",
-                                              key=f"prancha_fun_{tipo}")
-                    if area > 0 or prancha > 0:
-                        fundacao_info[tipo] = {"área": area, "prancha": prancha}
+    if "COMUNICAÇÃO VISUAL" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nComunicação Visual")
+        with d2:
+            area_cv = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_cv")
+        with d3:
+            pranchas_cv = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_cv")
         st.divider()
 
     if "CONTENÇÃO" in tipo_servico:
@@ -858,6 +842,145 @@ if "Supervisão Gerenciamento Edificação" in servico:
                         }
         st.divider()
 
+    if "DRENAGEM" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nDrenagem")
+        with d2:
+            m2_drec = st.number_input("M²", min_value=0.0, step=1.0, key="m2_dre")
+        with d3:
+            prancha_drec = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_dre")
+        st.divider()
+
+    if "ELÉTRICO" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nElétrico")
+        with d2:
+            area_ele = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_ele")
+        with d3:
+            kva = st.number_input("KVA", min_value=0.0, step=0.1, key="kva")
+        with d4:
+            prancha_ele = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_ele", format="%0.f")
+        st.divider()
+
+    if "ESTRUTURAL" in tipo_servico:
+        estrutural_info = {}
+        d1, d2 = st.columns(2)
+        with d1:
+            st.title("Estrutural")
+        with d2:
+            tipo_estedi = st.multiselect("Tipos Estruturais", ["Concreto", "Madeira", "Metálica", "Laudo", "Reparo"],
+                                         key="tipo_estedi")
+
+        if tipo_estedi:
+            colunas = st.columns(min(len(tipo_estedi), 3))
+            for i, tipo in enumerate(tipo_estedi):
+                with colunas[i % 3]:
+                    st.markdown(f"**{tipo}**")
+                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_est_{tipo}")
+                    prancha = st.number_input("Prancha", min_value=0, step=1, key=f"prancha_est_{tipo}")
+
+                    toneladas = 0.0
+                    if tipo.lower() == "metálica":
+                        toneladas = st.number_input("Toneladas", min_value=0.0, step=0.1, key=f"ton_est_{tipo}")
+
+                    intervencoes = st.multiselect(
+                        "Tipo(s) de Intervenção",
+                        ["Restauro", "Laudo"],
+                        key=f"intervencao_multi_{tipo}"
+                    )
+
+                    extra_info = {}
+                    if "Restauro" in intervencoes:
+                        area_reparo = st.number_input("Área de Reparo (m²)", min_value=0.0, step=0.1,
+                                                      key=f"area_reparo_{tipo}")
+                        extra_info["Reparo"] = area_reparo
+
+                    if "Laudo" in intervencoes:
+                        unidade_laudo = st.number_input("Unidade Laudo", min_value=0, step=1,
+                                                        key=f"unidade_laudo_{tipo}")
+                        extra_info["Laudo"] = unidade_laudo
+
+                    if area > 0 or prancha > 0 or (tipo.lower() == "metálica" and toneladas > 0) or extra_info:
+                        estrutural_info[tipo] = {
+                            "área": area,
+                            "prancha": prancha,
+                            **extra_info
+                        }
+                        if tipo.lower() == "metálica":
+                            estrutural_info[tipo]["toneladas"] = toneladas
+
+        st.divider()
+
+    if "EXTENSÃO DE REDE" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nExtensão de Rede")
+        with d2:
+            area_extr = st.number_input("KM", min_value=0.0, step=0.1, key="area_extr")
+        with d3:
+            prancha_extr = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_extr", format="%0.f")
+        st.divider()
+
+    if "FUNDAÇÃO" in tipo_servico:
+        fundacao_info = {}
+        d1, d2 = st.columns(2)
+        with d1:
+            st.title("Fundação")
+        with d2:
+            tipo_funedi = st.multiselect("Tipo", ["Rasa(sapata, blocos e radier", "Profunda(estaca, tubulão e caixões",
+                                                  "Rasa e Profunda"], key="tipo_funedi")
+
+        if tipo_funedi:
+            colunas = st.columns(min(len(tipo_funedi), 3))
+            for i, tipo in enumerate(tipo_funedi):
+                with colunas[i % 3]:
+                    st.markdown(f"**{tipo}**")
+                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_fun_{tipo}")
+                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, format="%0.f",
+                                              key=f"prancha_fun_{tipo}")
+                    if area > 0 or prancha > 0:
+                        fundacao_info[tipo] = {"área": area, "prancha": prancha}
+        st.divider()
+
+    if "GASES MEDICINAIS" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nGases Medicinais")
+        with d2:
+            area_hvac = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_hvac")
+        with d3:
+            m3_hvac = st.number_input("m³/h", min_value=0.0, step=1.0, key="m3_hvac")
+        with d4:
+            prancha_hvac = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_hvac", format="%0.f")
+        st.divider()
+
+    if "GERAÇÃO FOTOVOLTAICA" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nGeração Fotovoltaica")
+        with d2:
+            area_gerafoto = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_gerafoto")
+        with d3:
+            kva_gerafoto = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_gerafoto")
+        with d4:
+            prancha_gerafoto = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_gerafoto",
+                                               format="%0.f")
+        st.divider()
+
+    if "GLP" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nGLP")
+        with d2:
+            area_glp = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_glp")
+        with d3:
+            m3_glp = st.number_input("m³/h", min_value=0.0, step=1.0, key="m3_glp")
+        with d4:
+            prancha_glp = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_glp", format="%0.f")
+        st.divider()
+
     if "HIDROSANITÁRIO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
@@ -866,6 +989,18 @@ if "Supervisão Gerenciamento Edificação" in servico:
             area_hds = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_hds")
         with d3:
             prancha_hds = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_hds", format="%0.f")
+        st.divider()
+
+    if "ILUMINAÇÃO PUBLICA" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nIluminação Pública")
+        with d2:
+            area_ilupu = st.number_input("Área (km)", min_value=0.0, step=1.0, key="area_ilupu")
+        with d3:
+            ponto_ilupu = st.number_input("Pontos", min_value=0, step=1, key="ponto_ilupu")
+        with d4:
+            prancha_ilupu = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_ilupu", format="%0.f")
         st.divider()
 
     if "IRRIGAÇÃO" in tipo_servico:
@@ -878,14 +1013,74 @@ if "Supervisão Gerenciamento Edificação" in servico:
             prancha_irri = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_irri", format="%0.f")
         st.divider()
 
-    if "SPCI" in tipo_servico:
+    if "MAQ ELET / 3D" in tipo_servico:
+        maqelet_info = {}
+        d1, d2 = st.columns(2)
+        with d1:
+            st.title("MAQ ELET / 3D")
+        with d2:
+            tipo_me3d = st.multiselect("Tipo MAQ ELET / 3D", ["Modelagem 3D", "Maquete Eletrônica"], key="tipo_me3d")
+
+        if tipo_me3d:
+            colunas = st.columns(min(len(tipo_me3d), 3))
+            for i, tipo in enumerate(tipo_me3d):
+                with colunas[i % 3]:
+                    st.markdown(f"**{tipo}**")
+                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_maq_{tipo}")
+                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, format="%0.f",
+                                              key=f"prancha_maq_{tipo}")
+                    if area > 0 or prancha > 0:
+                        maqelet_info[tipo] = {"área": area, "prancha": prancha}
+        st.divider()
+
+    if "MOBILIÁRIO" in tipo_servico:
+        mobiliario_info = {}
+        d1, d2 = st.columns(2)
+        with d1:
+            st.title("Mobiliário")
+        with d2:
+            tipo_mob = st.multiselect("Tipo", ["Edificação", "Urbano"], key="tipo_mob")
+
+        if tipo_mob:
+            colunas = st.columns(min(len(tipo_mob), 3))
+            for i, tipo in enumerate(tipo_mob):
+                with colunas[i % 3]:
+                    st.markdown(f"**{tipo}**")
+                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_mob_{tipo}")
+                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, format="%0.f",
+                                              key=f"prancha_mob_{tipo}")
+                    if area > 0 or prancha > 0:
+                        mobiliario_info[tipo] = {"área": area, "prancha": prancha}
+        st.divider()
+
+    if "ORÇAMENTO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("###### \nSPCI")
+            st.write("###### \nOrçamento")
         with d2:
-            area_spci = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_spci")
+            area_orc = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_orc")
         with d3:
-            prancha_spci = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_spci", format="%0.f")
+            prancha_orc = st.number_input("Área(km)", min_value=0.0, step=1.0, key="prancha_orc")
+        st.divider()
+
+    if "PAISAGISTICO" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nPaisagístico")
+        with d2:
+            area_paisag = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_paisag")
+        with d3:
+            pranchas_paisag = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_paisag")
+        st.divider()
+
+    if "REURB" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nREURB")
+        with d2:
+            area_reurb = st.number_input("Un. Habitacionais", min_value=0.0, step=1.0, key="area_reurb", format="%0.f")
+        with d3:
+            prancha_reurb = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_reurb", format="%0.f")
         st.divider()
 
     if "SONDAGEM" in tipo_servico:
@@ -913,6 +1108,26 @@ if "Supervisão Gerenciamento Edificação" in servico:
                             "metros": metros_geo,
                             "prancha": prancha_geo
                         }
+        st.divider()
+
+    if "SPCI" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nSPCI")
+        with d2:
+            area_spci = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_spci")
+        with d3:
+            prancha_spci = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_spci", format="%0.f")
+        st.divider()
+
+    if "SPDA" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nSPDA")
+        with d2:
+            area_spda = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_spda")
+        with d3:
+            prancha_spda = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_spda", format="%0.f")
         st.divider()
 
     if "TERRAPLENAGEM (PLANTA/SEÇÕES)" in tipo_servico:
@@ -945,184 +1160,34 @@ if "Supervisão Gerenciamento Edificação" in servico:
             area_top = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_top")
         st.divider()
 
-    if "ORÇAMENTO" in tipo_servico:
+    if "URBANISTICO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("###### \nOrçamento")
+            st.write("###### \nUrbanístico")
         with d2:
-            area_orc = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_orc")
+            area_urb = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_urb")
         with d3:
-            prancha_orc = st.number_input("Área(km)", min_value=0.0, step=1.0, key="prancha_orc")
-        st.divider()
-
-    if "ELÉTRICO" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("###### \nElétrico")
-        with d2:
-            area_ele = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_ele")
-        with d3:
-            kva = st.number_input("KVA", min_value=0.0, step=0.1, key="kva")
-        with d4:
-            prancha_ele = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_ele", format="%0.f")
-        st.divider()
-
-    if "GERAÇÃO FOTOVOLTAICA" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("###### \nGeração Fotovoltaica")
-        with d2:
-            area_gerafoto = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_gerafoto")
-        with d3:
-            kva_gerafoto = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_gerafoto")
-        with d4:
-            prancha_gerafoto = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_gerafoto",
-                                               format="%0.f")
-        st.divider()
-
-    if "CAB. ESTRUTURADO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nCAB. Estruturado")
-        with d2:
-            area_cets = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_cest")
-        with d3:
-            prancha_cets = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_cest", format="%0.f")
-        st.divider()
-
-    if "SPDA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nSPDA")
-        with d2:
-            area_spda = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_spda")
-        with d3:
-            prancha_spda = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_spda", format="%0.f")
-        st.divider()
-
-    if "ALARME/CFTV" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nAlarme/CFTV")
-        with d2:
-            area_cftv = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_cftv")
-        with d3:
-            prancha_cftv = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_cftv", format="%0.f")
-        st.divider()
-
-    if "EXTENSÃO DE REDE" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nExtensão de Rede")
-        with d2:
-            area_extr = st.number_input("KM", min_value=0.0, step=0.1, key="area_extr")
-        with d3:
-            prancha_extr = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_extr", format="%0.f")
-        st.divider()
-
-    if "ILUMINAÇÃO PUBLICA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nIluminação Pública")
-        with d2:
-            area_ilupu = st.number_input("Pontos", min_value=0, step=1, key="area_ilupu")
-        with d3:
-            prancha_ilupu = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_ilupu", format="%0.f")
-        st.divider()
-
-    if "AR CONDICIONADO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nAr Condicionado")
-        with d2:
-            area_arcond = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_arcond")
-        with d3:
-            prancha_arcond = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_arcond", format="%0.f")
+            pranchas_urb = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_urb")
         st.divider()
 
     if "VENTILAÇÃO/EXAUSTÃO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
             st.write("###### \nVentilação/Exaustão")
         with d2:
             area_venex = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_venex")
         with d3:
+            kbtuh_venex = st.number_input("kbtu/h", min_value=0.0, step=1.0, key="kbtuh_venex")
+        with d4:
             prancha_venex = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_venex", format="%0.f")
         st.divider()
 
-    if "GLP" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nGLP")
-        with d2:
-            area_glp = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_glp")
-        with d3:
-            prancha_glp = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_glp", format="%0.f")
-        st.divider()
-
-    if "GASES MEDICINAIS" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nGases Medicinais")
-        with d2:
-            area_hvac = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_hvac")
-        with d3:
-            prancha_hvac = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_hvac", format="%0.f")
-        st.divider()
-
-    if "COMPAT. PROJETOS" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nCompat. Projetos")
-        with d2:
-            area_comp = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_comp")
-        with d3:
-            prancha_comp = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_comp", format="%0.f")
-        st.divider()
-
-    if "ACÚSTICA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nAcústica")
-        with d2:
-            area_acus = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_acus")
-        with d3:
-            prancha_acus = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_acus", format="%0.f")
-        st.divider()
-
-    if "REURB" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nREURB")
-        with d2:
-            area_reurb = st.number_input("Un. Habitacionais", min_value=0.0, step=1.0, key="area_reurb", format="%0.f")
-        with d3:
-            prancha_reurb = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_reurb", format="%0.f")
-        st.divider()
-
-if "Projeto Vias Urbanas" in servico:
-    tipo_servicos = ["URBANISTICO", "PAISAGISTICO", "ANTEPROJETO DE INFRA", "BATIMETRIA","GEOMÉTRICO", "TERRAPLENAGEM", "HIDROLOGIA", "DRENAGEM", "PAVIMENTAÇÃO", "ESTRUTURAL", "SINALIZAÇÃO", "SONDAGEM", "TOPOGRAFIA", "ORÇAMENTO", "CONTENÇÃO", "OAE", "FUNDAÇÃO", "MEIO AMBIENTE", "COMPAT. PROJETOS", "ELÉTRICO", "GERAÇÃO FOTOVOLTAICA","EXTENSÃO DE REDE", "ILUMINAÇÃO PUBLICA"]
+if "Projeto Vias Urbanas" in servico or "Supervisão Gerenciamento Vias Urbanas" in servico:
+    tipo_servicos = ["ANTEPROJETO DE INFRA", "BATIMETRIA", "COMPAT. PROJETOS", "CONTENÇÃO", "DRENAGEM", "ELÉTRICO",
+                     "ESTRUTURAL", "EXTENSÃO DE REDE", "FUNDAÇÃO", "GERAÇÃO FOTOVOLTAICA", "GEOMÉTRICO", "HIDROLOGIA",
+                     "ILUMINAÇÃO PUBLICA", "MEIO AMBIENTE", "OAE", "ORÇAMENTO", "PAISAGISTICO", "PAVIMENTAÇÃO", "SANEAMENTO",
+                     "SINALIZAÇÃO", "SONDAGEM", "TERRAPLENAGEM", "TOPOGRAFIA", "URBANISTICO"]
     tipo_servico = st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
-
-    if "URBANISTICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nUrbanístico""")
-        with d2:
-            area_urvi = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_urvi")
-        with d3:
-            prancha_urvi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_urvi")
-        st.divider()
-
-    if "PAISAGISTICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nPaisagístico""")
-        with d2:
-            area_paisavi = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_paisavi")
-        with d3:
-            prancha_paisavi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_paisavi")
-        st.divider()
 
     if "ANTEPROJETO DE INFRA" in tipo_servico:
         d1, d2, d3 = st.columns(3)
@@ -1144,173 +1209,14 @@ if "Projeto Vias Urbanas" in servico:
             prancha_bati = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_bati")
         st.divider()
 
-    if "GEOMÉTRICO" in tipo_servico:
+    if "COMPAT. PROJETOS" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("""###### \nGeométrico""")
+            st.write("""###### \nCompat. Projetos""")
         with d2:
-            km_geo = st.number_input("KM", min_value=0.0, step=1.0, key="km_geo")
+            area_infracomp = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_infracomp")
         with d3:
-            prancha_geo = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_geo")
-        st.divider()
-
-    if "TERRAPLENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nTerraplenagem""")
-        with d2:
-            km_ter = st.number_input("KM", min_value=0.0, step=1.0, key="km_ter")
-        with d3:
-            prancha_ter = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ter")
-        st.divider()
-
-    if "HIDROLOGIA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nTerraplenagem""")
-        with d2:
-            vazao_hidro = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidro")
-        with d3:
-            prancha_hidro = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_hidro")
-        st.divider()
-
-    if "DRENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nDrenagem""")
-        with d2:
-            km_dre = st.number_input("KM", min_value=0.0, step=1.0, key="km_dre")
-        with d3:
-            prancha_dre = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_dre")
-        st.divider()
-
-    if "ESTRUTURAL" in tipo_servico:
-        vu_estrutural_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Estrutural")
-        with d2:
-            tipo_estpep = st.multiselect("Tipos Estruturais", ["Concreto", "Madeira", "Metálica"], key="tipo_estpep")
-
-        if tipo_estpep:
-            colunas = st.columns(min(len(tipo_estpep), 3))
-            for i, tipo in enumerate(tipo_estpep):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_est_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_est_{tipo}",
-                                              format="%0.f")
-
-                    toneladas = 0.0
-                    if tipo.lower() == "metálica":
-                        toneladas = st.number_input("Toneladas", min_value=0.0, step=0.1, key=f"ton_est_{tipo}")
-
-                    if area > 0 or prancha > 0 or (tipo.lower() == "metálica" and toneladas > 0):
-                        vu_estrutural_info[tipo] = {"área": area, "prancha": prancha}
-                        if tipo.lower() == "metálica":
-                            vu_estrutural_info[tipo]["toneladas"] = toneladas
-        st.divider()
-
-    if "PAVIMENTAÇÃO" in tipo_servico:
-        vu_pavimentacao_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Pavimentação")
-        with d2:
-            tipo_pavvu = st.multiselect("Tipo", ["Recapeamento", "Intertravado","CBUQ", "CONCRETO", "TSD"], key="tipo_pavvu")
-
-        if tipo_pavvu:
-            colunas = st.columns(min(len(tipo_pavvu), 5))
-            for i, tipo in enumerate(tipo_pavvu):
-                with colunas[i % 5]:
-                    st.markdown(f"**{tipo}**")
-                    km_pav = st.number_input("KM", min_value=0.0, step=1.0, key=f"km_pav_{tipo}")
-                    m_pav = st.number_input("Área (m²)", min_value=0.0, step=1.0, key=f"m_pav_{tipo}")
-                    prancha_pav = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_pav_{tipo}",
-                                                  format="%0.f")
-                    if km_pav > 0 or m_pav > 0 or prancha_pav > 0:
-                        vu_pavimentacao_info[tipo] = {"km": km_pav, "m²": m_pav, "prancha": prancha_pav}
-        st.divider()
-
-    if "SINALIZAÇÃO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nSinalização""")
-        with d2:
-            km_sinal = st.number_input("KM", min_value=0.0, step=1.0, key="km_sinal")
-        with d3:
-            prancha_sinal = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_sinal")
-        st.divider()
-
-    if "SONDAGEM" in tipo_servico:
-        vu_sondagem_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Sondagem")
-        with d2:
-            tipo_sonda = st.multiselect("Tipo", ["SPT", "Rotativa", "Trado", "Mista"], key="tipo_sonda")
-
-        if tipo_sonda:
-            colunas = st.columns(min(len(tipo_sonda), 4))
-            for i, tipo in enumerate(tipo_sonda):
-                with colunas[i % 4]:
-                    st.markdown(f"**{tipo}**")
-                    unidade_geo = st.number_input("Unidade", min_value=0.0, step=1.0, format="%.0f",
-                                                  key=f"unidade_sondagem_{tipo}")
-                    metros_geo = st.number_input("Metros (m)", min_value=0.0, step=0.1, key=f"metros_sondagem_{tipo}")
-                    prancha_geo = st.number_input("Prancha", min_value=0.0, step=1.0, format="%.0f",
-                                                  key=f"Prancha_{tipo}")
-
-                    if unidade_geo > 0 or metros_geo > 0:
-                        vu_sondagem_info[tipo] = {
-                            "unidade": unidade_geo,
-                            "metros": metros_geo,
-                            "prancha": prancha_geo
-                        }
-        st.divider()
-
-    if "TOPOGRAFIA" in tipo_servico:
-        vu_topografia_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Topografia")
-        with d2:
-            tipo_topvu = st.multiselect("Tipo", [
-                "Planialtimétrico",
-                "Georreferenciado",
-                "Aerofotogrametria",
-                "Planialtimétrico georreferenciado",
-                "Planialtimétrico georreferenciado e aerofotogrametrico",
-                "Planialtimétrico aerofotogrametrico"
-            ], key="tipo_topvu")
-
-        if tipo_topvu:
-            colunas = st.columns(min(len(tipo_topvu), 3))
-            for i, tipo in enumerate(tipo_topvu):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    cadastral_top = st.selectbox(f"Cadastral ({tipo})", ["Não", "Sim"], key=f"cadastral_top_{tipo}")
-                    km_top = st.number_input("KM", min_value=0.0, step=1.0, key=f"km_top_{tipo}")
-                    area_top = st.number_input("Área (m²)", min_value=0.0, step=1.0, key=f"area_top_{tipo}")
-                    prancha_top = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_top_{tipo}",
-                                                  format="%0.f")
-                    if km_top > 0 or area_top > 0 or prancha_top > 0:
-                        vu_topografia_info[tipo] = {
-                            "cadastral": cadastral_top,
-                            "km": km_top,
-                            "área": area_top,
-                            "prancha": prancha_top
-                        }
-        st.divider()
-
-    if "ORÇAMENTO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nOrçamento""")
-        with d2:
-            km_orc = st.number_input("Área(km)", min_value=0.0, step=1.0, key="km_orc")
-        with d3:
-            area_infraorc = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_infraorc")
+            prancha_infracomp = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_infracomp")
         st.divider()
 
     if "CONTENÇÃO" in tipo_servico:
@@ -1342,26 +1248,84 @@ if "Projeto Vias Urbanas" in servico:
                         }
         st.divider()
 
-    if "OAE" in tipo_servico:
-        vu_oae_info = {}
+    if "DRENAGEM" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("""###### \nDrenagem""")
+        with d2:
+            km_dre = st.number_input("KM", min_value=0.0, step=1.0, key="km_dre")
+        with d3:
+            prancha_dre = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_dre")
+        st.divider()
+
+    if "ELÉTRICO" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("""###### \nElétrico""")
+        with d2:
+            area_ele = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_ele")
+        with d3:
+            kva_vu = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_vu")
+        with d4:
+            prancha_ele = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ele")
+        st.divider()
+
+    if "ESTRUTURAL" in tipo_servico:
+        vu_estrutural_info = {}
         d1, d2 = st.columns(2)
         with d1:
-            st.title("OAE")
+            st.title("Estrutural")
         with d2:
-            tipo_oaevu = st.multiselect("Tipo", ["Laudo", "Concreto armado", "Concreto protendido", "Balanço sucessivo",
-                                                 "Ponte estaiada", "Ponte mista"], key="tipo_oaevu")
+            tipo_estpep = st.multiselect("Tipos Estruturais", ["Concreto", "Madeira", "Metálica"], key="tipo_estpep")
 
-        if tipo_oaevu:
-            colunas = st.columns(min(len(tipo_oaevu), 3))
-            for i, tipo in enumerate(tipo_oaevu):
+        if tipo_estpep:
+            colunas = st.columns(min(len(tipo_estpep), 3))
+            for i, tipo in enumerate(tipo_estpep):
                 with colunas[i % 3]:
                     st.markdown(f"**{tipo}**")
-                    area_oae = st.number_input("Área (m²)", min_value=0.0, step=1.0, key=f"area_oae_{tipo}")
-                    vao_oae = st.number_input("Vão (m)", min_value=0.0, step=0.1, key=f"vao_oae_{tipo}")
-                    prancha_oae = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_oae_{tipo}",
-                                                  format="%0.f")
-                    if area_oae > 0 or vao_oae > 0 or prancha_oae > 0:
-                        vu_oae_info[tipo] = {"área": area_oae, "vão": vao_oae, "prancha": prancha_oae}
+                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_est_{tipo}")
+                    prancha = st.number_input("Prancha", min_value=0, step=1, key=f"prancha_est_{tipo}")
+
+                    toneladas = 0.0
+                    if tipo.lower() == "metálica":
+                        toneladas = st.number_input("Toneladas", min_value=0.0, step=0.1, key=f"ton_est_{tipo}")
+
+                    intervencoes = st.multiselect(
+                        "Tipo(s) de Intervenção",
+                        ["Restauro", "Laudo"],
+                        key=f"intervencao_multi_{tipo}"
+                    )
+
+                    extra_info = {}
+                    if "Restauro" in intervencoes:
+                        area_reparo = st.number_input("Área de Reparo (m²)", min_value=0.0, step=0.1,
+                                                      key=f"area_reparo_{tipo}")
+                        extra_info["Reparo"] = area_reparo
+
+                    if "Laudo" in intervencoes:
+                        unidade_laudo = st.number_input("Unidade Laudo", min_value=0, step=1,
+                                                        key=f"unidade_laudo_{tipo}")
+                        extra_info["Laudo"] = unidade_laudo
+
+                    if area > 0 or prancha > 0 or (tipo.lower() == "metálica" and toneladas > 0) or extra_info:
+                        vu_estrutural_info[tipo] = {
+                            "área": area,
+                            "prancha": prancha,
+                            **extra_info
+                        }
+                        if tipo.lower() == "metálica":
+                            vu_estrutural_info[tipo]["toneladas"] = toneladas
+
+        st.divider()
+
+    if "EXTENSÃO DE REDE" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("""###### \nExtensão de Rede""")
+        with d2:
+            area_extr = st.number_input("KM", min_value=0.0, step=0.1, key="area_extr")
+        with d3:
+            prancha_extr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_extr")
         st.divider()
 
     if "FUNDAÇÃO" in tipo_servico:
@@ -1383,6 +1347,50 @@ if "Projeto Vias Urbanas" in servico:
                                                    format="%0.f")
                     if m2_fund > 0 or prancha_fund > 0:
                         vu_fundacao_info[tipo] = {"m²": m2_fund, "prancha": prancha_fund}
+        st.divider()
+
+    if "GERAÇÃO FOTOVOLTAICA" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nGeração Fotovoltaica")
+        with d2:
+            area_gerafotovu = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_gerafotovu")
+        with d3:
+            kva_gerafotovu = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_gerafotovu")
+        with d4:
+            prancha_gerafotovu = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_gerafotovu", format="%0.f")
+        st.divider()
+
+    if "GEOMÉTRICO" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("""###### \nGeométrico""")
+        with d2:
+            km_geo = st.number_input("KM", min_value=0.0, step=1.0, key="km_geo")
+        with d3:
+            prancha_geo = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_geo")
+        st.divider()
+
+    if "HIDROLOGIA" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("""###### \nTerraplenagem""")
+        with d2:
+            vazao_hidro = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidro")
+        with d3:
+            prancha_hidro = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_hidro")
+        st.divider()
+
+    if "ILUMINAÇÃO PUBLICA" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("""###### \nIluminação Pública""")
+        with d2:
+            area_ilupuvu = st.number_input("Área(km)", min_value=0.0, step=1.0, key="area_ilupuvu")
+        with d3:
+            ponto_ilupuvu = st.number_input("Pontos", min_value=0.0, step=1.0, key="ponto_ilupuvu", format="%0.f")
+        with d4:
+            prancha_ilupuvu = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ilupuvu")
         st.divider()
 
     if "MEIO AMBIENTE" in tipo_servico:
@@ -1421,75 +1429,37 @@ if "Projeto Vias Urbanas" in servico:
                         }
         st.divider()
 
-    if "COMPAT. PROJETOS" in tipo_servico:
+    if "OAE" in tipo_servico:
+        vu_oae_info = {}
+        d1, d2 = st.columns(2)
+        with d1:
+            st.title("OAE")
+        with d2:
+            tipo_oaevu = st.multiselect("Tipo", ["Laudo", "Concreto armado", "Concreto protendido",
+                                                 "Balanço sucessivo", "Ponte estaiada", "Ponte mista"],
+                                        key="tipo_oaevu")
+
+        if tipo_oaevu:
+            colunas = st.columns(min(len(tipo_oaevu), 3))
+            for i, tipo in enumerate(tipo_oaevu):
+                with colunas[i % 3]:
+                    st.markdown(f"**{tipo}**")
+                    area_oae = st.number_input("Área (m²)", min_value=0.0, step=1.0, key=f"area_oae_{tipo}")
+                    vao_oae = st.number_input("Vão (m)", min_value=0.0, step=0.1, key=f"vao_oae_{tipo}")
+                    prancha_oae = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_oae_{tipo}",
+                                                  format="%0.f")
+                    if area_oae > 0 or vao_oae > 0 or prancha_oae > 0:
+                        vu_oae_info[tipo] = {"área": area_oae, "vão": vao_oae, "prancha": prancha_oae}
+        st.divider()
+
+    if "ORÇAMENTO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("""###### \nCompat. Projetos""")
+            st.write("""###### \nOrçamento""")
         with d2:
-            area_infracomp = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_infracomp")
+            km_orc = st.number_input("Área(km)", min_value=0.0, step=1.0, key="km_orc")
         with d3:
-            prancha_infracomp = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_infracomp")
-        st.divider()
-
-    if "ELÉTRICO" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("""###### \nElétrico""")
-        with d2:
-            area_ele = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_ele")
-        with d3:
-            kva_vu = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_vu")
-        with d4:
-            prancha_ele = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ele")
-        st.divider()
-
-    if "GERAÇÃO FOTOVOLTAICA" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("###### \nGeração Fotovoltaica")
-        with d2:
-            area_gerafotovu = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_gerafotovu")
-        with d3:
-            kva_gerafotovu = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_gerafotovu")
-        with d4:
-            prancha_gerafotovu = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_gerafotovu", format="%0.f")
-        st.divider()
-
-    if "EXTENSÃO DE REDE" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nExtensão de Rede""")
-        with d2:
-            area_extr = st.number_input("KM", min_value=0.0, step=0.1, key="area_extr")
-        with d3:
-            prancha_extr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_extr")
-        st.divider()
-
-    if "ILUMINAÇÃO PUBLICA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nIluminação Pública""")
-        with d2:
-            area_ilupu = st.number_input("Pontos", min_value=0.0, step=1.0, key="area_ilupu", format="%0.f")
-        with d3:
-            prancha_ilupu = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ilupu")
-        st.divider()
-
-if "Supervisão Gerenciamento Vias Urbanas" in servico:
-    tipo_servicos = ["URBANISTICO", "PAISAGISTICO", "ANTEPROJETO DE INFRA", "BATIMETRIA", "GEOMÉTRICO", "TERRAPLENAGEM",
-                     "HIDROLOGIA", "DRENAGEM", "PAVIMENTAÇÃO", "ESTRUTURAL", "SINALIZAÇÃO", "SONDAGEM", "TOPOGRAFIA",
-                     "ORÇAMENTO", "CONTENÇÃO", "OAE", "FUNDAÇÃO", "MEIO AMBIENTE", "COMPAT. PROJETOS", "ELÉTRICO",
-                     "GERAÇÃO FOTOVOLTAICA", "EXTENSÃO DE REDE", "ILUMINAÇÃO PUBLICA"]
-    tipo_servico = st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
-
-    if "URBANISTICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nUrbanístico""")
-        with d2:
-            area_urvi = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_urvi")
-        with d3:
-            prancha_urvi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_urvi")
+            area_infraorc = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_infraorc")
         st.divider()
 
     if "PAISAGISTICO" in tipo_servico:
@@ -1502,101 +1472,13 @@ if "Supervisão Gerenciamento Vias Urbanas" in servico:
             prancha_paisavi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_paisavi")
         st.divider()
 
-    if "ANTEPROJETO DE INFRA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nAnteprojeto de Infra""")
-        with d2:
-            km_anti = st.number_input("KM", min_value=0.0, step=1.0, key="km_anti")
-        with d3:
-            prancha_anti = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_anti")
-        st.divider()
-
-    if "BATIMETRIA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nBatimetria""")
-        with d2:
-            m2_bati = st.number_input("M²", min_value=0.0, step=1.0, key="m2_bati")
-        with d3:
-            prancha_bati = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_bati")
-        st.divider()
-
-    if "GEOMÉTRICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nGeométrico""")
-        with d2:
-            km_geo = st.number_input("KM", min_value=0.0, step=1.0, key="km_geo")
-        with d3:
-            prancha_geo = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_geo")
-        st.divider()
-
-    if "TERRAPLENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nTerraplenagem""")
-        with d2:
-            km_ter = st.number_input("KM", min_value=0.0, step=1.0, key="km_ter")
-        with d3:
-            prancha_ter = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ter")
-        st.divider()
-
-    if "HIDROLOGIA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nTerraplenagem""")
-        with d2:
-            vazao_hidro = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidro")
-        with d3:
-            prancha_hidro = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_hidro")
-        st.divider()
-
-    if "DRENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nDrenagem""")
-        with d2:
-            km_dre = st.number_input("KM", min_value=0.0, step=1.0, key="km_dre")
-        with d3:
-            prancha_dre = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_dre")
-        st.divider()
-
-    if "ESTRUTURAL" in tipo_servico:
-        vu_estrutural_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Estrutural")
-        with d2:
-            tipo_estpep = st.multiselect("Tipos Estruturais", ["Concreto", "Madeira", "Metálica"], key="tipo_estpep")
-
-        if tipo_estpep:
-            colunas = st.columns(min(len(tipo_estpep), 3))
-            for i, tipo in enumerate(tipo_estpep):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_est_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_est_{tipo}",
-                                              format="%0.f")
-
-                    toneladas = 0.0
-                    if tipo.lower() == "metálica":
-                        toneladas = st.number_input("Toneladas", min_value=0.0, step=0.1, key=f"ton_est_{tipo}")
-
-                    if area > 0 or prancha > 0 or (tipo.lower() == "metálica" and toneladas > 0):
-                        vu_estrutural_info[tipo] = {"área": area, "prancha": prancha}
-                        if tipo.lower() == "metálica":
-                            vu_estrutural_info[tipo]["toneladas"] = toneladas
-        st.divider()
-
     if "PAVIMENTAÇÃO" in tipo_servico:
         vu_pavimentacao_info = {}
         d1, d2 = st.columns(2)
         with d1:
             st.title("Pavimentação")
         with d2:
-            tipo_pavvu = st.multiselect("Tipo", ["Recapeamento", "Intertravado", "CBUQ", "CONCRETO", "TSD"],
-                                        key="tipo_pavvu")
+            tipo_pavvu = st.multiselect("Tipo", ["Recapeamento", "Intertravado","CBUQ", "CONCRETO", "TSD"], key="tipo_pavvu")
 
         if tipo_pavvu:
             colunas = st.columns(min(len(tipo_pavvu), 5))
@@ -1609,6 +1491,18 @@ if "Supervisão Gerenciamento Vias Urbanas" in servico:
                                                   format="%0.f")
                     if km_pav > 0 or m_pav > 0 or prancha_pav > 0:
                         vu_pavimentacao_info[tipo] = {"km": km_pav, "m²": m_pav, "prancha": prancha_pav}
+        st.divider()
+
+    if "SANEAMENTO" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("""###### \nSaneamento""")
+        with d2:
+            area_sane = st.number_input("Extensão(m)", min_value=0.0, step=1.0, key="area_sane")
+        with d3:
+            vazao_sane = st.number_input("Vazão(l/s)", min_value=0.0, step=0.1, key="vazao_sane")
+        with d4:
+            prancha_sane = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_sane")
         st.divider()
 
     if "SINALIZAÇÃO" in tipo_servico:
@@ -1648,6 +1542,16 @@ if "Supervisão Gerenciamento Vias Urbanas" in servico:
                         }
         st.divider()
 
+    if "TERRAPLENAGEM" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("""###### \nTerraplenagem""")
+        with d2:
+            km_ter = st.number_input("KM", min_value=0.0, step=1.0, key="km_ter")
+        with d3:
+            prancha_ter = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ter")
+        st.divider()
+
     if "TOPOGRAFIA" in tipo_servico:
         vu_topografia_info = {}
         d1, d2 = st.columns(2)
@@ -1682,203 +1586,22 @@ if "Supervisão Gerenciamento Vias Urbanas" in servico:
                         }
         st.divider()
 
-    if "ORÇAMENTO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nOrçamento""")
-        with d2:
-            km_orc = st.number_input("Área(km)", min_value=0.0, step=1.0, key="km_orc")
-        with d3:
-            area_infraorc = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_infraorc")
-        st.divider()
-
-    if "CONTENÇÃO" in tipo_servico:
-        vu_contencao_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Contenção")
-        with d2:
-            tipo_contvu = st.multiselect("Tipo",
-                                         ["Laudo", "Concreto", "Muro de arrimo", "Gabião", "Terra armada",
-                                          "Cortina atirantada"],
-                                         key="tipo_contvu")
-
-        if tipo_contvu:
-            colunas = st.columns(min(len(tipo_contvu), 3))
-            for i, tipo in enumerate(tipo_contvu):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    m_cont = st.number_input("M", min_value=0.0, step=1.0, key=f"m_cont_{tipo}")
-                    m2_cont = st.number_input("M²", min_value=0.0, step=0.1, key=f"m2_cont_{tipo}")
-                    m3_cont = st.number_input("M³", min_value=0.0, step=0.1, key=f"m3_cont_{tipo}")
-                    prancha_cont = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_cont_{tipo}",
-                                                   format="%0.f")
-                    if m_cont > 0 or m2_cont > 0 or m3_cont > 0 or prancha_cont > 0:
-                        vu_contencao_info[tipo] = {
-                            "m": m_cont,
-                            "m²": m2_cont,
-                            "m³": m3_cont,
-                            "prancha": prancha_cont
-                        }
-        st.divider()
-
-    if "OAE" in tipo_servico:
-        vu_oae_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("OAE")
-        with d2:
-            tipo_oaevu = st.multiselect("Tipo", ["Laudo", "Concreto armado", "Concreto protendido", "Balanço sucessivo",
-                                                 "Ponte estaiada", "Ponte mista"], key="tipo_oaevu")
-
-        if tipo_oaevu:
-            colunas = st.columns(min(len(tipo_oaevu), 3))
-            for i, tipo in enumerate(tipo_oaevu):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area_oae = st.number_input("Área (m²)", min_value=0.0, step=1.0, key=f"area_oae_{tipo}")
-                    vao_oae = st.number_input("Vão (m)", min_value=0.0, step=0.1, key=f"vao_oae_{tipo}")
-                    prancha_oae = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_oae_{tipo}",
-                                                  format="%0.f")
-                    if area_oae > 0 or vao_oae > 0 or prancha_oae > 0:
-                        vu_oae_info[tipo] = {"área": area_oae, "vão": vao_oae, "prancha": prancha_oae}
-        st.divider()
-
-    if "FUNDAÇÃO" in tipo_servico:
-        vu_fundacao_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Fundação")
-        with d2:
-            tipo_fundvu = st.multiselect("Tipo", ["Rasa(sapata, blocos e radier)", "Profunda(estaca, tubulão, caixões)",
-                                                  "Rasa e Profunda"], key="tipo_fundvu")
-
-        if tipo_fundvu:
-            colunas = st.columns(min(len(tipo_fundvu), 3))
-            for i, tipo in enumerate(tipo_fundvu):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    m2_fund = st.number_input("Área (m²)", min_value=0.0, step=1.0, key=f"m2_fund_{tipo}")
-                    prancha_fund = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_fund_{tipo}",
-                                                   format="%0.f")
-                    if m2_fund > 0 or prancha_fund > 0:
-                        vu_fundacao_info[tipo] = {"m²": m2_fund, "prancha": prancha_fund}
-        st.divider()
-
-    if "MEIO AMBIENTE" in tipo_servico:
-        vu_meioambiente_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Meio Ambiente")
-        with d2:
-            tipo_meivu = st.multiselect(
-                "Tipo",
-                ["EIA/RIMA", "RCA/PCA", "RCA", "PCA", "RADA", "PRADA", "Inventário Florestal"],
-                key="tipo_meivu"
-            )
-
-        if tipo_meivu:
-            colunas = st.columns(min(len(tipo_meivu), 3))
-            for i, tipo in enumerate(tipo_meivu):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    unidade_mei = st.number_input(
-                        "Unidade",
-                        min_value=0,
-                        step=1,
-                        key=f"unidade_mei_{tipo}"
-                    )
-                    prancha_mei = st.number_input(
-                        "Prancha",
-                        min_value=0,
-                        step=1,
-                        key=f"prancha_mei_{tipo}"
-                    )
-                    if unidade_mei > 0 or prancha_mei > 0:
-                        vu_meioambiente_info[tipo] = {
-                            "unidade": unidade_mei,
-                            "prancha": prancha_mei
-                        }
-        st.divider()
-
-    if "COMPAT. PROJETOS" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nCompat. Projetos""")
-        with d2:
-            area_infracomp = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_infracomp")
-        with d3:
-            prancha_infracomp = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_infracomp")
-        st.divider()
-
-    if "ELÉTRICO" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("""###### \nElétrico""")
-        with d2:
-            area_ele = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_ele")
-        with d3:
-            kva_vu = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_vu")
-        with d4:
-            prancha_ele = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ele")
-        st.divider()
-
-    if "GERAÇÃO FOTOVOLTAICA" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("###### \nGeração Fotovoltaica")
-        with d2:
-            area_gerafotovu = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_gerafotovu")
-        with d3:
-            kva_gerafotovu = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_gerafotovu")
-        with d4:
-            prancha_gerafotovu = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_gerafotovu",
-                                                 format="%0.f")
-        st.divider()
-
-    if "EXTENSÃO DE REDE" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nExtensão de Rede""")
-        with d2:
-            area_extr = st.number_input("KM", min_value=0.0, step=0.1, key="area_extr")
-        with d3:
-            prancha_extr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_extr")
-        st.divider()
-
-    if "ILUMINAÇÃO PUBLICA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nIluminação Pública""")
-        with d2:
-            area_ilupu = st.number_input("Pontos", min_value=0.0, step=1.0, key="area_ilupu", format="%0.f")
-        with d3:
-            prancha_ilupu = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ilupu")
-        st.divider()
-
-if "Projeto Rodovias" in servico:
-    tipo_servicos = ["URBANISTICO", "PAISAGISTICO", "ANTEPROJETO DE INFRA", "BATIMETRIA","GEOMÉTRICO", "TERRAPLENAGEM", "HIDROLOGIA", "DRENAGEM", "ESTRUTURAL", "PAVIMENTAÇÃO", "SINALIZAÇÃO", "SONDAGEM","TOPOGRAFIA", "ORÇAMENTO", "CONTENÇÃO", "OAE", "FUNDAÇÃO", "MEIO AMBIENTE", "COMPAT. PROJETOS", "ELÉTRICO", "GERAÇÃO FOTOVOLTAICA","ILUMINAÇÃO PUBLICA", "EXTENSÃO DE REDE"]
-    tipo_servico = st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
-
     if "URBANISTICO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("###### \nUrbanístico")
+            st.write("""###### \nUrbanístico""")
         with d2:
-            area_urpr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_urpr")
+            area_urvi = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_urvi")
         with d3:
-            prancha_urpr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_urpr")
+            prancha_urvi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_urvi")
         st.divider()
 
-    if "PAISAGISTICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nPaisagístico")
-        with d2:
-            area_paisapr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_paisapr")
-        with d3:
-            prancha_paisapr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_paisapr")
-        st.divider()
+if "Projeto Rodovias" in servico or "Supervisão Gerenciamento Rodovias" in servico:
+    tipo_servicos = ["ANTEPROJETO DE INFRA", "BATIMETRIA", "COMPAT. PROJETOS", "CONTENÇÃO", "DRENAGEM", "ELÉTRICO",
+                     "ESTRUTURAL", "EXTENSÃO DE REDE", "FUNDAÇÃO", "GERAÇÃO FOTOVOLTAICA", "GEOMÉTRICO", "HIDROLOGIA",
+                     "ILUMINAÇÃO PUBLICA", "MEIO AMBIENTE", "OAE", "ORÇAMENTO", "PAISAGISTICO", "PAVIMENTAÇÃO",
+                     "SANEAMENTO", "SINALIZAÇÃO", "SONDAGEM", "TERRAPLENAGEM", "TOPOGRAFIA", "URBANISTICO"]
+    tipo_servico = st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
 
     if "ANTEPROJETO DE INFRA" in tipo_servico:
         d1, d2, d3 = st.columns(3)
@@ -1900,161 +1623,14 @@ if "Projeto Rodovias" in servico:
             prancha_batipr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_batipr")
         st.divider()
 
-    if "GEOMÉTRICO" in tipo_servico:
+    if "COMPAT. PROJETOS" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("###### \nGeométrico")
+            st.write("###### \nCompat. Projetos")
         with d2:
-            km_geopr = st.number_input("KM", min_value=0.0, step=1.0, key="km_geopr")
+            area_infracomppr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_infracomppr")
         with d3:
-            prancha_geopr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_geopr")
-        st.divider()
-
-    if "TERRAPLENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nTerraplenagem")
-        with d2:
-            km_terpr = st.number_input("KM", min_value=0.0, step=1.0, key="km_terpr")
-        with d3:
-            prancha_terpr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_terpr")
-        st.divider()
-
-    if "HIDROLOGIA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nTerraplenagem""")
-        with d2:
-            vazao_hidropr = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidropr")
-        with d3:
-            prancha_hidropr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_hidropr")
-        st.divider()
-
-    if "DRENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nDrenagem")
-        with d2:
-            km_drepr = st.number_input("KM", min_value=0.0, step=1.0, key="km_drepr")
-        with d3:
-            prancha_drepr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_drepr")
-        st.divider()
-
-    if "ESTRUTURAL" in tipo_servico:
-        estruturalpr_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Estrutural")
-        with d2:
-            tipo_estpep = st.multiselect("Tipos Estruturais", ["Concreto", "Madeira", "Metálica"], key="tipo_estpep")
-
-        if tipo_estpep:
-            colunas = st.columns(min(len(tipo_estpep), 3))
-            for i, tipo in enumerate(tipo_estpep):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_est_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_est_{tipo}",
-                                              format="%0.f")
-
-                    toneladas = 0.0
-                    if tipo.lower() == "metálica":
-                        toneladas = st.number_input("Toneladas", min_value=0.0, step=0.1, key=f"ton_est_{tipo}")
-
-                    if area > 0 or prancha > 0 or (tipo.lower() == "metálica" and toneladas > 0):
-                        estruturalpr_info[tipo] = {"área": area, "prancha": prancha}
-                        if tipo.lower() == "metálica":
-                            estruturalpr_info[tipo]["toneladas"] = toneladas
-        st.divider()
-
-    if "PAVIMENTAÇÃO" in tipo_servico:
-        pavimentacaopr_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Pavimentação")
-        with d2:
-            tipo_pavpr = st.multiselect("Tipo de Pavimentação", ["Recapeamento","Intertravado","CBUQ", "CONCRETO", "TSD"], key="tipo_pavpr")
-
-        if tipo_pavpr:
-            colunas = st.columns(min(len(tipo_pavpr), 5))
-            for i, tipo in enumerate(tipo_pavpr):
-                with colunas[i % 5]:
-                    st.markdown(f"**{tipo}**")
-                    km_pavpr = st.number_input("KM", min_value=0.0, step=1.0, key=f"km_pavpr_{tipo}")
-                    m_pavpr = st.number_input("M²", min_value=0.0, step=0.1, key=f"m2_pavpr_{tipo}")
-                    prancha_pavpr = st.number_input("Prancha", min_value=0, step=1, key=f"prancha_pavpr_{tipo}")
-                    if km_pavpr > 0 or m_pavpr > 0 or prancha_pavpr > 0:
-                        pavimentacaopr_info[tipo] = {
-                            "km": km_pavpr,
-                            "m²": m_pavpr,
-                            "prancha": prancha_pavpr
-                        }
-        st.divider()
-
-    if "SINALIZAÇÃO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nSinalização")
-        with d2:
-            km_sinalpr = st.number_input("KM", min_value=0.0, step=1.0, key="km_sinalpr")
-        with d3:
-            prancha_sinalpr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_sinalpr")
-        st.divider()
-
-    if "SONDAGEM" in tipo_servico:
-        rod_sondagem_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Sondagem")
-        with d2:
-            tipo_sonda = st.multiselect("Tipo", ["SPT", "Rotativa", "Trado", "Mista"], key="tipo_sonda")
-
-        if tipo_sonda:
-            colunas = st.columns(min(len(tipo_sonda), 4))
-            for i, tipo in enumerate(tipo_sonda):
-                with colunas[i % 4]:
-                    st.markdown(f"**{tipo}**")
-                    unidade_geo = st.number_input("Unidade", min_value=0.0, step=1.0, format="%.0f",
-                                                  key=f"unidade_sondagem_{tipo}")
-                    metros_geo = st.number_input("Metros (m)", min_value=0.0, step=0.1, key=f"metros_sondagem_{tipo}")
-                    prancha_geo = st.number_input("Prancha", min_value=0.0, step=1.0, format="%.0f",
-                                                  key=f"Prancha_{tipo}")
-
-                    if unidade_geo > 0 or metros_geo > 0:
-                        rod_sondagem_info[tipo] = {
-                            "unidade": unidade_geo,
-                            "metros": metros_geo,
-                            "prancha": prancha_geo
-                        }
-        st.divider()
-
-    if "TOPOGRAFIA" in tipo_servico:
-        d1, d2, d3, d4, d5, d6 = st.columns(6)
-        with d1:
-            st.write("###### \nTopografia")
-        with d2:
-            tipo_toppr = st.selectbox("Tipo", ["Planialtimétrico", "Georreferenciado", "Aerofotogrametria",
-                                               "Planialtimétrico georreferenciado",
-                                               "Planialtimétrico georreferenciado e aerofotogrametrico",
-                                               "Planialtimétrico aerofotogrametrico"], key="tipo_toppr")
-        with d3:
-            cadastral_toppr = st.selectbox("Cadastral", ["Não", "Sim"], key="cadastral_toppr")
-        with d4:
-            km_toppr = st.number_input("KM", min_value=0.0, step=1.0, key="km_toppr")
-        with d5:
-            area_toppr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_toppr")
-        with d6:
-            prancha_toppr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_toppr")
-        st.divider()
-
-    if "ORÇAMENTO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nOrçamento")
-        with d2:
-            km_orcpr = st.number_input("Área(km)", min_value=0.0, step=1.0, key="km_orcpr")
-        with d3:
-            area_infraorcpr = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_infraorcpr")
+            prancha_infracomppr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_infracomppr")
         st.divider()
 
     if "CONTENÇÃO" in tipo_servico:
@@ -2085,30 +1661,83 @@ if "Projeto Rodovias" in servico:
                         }
         st.divider()
 
-    if "OAE" in tipo_servico:
-        oaepr_info = {}
+    if "DRENAGEM" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nDrenagem")
+        with d2:
+            km_drepr = st.number_input("KM", min_value=0.0, step=1.0, key="km_drepr")
+        with d3:
+            prancha_drepr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_drepr")
+        st.divider()
+
+    if "ELÉTRICO" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nElétrico")
+        with d2:
+            area_elepr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_elepr")
+        with d3:
+            kva_pr = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_pr")
+        with d4:
+            prancha_elepr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_elepr")
+        st.divider()
+
+    if "ESTRUTURAL" in tipo_servico:
+        estruturalpr_info = {}
         d1, d2 = st.columns(2)
         with d1:
-            st.title("OAE")
+            st.title("Estrutural")
         with d2:
-            tipo_oaevupr = st.multiselect("Tipo de OAE",
-                                          ["Laudo", "Concreto armado", "Concreto protendido", "Balanço sucessivo",
-                                           "Ponte estaiada", "Ponte mista"], key="tipo_oaevupr")
-
-        if tipo_oaevupr:
-            colunas = st.columns(min(len(tipo_oaevupr), 3))
-            for i, tipo in enumerate(tipo_oaevupr):
+            tipo_estpep = st.multiselect("Tipos Estruturais", ["Concreto", "Madeira", "Metálica"], key="tipo_estpep")
+        if tipo_estpep:
+            colunas = st.columns(min(len(tipo_estpep), 3))
+            for i, tipo in enumerate(tipo_estpep):
                 with colunas[i % 3]:
                     st.markdown(f"**{tipo}**")
-                    area_oaepr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key=f"area_oaepr_{tipo}")
-                    vao_oaepr = st.number_input("VÃO (m)", min_value=0.0, step=0.1, key=f"vao_oaepr_{tipo}")
-                    prancha_oaepr = st.number_input("Prancha", min_value=0, step=1, key=f"prancha_oaepr_{tipo}")
-                    if area_oaepr > 0 or vao_oaepr > 0 or prancha_oaepr > 0:
-                        oaepr_info[tipo] = {
-                            "área": area_oaepr,
-                            "vão": vao_oaepr,
-                            "prancha": prancha_oaepr
+                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_est_{tipo}")
+                    prancha = st.number_input("Prancha", min_value=0, step=1, key=f"prancha_est_{tipo}")
+
+                    toneladas = 0.0
+                    if tipo.lower() == "metálica":
+                        toneladas = st.number_input("Toneladas", min_value=0.0, step=0.1, key=f"ton_est_{tipo}")
+
+                    intervencoes = st.multiselect(
+                        "Tipo(s) de Intervenção",
+                        ["Restauro", "Laudo"],
+                        key=f"intervencao_multi_{tipo}"
+                    )
+
+                    extra_info = {}
+                    if "Restauro" in intervencoes:
+                        area_reparo = st.number_input("Área de Reparo (m²)", min_value=0.0, step=0.1,
+                                                      key=f"area_reparo_{tipo}")
+                        extra_info["Reparo"] = area_reparo
+
+                    if "Laudo" in intervencoes:
+                        unidade_laudo = st.number_input("Unidade Laudo", min_value=0, step=1,
+                                                        key=f"unidade_laudo_{tipo}")
+                        extra_info["Laudo"] = unidade_laudo
+
+                    if area > 0 or prancha > 0 or (tipo.lower() == "metálica" and toneladas > 0) or extra_info:
+                        estruturalpr_info[tipo] = {
+                            "área": area,
+                            "prancha": prancha,
+                            **extra_info
                         }
+                        if tipo.lower() == "metálica":
+                            estruturalpr_info[tipo]["toneladas"] = toneladas
+
+        st.divider()
+
+    if "EXTENSÃO DE REDE" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nExtensão de Rede")
+        with d2:
+            area_extpr = st.number_input("KM", min_value=0.0, step=0.1, key="area_extpr")
+        with d3:
+            prancha_extpr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_extpr")
         st.divider()
 
     if "FUNDAÇÃO" in tipo_servico:
@@ -2135,6 +1764,50 @@ if "Projeto Rodovias" in servico:
                         }
         st.divider()
 
+    if "GERAÇÃO FOTOVOLTAICA" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nGeração Fotovoltaica")
+        with d2:
+            area_gerafotopr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_gerafotopr")
+        with d3:
+            kva_gerafotopr = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_gerafotopr")
+        with d4:
+            prancha_gerafotopr = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_gerafotopr", format="%0.f")
+        st.divider()
+
+    if "GEOMÉTRICO" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nGeométrico")
+        with d2:
+            km_geopr = st.number_input("KM", min_value=0.0, step=1.0, key="km_geopr")
+        with d3:
+            prancha_geopr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_geopr")
+        st.divider()
+
+    if "HIDROLOGIA" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("""###### \nTerraplenagem""")
+        with d2:
+            vazao_hidropr = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidropr")
+        with d3:
+            prancha_hidropr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_hidropr")
+        st.divider()
+
+    if "ILUMINAÇÃO PUBLICA" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nIluminação Pública")
+        with d2:
+            area_iluppr = st.number_input("Área(km)", min_value=0.0, step=1.0, key="area_iluppr")
+        with d3:
+            ponto_iluppr = st.number_input("Pontos", min_value=0.0, step=1.0, key="ponto_iluppr")
+        with d4:
+            prancha_iluppr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_iluppr")
+        st.divider()
+
     if "MEIO AMBIENTE" in tipo_servico:
         meioambientepr_info = {}
         d1, d2 = st.columns(2)
@@ -2158,75 +1831,40 @@ if "Projeto Rodovias" in servico:
                         }
         st.divider()
 
-    if "COMPAT. PROJETOS" in tipo_servico:
+    if "OAE" in tipo_servico:
+        oaepr_info = {}
+        d1, d2 = st.columns(2)
+        with d1:
+            st.title("OAE")
+        with d2:
+            tipo_oaevupr = st.multiselect("Tipo de OAE",
+                                          ["Laudo", "Concreto armado", "Concreto protendido", "Balanço sucessivo",
+                                           "Ponte estaiada", "Ponte mista"], key="tipo_oaevupr")
+
+        if tipo_oaevupr:
+            colunas = st.columns(min(len(tipo_oaevupr), 3))
+            for i, tipo in enumerate(tipo_oaevupr):
+                with colunas[i % 3]:
+                    st.markdown(f"**{tipo}**")
+                    area_oaepr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key=f"area_oaepr_{tipo}")
+                    vao_oaepr = st.number_input("VÃO (m)", min_value=0.0, step=0.1, key=f"vao_oaepr_{tipo}")
+                    prancha_oaepr = st.number_input("Prancha", min_value=0, step=1, key=f"prancha_oaepr_{tipo}")
+                    if area_oaepr > 0 or vao_oaepr > 0 or prancha_oaepr > 0:
+                        oaepr_info[tipo] = {
+                            "área": area_oaepr,
+                            "vão": vao_oaepr,
+                            "prancha": prancha_oaepr
+                        }
+        st.divider()
+
+    if "ORÇAMENTO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("###### \nCompat. Projetos")
+            st.write("###### \nOrçamento")
         with d2:
-            area_infracomppr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_infracomppr")
+            km_orcpr = st.number_input("Área(km)", min_value=0.0, step=1.0, key="km_orcpr")
         with d3:
-            prancha_infracomppr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_infracomppr")
-        st.divider()
-
-    if "ELÉTRICO" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("###### \nElétrico")
-        with d2:
-            area_elepr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_elepr")
-        with d3:
-            kva_pr = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_pr")
-        with d4:
-            prancha_elepr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_elepr")
-        st.divider()
-
-    if "GERAÇÃO FOTOVOLTAICA" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("###### \nGeração Fotovoltaica")
-        with d2:
-            area_gerafotopr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_gerafotopr")
-        with d3:
-            kva_gerafotopr = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_gerafotopr")
-        with d4:
-            prancha_gerafotopr = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_gerafotopr", format="%0.f")
-        st.divider()
-
-    if "EXTENSÃO DE REDE" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nExtensão de Rede")
-        with d2:
-            area_extpr = st.number_input("KM", min_value=0.0, step=0.1, key="area_extpr")
-        with d3:
-            prancha_extpr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_extpr")
-        st.divider()
-
-    if "ILUMINAÇÃO PUBLICA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nIluminação Pública")
-        with d2:
-            area_iluppr = st.number_input("Pontos", min_value=0.0, step=1.0, key="area_iluppr")
-        with d3:
-            prancha_iluppr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_iluppr")
-        st.divider()
-
-if "Supervisão Gerenciamento Rodovias" in servico:
-    tipo_servicos = ["URBANISTICO", "PAISAGISTICO", "ANTEPROJETO DE INFRA", "BATIMETRIA", "GEOMÉTRICO", "TERRAPLENAGEM",
-                     "HIDROLOGIA", "DRENAGEM", "ESTRUTURAL", "PAVIMENTAÇÃO", "SINALIZAÇÃO", "SONDAGEM", "TOPOGRAFIA",
-                     "ORÇAMENTO", "CONTENÇÃO", "OAE", "FUNDAÇÃO", "MEIO AMBIENTE", "COMPAT. PROJETOS", "ELÉTRICO",
-                     "GERAÇÃO FOTOVOLTAICA", "ILUMINAÇÃO PUBLICA", "EXTENSÃO DE REDE"]
-    tipo_servico = st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
-
-    if "URBANISTICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nUrbanístico")
-        with d2:
-            area_urpr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_urpr")
-        with d3:
-            prancha_urpr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_urpr")
+            area_infraorcpr = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_infraorcpr")
         st.divider()
 
     if "PAISAGISTICO" in tipo_servico:
@@ -2239,101 +1877,13 @@ if "Supervisão Gerenciamento Rodovias" in servico:
             prancha_paisapr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_paisapr")
         st.divider()
 
-    if "ANTEPROJETO DE INFRA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nAnteprojeto de Infra")
-        with d2:
-            km_antipr = st.number_input("KM", min_value=0.0, step=1.0, key="km_antipr")
-        with d3:
-            prancha_antipr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_antipr")
-        st.divider()
-
-    if "BATIMETRIA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nBatimetria""")
-        with d2:
-            m2_batipr = st.number_input("M²", min_value=0.0, step=1.0, key="m2_batipr")
-        with d3:
-            prancha_batipr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_batipr")
-        st.divider()
-
-    if "GEOMÉTRICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nGeométrico")
-        with d2:
-            km_geopr = st.number_input("KM", min_value=0.0, step=1.0, key="km_geopr")
-        with d3:
-            prancha_geopr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_geopr")
-        st.divider()
-
-    if "TERRAPLENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nTerraplenagem")
-        with d2:
-            km_terpr = st.number_input("KM", min_value=0.0, step=1.0, key="km_terpr")
-        with d3:
-            prancha_terpr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_terpr")
-        st.divider()
-
-    if "HIDROLOGIA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nTerraplenagem""")
-        with d2:
-            vazao_hidropr = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidropr")
-        with d3:
-            prancha_hidropr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_hidropr")
-        st.divider()
-
-    if "DRENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nDrenagem")
-        with d2:
-            km_drepr = st.number_input("KM", min_value=0.0, step=1.0, key="km_drepr")
-        with d3:
-            prancha_drepr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_drepr")
-        st.divider()
-
-    if "ESTRUTURAL" in tipo_servico:
-        estruturalpr_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Estrutural")
-        with d2:
-            tipo_estpep = st.multiselect("Tipos Estruturais", ["Concreto", "Madeira", "Metálica"], key="tipo_estpep")
-
-        if tipo_estpep:
-            colunas = st.columns(min(len(tipo_estpep), 3))
-            for i, tipo in enumerate(tipo_estpep):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_est_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_est_{tipo}",
-                                              format="%0.f")
-
-                    toneladas = 0.0
-                    if tipo.lower() == "metálica":
-                        toneladas = st.number_input("Toneladas", min_value=0.0, step=0.1, key=f"ton_est_{tipo}")
-
-                    if area > 0 or prancha > 0 or (tipo.lower() == "metálica" and toneladas > 0):
-                        estruturalpr_info[tipo] = {"área": area, "prancha": prancha}
-                        if tipo.lower() == "metálica":
-                            estruturalpr_info[tipo]["toneladas"] = toneladas
-        st.divider()
-
     if "PAVIMENTAÇÃO" in tipo_servico:
         pavimentacaopr_info = {}
         d1, d2 = st.columns(2)
         with d1:
             st.title("Pavimentação")
         with d2:
-            tipo_pavpr = st.multiselect("Tipo de Pavimentação",
-                                        ["Recapeamento", "Intertravado", "CBUQ", "CONCRETO", "TSD"], key="tipo_pavpr")
+            tipo_pavpr = st.multiselect("Tipo de Pavimentação", ["Recapeamento","Intertravado","CBUQ", "CONCRETO", "TSD"], key="tipo_pavpr")
 
         if tipo_pavpr:
             colunas = st.columns(min(len(tipo_pavpr), 5))
@@ -2349,6 +1899,18 @@ if "Supervisão Gerenciamento Rodovias" in servico:
                             "m²": m_pavpr,
                             "prancha": prancha_pavpr
                         }
+        st.divider()
+
+    if "SANEAMENTO" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("""###### \nSaneamento""")
+        with d2:
+            area_sanepr = st.number_input("Extensão(m)", min_value=0.0, step=1.0, key="area_sanepr")
+        with d3:
+            vazao_sanepr = st.number_input("Vazão(l/s)", min_value=0.0, step=0.1, key="vazao_sanepr")
+        with d4:
+            prancha_sanepr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_sanepr")
         st.divider()
 
     if "SINALIZAÇÃO" in tipo_servico:
@@ -2388,6 +1950,16 @@ if "Supervisão Gerenciamento Rodovias" in servico:
                         }
         st.divider()
 
+    if "TERRAPLENAGEM" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nTerraplenagem")
+        with d2:
+            km_terpr = st.number_input("KM", min_value=0.0, step=1.0, key="km_terpr")
+        with d3:
+            prancha_terpr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_terpr")
+        st.divider()
+
     if "TOPOGRAFIA" in tipo_servico:
         d1, d2, d3, d4, d5, d6 = st.columns(6)
         with d1:
@@ -2407,171 +1979,14 @@ if "Supervisão Gerenciamento Rodovias" in servico:
             prancha_toppr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_toppr")
         st.divider()
 
-    if "ORÇAMENTO" in tipo_servico:
+    if "URBANISTICO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("###### \nOrçamento")
+            st.write("###### \nUrbanístico")
         with d2:
-            km_orcpr = st.number_input("Área(km)", min_value=0.0, step=1.0, key="km_orcpr")
+            area_urpr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_urpr")
         with d3:
-            area_infraorcpr = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_infraorcpr")
-        st.divider()
-
-    if "CONTENÇÃO" in tipo_servico:
-        contencaopr_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Contenção")
-        with d2:
-            tipo_contpr = st.multiselect("Tipo de Contenção",
-                                         ["Laudo", "Concreto", "Muro de arrimo", "Gabião", "Terra armada",
-                                          "Cortina atirantada"],
-                                         key="tipo_contpr")
-
-        if tipo_contpr:
-            colunas = st.columns(min(len(tipo_contpr), 3))
-            for i, tipo in enumerate(tipo_contpr):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    m_contpr = st.number_input("M", min_value=0.0, step=1.0, key=f"m_contpr_{tipo}")
-                    m2_contpr = st.number_input("M²", min_value=0.0, step=0.1, key=f"m2_contpr_{tipo}")
-                    m3_contpr = st.number_input("M³", min_value=0.0, step=0.1, key=f"m3_contpr_{tipo}")
-                    prancha_contpr = st.number_input("Prancha", min_value=0, step=1, key=f"prancha_contpr_{tipo}")
-                    if m_contpr > 0 or m2_contpr > 0 or m3_contpr > 0 or prancha_contpr > 0:
-                        contencaopr_info[tipo] = {
-                            "m": m_contpr,
-                            "m²": m2_contpr,
-                            "m³": m3_contpr,
-                            "prancha": prancha_contpr
-                        }
-        st.divider()
-
-    if "OAE" in tipo_servico:
-        oaepr_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("OAE")
-        with d2:
-            tipo_oaevupr = st.multiselect("Tipo de OAE",
-                                          ["Laudo", "Concreto armado", "Concreto protendido", "Balanço sucessivo",
-                                           "Ponte estaiada", "Ponte mista"], key="tipo_oaevupr")
-
-        if tipo_oaevupr:
-            colunas = st.columns(min(len(tipo_oaevupr), 3))
-            for i, tipo in enumerate(tipo_oaevupr):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area_oaepr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key=f"area_oaepr_{tipo}")
-                    vao_oaepr = st.number_input("VÃO (m)", min_value=0.0, step=0.1, key=f"vao_oaepr_{tipo}")
-                    prancha_oaepr = st.number_input("Prancha", min_value=0, step=1, key=f"prancha_oaepr_{tipo}")
-                    if area_oaepr > 0 or vao_oaepr > 0 or prancha_oaepr > 0:
-                        oaepr_info[tipo] = {
-                            "área": area_oaepr,
-                            "vão": vao_oaepr,
-                            "prancha": prancha_oaepr
-                        }
-        st.divider()
-
-    if "FUNDAÇÃO" in tipo_servico:
-        fundacaopr_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Fundação")
-        with d2:
-            tipo_funduvpr = st.multiselect("Tipo Fundação",
-                                           ["Rasa(sapata, blocos e radier)", "Profunda(estaca, tubulão, caixões)",
-                                            "Rasa e Profunda"], key="tipo_funduvpr")
-
-        if tipo_funduvpr:
-            colunas = st.columns(min(len(tipo_funduvpr), 3))
-            for i, tipo in enumerate(tipo_funduvpr):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    m2_fundpr = st.number_input("M²", min_value=0.0, step=1.0, key=f"m2_fundpr_{tipo}")
-                    prancha_fundpr = st.number_input("Prancha", min_value=0, step=1, key=f"prancha_fundpr_{tipo}")
-                    if m2_fundpr > 0 or prancha_fundpr > 0:
-                        fundacaopr_info[tipo] = {
-                            "m²": m2_fundpr,
-                            "prancha": prancha_fundpr
-                        }
-        st.divider()
-
-    if "MEIO AMBIENTE" in tipo_servico:
-        meioambientepr_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Meio Ambiente")
-        with d2:
-            tipo_meivupr = st.multiselect("Tipo Meio Ambiente", ["EIA/RIMA", "RCA/PCA", "RCA", "PCA", "RADA", "PRADA",
-                                                                 "Inventário Florestal"], key="tipo_meivupr")
-
-        if tipo_meivupr:
-            colunas = st.columns(min(len(tipo_meivupr), 3))
-            for i, tipo in enumerate(tipo_meivupr):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    unidade_meipr = st.number_input("Unidade", min_value=0.0, step=1.0, key=f"unidade_meipr_{tipo}")
-                    prancha_meipr = st.number_input("Prancha", min_value=0, step=1, key=f"prancha_meipr_{tipo}")
-                    if unidade_meipr > 0 or prancha_meipr > 0:
-                        meioambientepr_info[tipo] = {
-                            "unidade": unidade_meipr,
-                            "prancha": prancha_meipr
-                        }
-        st.divider()
-
-    if "COMPAT. PROJETOS" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nCompat. Projetos")
-        with d2:
-            area_infracomppr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_infracomppr")
-        with d3:
-            prancha_infracomppr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_infracomppr")
-        st.divider()
-
-    if "ELÉTRICO" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("###### \nElétrico")
-        with d2:
-            area_elepr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_elepr")
-        with d3:
-            kva_pr = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_pr")
-        with d4:
-            prancha_elepr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_elepr")
-        st.divider()
-
-    if "GERAÇÃO FOTOVOLTAICA" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("###### \nGeração Fotovoltaica")
-        with d2:
-            area_gerafotopr = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_gerafotopr")
-        with d3:
-            kva_gerafotopr = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_gerafotopr")
-        with d4:
-            prancha_gerafotopr = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_gerafotopr",
-                                                 format="%0.f")
-        st.divider()
-
-    if "EXTENSÃO DE REDE" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nExtensão de Rede")
-        with d2:
-            area_extpr = st.number_input("KM", min_value=0.0, step=0.1, key="area_extpr")
-        with d3:
-            prancha_extpr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_extpr")
-        st.divider()
-
-    if "ILUMINAÇÃO PUBLICA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nIluminação Pública")
-        with d2:
-            area_iluppr = st.number_input("Pontos", min_value=0.0, step=1.0, key="area_iluppr")
-        with d3:
-            prancha_iluppr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_iluppr")
+            prancha_urpr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_urpr")
         st.divider()
 
 if "Plano Saneamento Básico - PMSB" in servico:
@@ -2585,62 +2000,29 @@ if "Plano Saneamento Básico - PMSB" in servico:
     st.divider()
 
 if "Sondagem / Controle Tecnológico" in servico:
-    tipo_servicos = ["SONDAGEM", "SOLO", "ASFALTO", "CONCRETO", "AÇO"]
+    tipo_servicos = ["AÇO", "ASFALTO", "CONCRETO", "SOLO", "SONDAGEM" ]
     tipo_servico = st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
 
-    if "SONDAGEM" in tipo_servico:
-        sondagem_info = {}
+    if "AÇO" in tipo_servico:
+        aco_info = {}
         d1, d2 = st.columns(2)
         with d1:
-            st.title("Sondagem")
+            st.title("Aço")
         with d2:
-            tipo_sonda = st.multiselect("Tipo", ["SPT", "Rotativa", "Trado", "Mista"], key="tipo_sonda")
+            tipo_aco = st.multiselect("Tipo", ["A – Alongamento", "Dobramento", "LE – Limite de Escoamento", "LR – Limite de Resistência" ], key="tipo_aco")
 
-        if tipo_sonda:
-            colunas = st.columns(min(len(tipo_sonda), 4))
-            for i, tipo in enumerate(tipo_sonda):
-                with colunas[i % 4]:
+        if tipo_aco:
+            colunas = st.columns(min(len(tipo_aco), 2))
+            for i, tipo in enumerate(tipo_aco):
+                with colunas[i % 2]:
                     st.markdown(f"**{tipo}**")
-                    unidade_geo = st.number_input("Unidade", min_value=0.0, step=1.0, format="%.0f",
-                                                  key=f"unidade_sondagem_{tipo}")
-                    metros_geo = st.number_input("Metros (m)", min_value=0.0, step=0.1, key=f"metros_sondagem_{tipo}")
-                    if unidade_geo > 0 or metros_geo > 0:
-                        sondagem_info[tipo] = {
-                            "unidade": unidade_geo,
-                            "metros": metros_geo
-                        }
-        st.divider()
-
-    if "SOLO" in tipo_servico:
-        solo_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Solo")
-        with d2:
-            tipo_solo = st.multiselect("Tipo", [
-                "LL – Limite de Liquidez", "LP – Limite de Plasticidade", "LC – Limite de Contração",
-                "GPS - Granulometria por Peneiramento e Sedimentação", "ISC - Índice de Suporte Califórnia (CBR)",
-                "CPN - Compactação Proctor Normal", "CPI – Compactação Proctor Internormal",
-                "CPM – Compactação Proctor Modificado", "CIUSAT - Compressão Triaxial", "CIDSAT - Compressão Triaxial",
-                "UUSAT - Compressão Triaxial", "MES – Peso/Massa específico dos Grãos", "W - Teor de Umidade Natural",
-                "SCS – Dispersão Sedimentométrico Comparativo", "PCT - Permeabilidade em Câmara Triaxial",
-                "Adensamento", "Cisalhamento", "Porosidade", "IN SITU (Frasco de Areia)",
-                "IVmáx – Índice de Vazios Máximo", "IVmin – Índice de Vazios Mínimo",
-                "BH – Balança Hidrostática", "ADN – Adensamento Oedométrico Unidimensional"
-            ], key="tipo_solo")
-
-        if tipo_solo:
-            colunas = st.columns(min(len(tipo_solo), 4))
-            for i, tipo in enumerate(tipo_solo):
-                with colunas[i % 4]:
-                    st.markdown(f"**{tipo}**")
-                    unidade_solo = st.number_input("Unidade", min_value=0.0, step=1.0, format="%.0f",
-                                                   key=f"unidade_solo_{tipo}")
-                    metros_solo = st.number_input("Metros (m)", min_value=0.0, step=0.1, key=f"metros_solo_{tipo}")
-                    if unidade_solo > 0 or metros_solo > 0:
-                        solo_info[tipo] = {
-                            "unidade": unidade_solo,
-                            "metros": metros_solo
+                    unidade_aco = st.number_input("Unidade", min_value=0.0, step=1.0, format="%.0f",
+                                                  key=f"unidade_aco_{tipo}")
+                    metros_aco = st.number_input("Metros (m)", min_value=0.0, step=0.1, key=f"metros_aco_{tipo}")
+                    if unidade_aco > 0 or metros_aco > 0:
+                        aco_info[tipo] = {
+                            "unidade": unidade_aco,
+                            "metros": metros_aco
                         }
         st.divider()
 
@@ -2650,10 +2032,7 @@ if "Sondagem / Controle Tecnológico" in servico:
         with d1:
             st.title("Asfalto")
         with d2:
-            tipo_asfalto = st.multiselect("Tipo", [
-                "Viga Benkelman", "Teor de Betume", "Estabilidade Marshall",
-                "Granulometria", "Densidade Aparente/Porosidade", "Compressão"
-            ], key="tipo_asfalto")
+            tipo_asfalto = st.multiselect("Tipo", ["Compressão", "Densidade Aparente/Porosidade","Estabilidade Marshall",  "Granulometria",  "Teor de Betume", "Viga Benkelman" ], key="tipo_asfalto")
 
         if tipo_asfalto:
             colunas = st.columns(min(len(tipo_asfalto), 3))
@@ -2677,9 +2056,7 @@ if "Sondagem / Controle Tecnológico" in servico:
         with d1:
             st.title("Concreto")
         with d2:
-            tipo_concreto = st.multiselect("Tipo", [
-                "Compressão axial (ruptura)", "Consistência (Slump)"
-            ], key="tipo_concreto")
+            tipo_concreto = st.multiselect("Tipo", [ "Compressão axial (ruptura)", "Consistência (Slump)" ], key="tipo_concreto")
 
         if tipo_concreto:
             colunas = st.columns(min(len(tipo_concreto), 2))
@@ -2697,33 +2074,63 @@ if "Sondagem / Controle Tecnológico" in servico:
                         }
         st.divider()
 
-    if "AÇO" in tipo_servico:
-        aco_info = {}
+    if "SOLO" in tipo_servico:
+        solo_info = {}
         d1, d2 = st.columns(2)
         with d1:
-            st.title("Aço")
+            st.title("Solo")
         with d2:
-            tipo_aco = st.multiselect("Tipo", [
-                "LE – Limite de Escoamento", "LR – Limite de Resistência",
-                "A – Alongamento", "Dobramento"
-            ], key="tipo_aco")
+            tipo_solo = st.multiselect("Tipo", [
+                "Adensamento", "Cisalhamento", "Porosidade", "IN SITU (Frasco de Areia)",
+                "BH – Balança Hidrostática", "ADN – Adensamento Oedométrico Unidimensional",
+                "CPM – Compactação Proctor Modificado", "CIUSAT - Compressão Triaxial", "CIDSAT - Compressão Triaxial",
+                "CPN - Compactação Proctor Normal", "CPI – Compactação Proctor Internormal",
+                "GPS - Granulometria por Peneiramento e Sedimentação", "ISC - Índice de Suporte Califórnia (CBR)",
+                "IVmáx – Índice de Vazios Máximo", "IVmin – Índice de Vazios Mínimo",
+                "LL – Limite de Liquidez", "LP – Limite de Plasticidade", "LC – Limite de Contração",
+                "SCS – Dispersão Sedimentométrico Comparativo", "PCT - Permeabilidade em Câmara Triaxial",
+                "UUSAT - Compressão Triaxial", "MES – Peso/Massa específico dos Grãos", "W - Teor de Umidade Natural",
+            ], key="tipo_solo")
 
-        if tipo_aco:
-            colunas = st.columns(min(len(tipo_aco), 2))
-            for i, tipo in enumerate(tipo_aco):
-                with colunas[i % 2]:
+        if tipo_solo:
+            colunas = st.columns(min(len(tipo_solo), 4))
+            for i, tipo in enumerate(tipo_solo):
+                with colunas[i % 4]:
                     st.markdown(f"**{tipo}**")
-                    unidade_aco = st.number_input("Unidade", min_value=0.0, step=1.0, format="%.0f",
-                                                  key=f"unidade_aco_{tipo}")
-                    metros_aco = st.number_input("Metros (m)", min_value=0.0, step=0.1, key=f"metros_aco_{tipo}")
-                    if unidade_aco > 0 or metros_aco > 0:
-                        aco_info[tipo] = {
-                            "unidade": unidade_aco,
-                            "metros": metros_aco
+                    unidade_solo = st.number_input("Unidade", min_value=0.0, step=1.0, format="%.0f",
+                                                   key=f"unidade_solo_{tipo}")
+                    metros_solo = st.number_input("Metros (m)", min_value=0.0, step=0.1, key=f"metros_solo_{tipo}")
+                    if unidade_solo > 0 or metros_solo > 0:
+                        solo_info[tipo] = {
+                            "unidade": unidade_solo,
+                            "metros": metros_solo
                         }
         st.divider()
 
-if "Projeto Saneamento" in servico:
+    if "SONDAGEM" in tipo_servico:
+        sondagem_info = {}
+        d1, d2 = st.columns(2)
+        with d1:
+            st.title("Sondagem")
+        with d2:
+            tipo_sonda = st.multiselect("Tipo", ["Mista", "Rotativa", "SPT",  "Trado", ], key="tipo_sonda")
+
+        if tipo_sonda:
+            colunas = st.columns(min(len(tipo_sonda), 4))
+            for i, tipo in enumerate(tipo_sonda):
+                with colunas[i % 4]:
+                    st.markdown(f"**{tipo}**")
+                    unidade_geo = st.number_input("Unidade", min_value=0.0, step=1.0, format="%.0f",
+                                                  key=f"unidade_sondagem_{tipo}")
+                    metros_geo = st.number_input("Metros (m)", min_value=0.0, step=0.1, key=f"metros_sondagem_{tipo}")
+                    if unidade_geo > 0 or metros_geo > 0:
+                        sondagem_info[tipo] = {
+                            "unidade": unidade_geo,
+                            "metros": metros_geo
+                        }
+        st.divider()
+
+if "Projeto Saneamento" in servico or "Supervisão Gerenciamento Saneamento" in servico:
     tipo_servicos = ["ADUTORA", "ANTEPROJETO DE INFRA", "BATIMETRIA", "COMPAT. PROJETOS", "CONJUNTO MOTOBOMBA", "CONTENÇÃO", "DRENAGEM", "ELEVATÓRIA", "ELÉTRICO", "ESTRUTURAL", "ETA" , "ETE", "EXTENSÃO DE REDE",
                      "FUNDAÇÃO", "GEOMÉTRICO", "GERAÇÃO FOTOVOLTAICA","HIDROLOGIA", "ILUMINAÇÃO PUBLICA", "INTERCEPTOR", "LINHA DE RECALQUE", "MEIO AMBIENTE", "OAE", "ORÇAMENTO", "PAISAGISTICO", "PAVIMENTAÇÃO", "REDE COLETORA",
                      "REDE DE DISTRIBUIÇÃO", "SINALIZAÇÃO", "SONDAGEM", "TERRAPLENAGEM", "TOPOGRAFIA", "URBANISTICO"]
@@ -2861,17 +2268,38 @@ if "Projeto Saneamento" in servico:
                 with colunas[i % 3]:
                     st.markdown(f"**{tipo}**")
                     area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_est_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_est_{tipo}",
-                                              format="%0.f")
+                    prancha = st.number_input("Prancha", min_value=0, step=1, key=f"prancha_est_{tipo}")
 
                     toneladas = 0.0
                     if tipo.lower() == "metálica":
                         toneladas = st.number_input("Toneladas", min_value=0.0, step=0.1, key=f"ton_est_{tipo}")
 
-                    if area > 0 or prancha > 0 or (tipo.lower() == "metálica" and toneladas > 0):
-                        ps_estrutural_info[tipo] = {"área": area, "prancha": prancha}
+                    intervencoes = st.multiselect(
+                        "Tipo(s) de Intervenção",
+                        ["Restauro", "Laudo"],
+                        key=f"intervencao_multi_{tipo}"
+                    )
+
+                    extra_info = {}
+                    if "Restauro" in intervencoes:
+                        area_reparo = st.number_input("Área de Reparo (m²)", min_value=0.0, step=0.1,
+                                                      key=f"area_reparo_{tipo}")
+                        extra_info["Reparo"] = area_reparo
+
+                    if "Laudo" in intervencoes:
+                        unidade_laudo = st.number_input("Unidade Laudo", min_value=0, step=1,
+                                                        key=f"unidade_laudo_{tipo}")
+                        extra_info["Laudo"] = unidade_laudo
+
+                    if area > 0 or prancha > 0 or (tipo.lower() == "metálica" and toneladas > 0) or extra_info:
+                        ps_estrutural_info[tipo] = {
+                            "área": area,
+                            "prancha": prancha,
+                            **extra_info
+                        }
                         if tipo.lower() == "metálica":
                             ps_estrutural_info[tipo]["toneladas"] = toneladas
+
         st.divider()
 
     if "ETA" in tipo_servico:
@@ -3207,604 +2635,23 @@ if "Projeto Saneamento" in servico:
             prancha_urvips = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_urvips")
         st.divider()
 
-if "Supervisão Gerenciamento Saneamento" in servico:
-    tipo_servicos = ["ADUTORA", "ANTEPROJETO DE INFRA", "BATIMETRIA", "COMPAT. PROJETOS", "CONJUNTO MOTOBOMBA",
-                     "CONTENÇÃO", "DRENAGEM", "ELEVATÓRIA", "ELÉTRICO", "ESTRUTURAL", "ETA", "ETE", "EXTENSÃO DE REDE",
-                     "FUNDAÇÃO", "GEOMÉTRICO", "GERAÇÃO FOTOVOLTAICA", "HIDROLOGIA", "ILUMINAÇÃO PUBLICA",
-                     "INTERCEPTOR", "LINHA DE RECALQUE", "MEIO AMBIENTE", "OAE", "ORÇAMENTO", "PAISAGISTICO",
-                     "PAVIMENTAÇÃO", "REDE COLETORA",
-                     "REDE DE DISTRIBUIÇÃO", "SINALIZAÇÃO", "SONDAGEM", "TERRAPLENAGEM", "TOPOGRAFIA", "URBANISTICO"]
-    tipo_servico = st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
-
-    if "ADUTORA" in tipo_servico:
-        d1, d2, d3, d4, d5 = st.columns(5)
-        with d1:
-            st.write("###### \nAdutora")
-        with d2:
-            vazao_adutoraps = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_adutoraps")
-        with d3:
-            uni_adutoraps = st.number_input("Unidade", min_value=0, step=1, key="uni_adutoraps")
-        with d4:
-            m_adutoraps = st.number_input("Metros (m)", min_value=0.0, step=1.0, key="m_adutoraps")
-        with d5:
-            prancha_adutoraps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_adutoraps")
-        st.divider()
-
-    if "ANTEPROJETO DE INFRA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nAnteprojeto de Infra""")
-        with d2:
-            km_antips = st.number_input("KM", min_value=0.0, step=1.0, key="km_antips")
-        with d3:
-            prancha_antips = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_antips")
-        st.divider()
-
-    if "BATIMETRIA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nBatimetria""")
-        with d2:
-            m2_batips = st.number_input("M²", min_value=0.0, step=1.0, key="m2_batips")
-        with d3:
-            prancha_batips = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_batips")
-        st.divider()
-
-    if "COMPAT. PROJETOS" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nCompat. Projetos""")
-        with d2:
-            area_infracompps = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_infracompps")
-        with d3:
-            prancha_infracompps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_infracompps")
-        st.divider()
-
-    if "CONJUNTO MOTOBOMBA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nConjunto Motobomba")
-        with d2:
-            uni_comotops = st.number_input("Unidade", min_value=0, step=1, key="uni_comotops")
-        with d3:
-            prancha_comotops = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_comotops")
-        st.divider()
-
-    if "CONTENÇÃO" in tipo_servico:
-        ps_contencao_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Contenção")
-        with d2:
-            tipo_contvu = st.multiselect("Tipo",
-                                         ["Laudo", "Concreto", "Muro de arrimo", "Gabião", "Terra armada",
-                                          "Cortina atirantada"],
-                                         key="tipo_contvu")
-
-        if tipo_contvu:
-            colunas = st.columns(min(len(tipo_contvu), 3))
-            for i, tipo in enumerate(tipo_contvu):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    m_cont = st.number_input("M", min_value=0.0, step=1.0, key=f"m_cont_{tipo}")
-                    m2_cont = st.number_input("M²", min_value=0.0, step=0.1, key=f"m2_cont_{tipo}")
-                    m3_cont = st.number_input("M³", min_value=0.0, step=0.1, key=f"m3_cont_{tipo}")
-                    prancha_cont = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_cont_{tipo}",
-                                                   format="%0.f")
-                    if m_cont > 0 or m2_cont > 0 or m3_cont > 0 or prancha_cont > 0:
-                        ps_contencao_info[tipo] = {
-                            "m": m_cont,
-                            "m²": m2_cont,
-                            "m³": m3_cont,
-                            "prancha": prancha_cont
-                        }
-        st.divider()
-
-    if "DRENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nDrenagem""")
-        with d2:
-            km_dreps = st.number_input("KM", min_value=0.0, step=1.0, key="km_dreps")
-        with d3:
-            prancha_dreps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_dreps")
-        st.divider()
-
-    if "ELEVATÓRIA" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("###### \nElevatória")
-        with d2:
-            vazao_elevatoriaps = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_elevatoriaps")
-        with d3:
-            m_elevatoriaps = st.number_input("Unidade", min_value=0.0, step=1.0, format="%0.f", key="m_elevatoriaps")
-        with d4:
-            prancha_elevatoriapsfdp = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_elevatoriapsfdp")
-        st.divider()
-
-    if "ELÉTRICO" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("###### \nElétrico")
-        with d2:
-            area_elesaps = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_elesaps")
-        with d3:
-            kva_ps = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_ps")
-        with d4:
-            prancha_elesaps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_elesaps")
-        st.divider()
-
-    if "ESTRUTURAL" in tipo_servico:
-        ps_estrutural_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Estrutural")
-        with d2:
-            tipo_estpep = st.multiselect("Tipos Estruturais", ["Concreto", "Madeira", "Metálica"], key="tipo_estpep")
-
-        if tipo_estpep:
-            colunas = st.columns(min(len(tipo_estpep), 3))
-            for i, tipo in enumerate(tipo_estpep):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área", min_value=0.0, step=1.0, key=f"area_est_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_est_{tipo}",
-                                              format="%0.f")
-
-                    toneladas = 0.0
-                    if tipo.lower() == "metálica":
-                        toneladas = st.number_input("Toneladas", min_value=0.0, step=0.1, key=f"ton_est_{tipo}")
-
-                    if area > 0 or prancha > 0 or (tipo.lower() == "metálica" and toneladas > 0):
-                        ps_estrutural_info[tipo] = {"área": area, "prancha": prancha}
-                        if tipo.lower() == "metálica":
-                            ps_estrutural_info[tipo]["toneladas"] = toneladas
-        st.divider()
-
-    if "ETA" in tipo_servico:
-        d1, d2, d3, d4, d5 = st.columns(5)
-        with d1:
-            st.write("###### \nETA")
-        with d2:
-            vazao_etaps = st.number_input("Vazão (l/s)", min_value=0.0, step=1.0, key="vazao_etaps")
-        with d3:
-            uni_etaps = st.number_input("Unidade", min_value=0, step=1, key="uni_etaps")
-        with d4:
-            vol_etaps = st.number_input("Volume (m³)", min_value=0.0, step=1.0, key="vol_etaps")
-        with d5:
-            prancha_etaps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_etaps")
-        st.divider()
-
-    if "ETE" in tipo_servico:
-        d1, d2, d3, d4, d5 = st.columns(5)
-        with d1:
-            st.write("###### \nETE")
-        with d2:
-            vazao_eteps = st.number_input("Vazão (l/s)", min_value=0.0, step=1.0, key="vazao_eteps")
-        with d3:
-            uni_eteps = st.number_input("Unidade", min_value=0, step=1, key="uni_eteps")
-        with d4:
-            vol_eteps = st.number_input("Volume (m³)", min_value=0.0, step=1.0, key="vol_eteps")
-        with d5:
-            prancha_eteps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_elevatoriops")
-        st.divider()
-
-    if "EXTENSÃO DE REDE" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nExtensão de Rede")
-        with d2:
-            area_extr = st.number_input("KM", min_value=0.0, step=0.1, key="area_extr")
-        with d3:
-            prancha_extr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_extr")
-        st.divider()
-
-    if "FUNDAÇÃO" in tipo_servico:
-        fundacao_ps_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Fundação")
-        with d2:
-            tipos_fundps = st.multiselect("Tipo",
-                                          ["Rasa (sapata, blocos e radier)", "Profunda (estaca, tubulão e caixões)",
-                                           "Rasa e Profunda"], key="tipos_fundps")
-
-        if tipos_fundps:
-            colunas = st.columns(min(len(tipos_fundps), 3))
-            for i, tipo in enumerate(tipos_fundps):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area = st.number_input("Área (m²)", min_value=0.0, step=1.0, key=f"area_fundps_{tipo}")
-                    prancha = st.number_input("Prancha", min_value=0, step=1, key=f"prancha_fundps_{tipo}")
-                    if area > 0 or prancha > 0:
-                        fundacao_ps_info[tipo] = {"área": area, "prancha": prancha}
-        st.divider()
-
-    if "GEOMÉTRICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nGeométrico""")
-        with d2:
-            km_geops = st.number_input("KM", min_value=0.0, step=1.0, key="km_geops")
-        with d3:
-            prancha_geops = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_geops")
-        st.divider()
-
-    if "GERAÇÃO FOTOVOLTAICA" in tipo_servico:
-        d1, d2, d3, d4 = st.columns(4)
-        with d1:
-            st.write("###### \nGeração Fotovoltaica")
-        with d2:
-            area_gerafotops = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_gerafotops")
-        with d3:
-            kva_gerafotops = st.number_input("KVA", min_value=0.0, step=0.1, key="kva_gerafotops")
-        with d4:
-            prancha_gerafotops = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_gerafotops",
-                                                 format="%0.f")
-        st.divider()
-
-    if "HIDROLOGIA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nTerraplenagem""")
-        with d2:
-            vazao_hidrops = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidrops")
-        with d3:
-            prancha_hidrops = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_hidrops")
-        st.divider()
-
-    if "ILUMINAÇÃO PUBLICA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nIluminação Pública")
-        with d2:
-            area_ilupu = st.number_input("Pontos", min_value=0.0, step=1.0, key="area_ilupu")
-        with d3:
-            prancha_ilupu = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ilupu")
-        st.divider()
-
-    if "INTERCEPTOR" in tipo_servico:
-        d1, d2, d3, d4, d5 = st.columns(5)
-        with d1:
-            st.write("###### \nInterceptor")
-        with d2:
-            vazao_interceptorps = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_interceptorps")
-        with d3:
-            uni_interceptorps = st.number_input("Unidade", min_value=0, step=1, key="uni_interceptorps")
-        with d4:
-            m_interceptorps = st.number_input("Metros (m)", min_value=0.0, step=1.0, key="m_interceptorps")
-        with d5:
-            prancha_interceptorps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_interceptorps")
-        st.divider()
-
-    if "LINHA DE RECALQUE" in tipo_servico:
-        d1, d2, d3, d4, d5 = st.columns(5)
-        with d1:
-            st.write("###### \nLinha de Recalque")
-        with d2:
-            uni_ldrps = st.number_input("Unidade", min_value=0, step=1, key="uni_ldrps")
-        with d3:
-            area_ldrps = st.number_input("Área (m)", min_value=0.0, step=0.1, key="area_ldrps")
-        with d4:
-            vazao_ldrps = st.number_input("Vazão (l/s)", min_value=0.0, step=1.0, key="vazao_ldrps")
-        with d5:
-            prancha_ldrps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ldrps")
-        st.divider()
-
-    if "MEIO AMBIENTE" in tipo_servico:
-        ps_meioambiente_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Meio Ambiente")
-        with d2:
-            tipo_meivu = st.multiselect(
-                "Tipo",
-                ["EIA/RIMA", "RCA/PCA", "RCA", "PCA", "RADA", "PRADA", "Inventário Florestal"],
-                key="tipo_meivu"
-            )
-
-        if tipo_meivu:
-            colunas = st.columns(min(len(tipo_meivu), 3))
-            for i, tipo in enumerate(tipo_meivu):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    unidade_mei = st.number_input(
-                        "Unidade",
-                        min_value=0,
-                        step=1,
-                        key=f"unidade_mei_{tipo}"
-                    )
-                    prancha_mei = st.number_input(
-                        "Prancha",
-                        min_value=0,
-                        step=1,
-                        key=f"prancha_mei_{tipo}"
-                    )
-                    if unidade_mei > 0 or prancha_mei > 0:
-                        ps_meioambiente_info[tipo] = {
-                            "unidade": unidade_mei,
-                            "prancha": prancha_mei
-                        }
-        st.divider()
-
-    if "OAE" in tipo_servico:
-        ps_oae_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("OAE")
-        with d2:
-            tipo_oaevu = st.multiselect("Tipo", ["Laudo", "Concreto armado", "Concreto protendido", "Balanço sucessivo",
-                                                 "Ponte estaiada", "Ponte mista"], key="tipo_oaevu")
-
-        if tipo_oaevu:
-            colunas = st.columns(min(len(tipo_oaevu), 3))
-            for i, tipo in enumerate(tipo_oaevu):
-                with colunas[i % 3]:
-                    st.markdown(f"**{tipo}**")
-                    area_oae = st.number_input("Área (m²)", min_value=0.0, step=1.0, key=f"area_oae_{tipo}")
-                    vao_oae = st.number_input("Vão (m)", min_value=0.0, step=0.1, key=f"vao_oae_{tipo}")
-                    prancha_oae = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_oae_{tipo}",
-                                                  format="%0.f")
-                    if area_oae > 0 or vao_oae > 0 or prancha_oae > 0:
-                        ps_oae_info[tipo] = {"área": area_oae, "vão": vao_oae, "prancha": prancha_oae}
-        st.divider()
-
-    if "ORÇAMENTO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("###### \nOrçamento")
-        with d2:
-            area_orcsaps = st.number_input("Área(m²)", min_value=0.0, step=1.0, key="area_orcsaps")
-        with d3:
-            prancha_orcsaps = st.number_input("Área(km)", min_value=0, step=1, key="prancha_orcsaps")
-        st.divider()
-
-    if "PAISAGISTICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nPaisagístico""")
-        with d2:
-            area_paisavips = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_paisavips")
-        with d3:
-            prancha_paisavips = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_paisavips")
-        st.divider()
-
-    if "PAVIMENTAÇÃO" in tipo_servico:
-        ps_pavimentacao_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Pavimentação")
-        with d2:
-            tipo_pavvu = st.multiselect("Tipo", ["Recapeamento", "Intertravado", "CBUQ", "CONCRETO", "TSD"],
-                                        key="tipo_pavvu")
-
-        if tipo_pavvu:
-            colunas = st.columns(min(len(tipo_pavvu), 5))
-            for i, tipo in enumerate(tipo_pavvu):
-                with colunas[i % 5]:
-                    st.markdown(f"**{tipo}**")
-                    km_pav = st.number_input("KM", min_value=0.0, step=1.0, key=f"km_pav_{tipo}")
-                    m_pav = st.number_input("Área (m²)", min_value=0.0, step=1.0, key=f"m_pav_{tipo}")
-                    prancha_pav = st.number_input("Prancha", min_value=0.0, step=1.0, key=f"prancha_pav_{tipo}",
-                                                  format="%0.f")
-                    if km_pav > 0 or m_pav > 0 or prancha_pav > 0:
-                        ps_pavimentacao_info[tipo] = {"km": km_pav, "m²": m_pav, "prancha": prancha_pav}
-        st.divider()
-
-    if "REDE COLETORA" in tipo_servico:
-        d1, d2, d3, d4, d5 = st.columns(5)
-        with d1:
-            st.write("###### \nRede Coletora")
-        with d2:
-            vazao_redecoleps = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_redecoleps")
-        with d3:
-            uni_redecoleps = st.number_input("Unidade", min_value=0, step=1, key="uni_redecoleps")
-        with d4:
-            m_redecoleps = st.number_input("Metros (m)", min_value=0.0, step=1.0, key="m_redecoleps")
-        with d5:
-            prancha_redecoleps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_redecoleps")
-        st.divider()
-
-    if "REDE DE DISTRIBUIÇÃO" in tipo_servico:
-        d1, d2, d3, d4, d5 = st.columns(5)
-        with d1:
-            st.write("###### \nRede de Distribuição")
-        with d2:
-            vazao_rededisps = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_rededisps")
-        with d3:
-            uni_rededisps = st.number_input("Unidade", min_value=0, step=1, key="uni_rededisps")
-        with d4:
-            m_rededisps = st.number_input("Metros (m)", min_value=0.0, step=1.0, key="m_rededisps")
-        with d5:
-            prancha_rededisps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_rededisps")
-        st.divider()
-
-    if "SINALIZAÇÃO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nSinalização""")
-        with d2:
-            km_sinalps = st.number_input("KM", min_value=0.0, step=1.0, key="km_sinalps")
-        with d3:
-            prancha_sinalps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_sinalps")
-        st.divider()
-
-    if "SONDAGEM" in tipo_servico:
-        san_sondagem_info = {}
-        d1, d2 = st.columns(2)
-        with d1:
-            st.title("Sondagem")
-        with d2:
-            tipo_sonda = st.multiselect("Tipo", ["SPT", "Rotativa", "Trado", "Mista"], key="tipo_sonda")
-
-        if tipo_sonda:
-            colunas = st.columns(min(len(tipo_sonda), 4))
-            for i, tipo in enumerate(tipo_sonda):
-                with colunas[i % 4]:
-                    st.markdown(f"**{tipo}**")
-                    unidade_geo = st.number_input("Unidade", min_value=0.0, step=1.0, format="%.0f",
-                                                  key=f"unidade_sondagem_{tipo}")
-                    metros_geo = st.number_input("Metros (m)", min_value=0.0, step=0.1, key=f"metros_sondagem_{tipo}")
-                    prancha_geo = st.number_input("Prancha", min_value=0.0, step=1.0, format="%.0f",
-                                                  key=f"Prancha_{tipo}")
-
-                    if unidade_geo > 0 or metros_geo > 0:
-                        san_sondagem_info[tipo] = {
-                            "unidade": unidade_geo,
-                            "metros": metros_geo,
-                            "prancha": prancha_geo
-                        }
-        st.divider()
-
-    if "TERRAPLENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nTerraplenagem""")
-        with d2:
-            km_terps = st.number_input("KM", min_value=0.0, step=1.0, key="km_terps")
-        with d3:
-            prancha_terps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_terps")
-        st.divider()
-
-    if "TOPOGRAFIA" in tipo_servico:
-        d1, d2, d3, d4, d5, d6 = st.columns(6)
-        with d1:
-            st.write("""###### \nTopografia""")
-        with d2:
-            Tipo_topps = st.selectbox("Tipo", ["Planialtimétrico", "Georreferenciado", "Aerogotogrametria",
-                                               "Planialtimétrico georreferenciado",
-                                               "Planialtimétrico georreferenciado e aerofotogrametrico",
-                                               "Planialtimétrico aerofotogrametrico"])
-        with d3:
-            cadastral_ps = st.selectbox("Cadastral", ["Não", "Sim"], key="cadastral_ps")
-        with d4:
-            drone_os = st.selectbox("Drone", ["Não", "Sim"], key="drone_os")
-        with d5:
-            area_topsaps = st.number_input("M²", min_value=0.0, step=1.0, key="area_topsaps")
-        with d6:
-            prancha_topps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_toppr")
-        st.divider()
-
-    if "URBANISTICO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nUrbanístico""")
-        with d2:
-            area_urvips = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_urvips")
-        with d3:
-            prancha_urvips = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_urvips")
-        st.divider()
-
 if "Estudos e Projetos Ambientais – Edificação" in servico:
-    tipo_servicos = ["EIA/RIMA", "PCA – Plano de Controle Ambiental", "RAS – Relatório Ambiental Simplificado", "Licença Ambiental Concomitante", "RCA – Relatório de Controle Ambiental", "PRADA – Projeto de Recuperação de Águas Degradadas e Alteradas", "PMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos", "PIA – Plano de Intervenção Ambiental", "Relatório de Outorga", "Dispensa de outorga", "Dispensa de licenciamento", "Inventário florestal/Plano Manejo"]
+    tipo_servicos = ["Dispensa de licenciamento", "Dispensa de outorga",  "EIA/RIMA", "Inventário florestal/Plano Manejo",
+                    "Licença Ambiental Concomitante", "PCA – Plano de Controle Ambiental", "PIA – Plano de Intervenção Ambiental",
+                    "PMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos", "PRADA – Projeto de Recuperação de Águas Degradadas e Alteradas",
+                    "RCA – Relatório de Controle Ambiental", "RAS – Relatório Ambiental Simplificado", "Relatório de Outorga"]
     tipo_servico = st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
 
-    if "EIA/RIMA" in tipo_servico:
+    if "Dispensa de licenciamento" in tipo_servico:
         col1, col2, col3, col4 = st.columns(4)
         with col1:
-            st.write("""###### \nEIA/RIMA""")
+            st.write("""###### \nDispensa de licenciamento""")
         with col2:
-            un_eiaedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_eiaedi")
+            un_ddledi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_ddledi")
         with col3:
-            area_eiaedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_eiaedi")
+            area_ddledi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_ddledi")
         with col4:
-            prancha_eiaedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_eiaedi")
-        st.divider()
-
-    if "PCA – Plano de Controle Ambiental" in tipo_servico:
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
-            st.write("""###### \nPCA – Plano de Controle Ambiental""")
-        with col2:
-            un_pcaedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_pcaedi")
-        with col3:
-            area_pcaedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_pcaedi")
-        with col4:
-            prancha_pcaedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_pcaedi")
-        st.divider()
-
-    if "RAS – Relatório Ambiental Simplificado" in tipo_servico:
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
-            st.write("""###### \nRAS – Relatório Ambiental Simplificado""")
-        with col2:
-            un_rasedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_rasedi")
-        with col3:
-            area_rasedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_rasedi")
-        with col4:
-            prancha_rasedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_rasedi")
-        st.divider()
-
-    if "Licença Ambiental Concomitante" in tipo_servico:
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
-            st.write("""###### \nLicença Ambiental Concomitante""")
-        with col2:
-            un_lacedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_lacedi")
-        with col3:
-            area_lacedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_lacedi")
-        with col4:
-            prancha_lacedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_lacedi")
-        st.divider()
-
-    if "RCA – Relatório de Controle Ambiental" in tipo_servico:
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
-            st.write("""###### \nRCA – Relatório de Controle Ambiental""")
-        with col2:
-            un_rcaedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_rcaedi")
-        with col3:
-            area_rcaedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_rcaedi")
-        with col4:
-            prancha_rcaedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_rcaedi")
-        st.divider()
-
-    if "PRADA – Projeto de Recuperação de Águas Degradadas e Alteradas" in tipo_servico:
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
-            st.write("""###### \nPRADA – Projeto de Recuperação de Águas Degradadas e Alteradas""")
-        with col2:
-            un_pradaedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_pradaedi")
-        with col3:
-            area_pradaedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_pradaedi")
-        with col4:
-            prancha_pradaedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_pradaedi")
-        st.divider()
-
-    if "PMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos" in tipo_servico:
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
-            st.write("""###### \nPMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos""")
-        with col2:
-            un_pmgirsedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_pmgirsedi")
-        with col3:
-            area_pmgirsedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_pmgirsedi")
-        with col4:
-            prancha_pmgirsedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_pmgirsedi")
-        st.divider()
-
-    if "PIA – Plano de Intervenção Ambiental" in tipo_servico:
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
-            st.write("""###### \nPIA – Plano de Intervenção Ambiental""")
-        with col2:
-            un_piaedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_piaedi")
-        with col3:
-            area_piaedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_piaedi")
-        with col4:
-            prancha_piaedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_piaedi")
-        st.divider()
-
-    if "Relatório de Outorga" in tipo_servico:
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
-            st.write("""###### \nRelatório de Outorga""")
-        with col2:
-            un_rdoedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_rdoedi")
-        with col3:
-            area_rdoedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_rdoedi")
-        with col4:
-            prancha_rdoedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_rdoedi")
+            prancha_ddledi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ddledi")
         st.divider()
 
     if "Dispensa de outorga" in tipo_servico:
@@ -3819,16 +2666,16 @@ if "Estudos e Projetos Ambientais – Edificação" in servico:
             prancha_ddoedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ddoedi")
         st.divider()
 
-    if "Dispensa de licenciamento" in tipo_servico:
+    if "EIA/RIMA" in tipo_servico:
         col1, col2, col3, col4 = st.columns(4)
         with col1:
-            st.write("""###### \nDispensa de licenciamento""")
+            st.write("""###### \nEIA/RIMA""")
         with col2:
-            un_ddledi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_ddledi")
+            un_eiaedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_eiaedi")
         with col3:
-            area_ddledi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_ddledi")
+            area_eiaedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_eiaedi")
         with col4:
-            prancha_ddledi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ddledi")
+            prancha_eiaedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_eiaedi")
         st.divider()
 
     if "Inventário florestal/Plano Manejo" in tipo_servico:
@@ -3843,20 +2690,16 @@ if "Estudos e Projetos Ambientais – Edificação" in servico:
             prancha_ifpmedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ifpmedi")
         st.divider()
 
-if "Estudos e Projetos Ambientais - Infraestrutura" in servico:
-    tipo_servicos = ["EIA/RIMA", "PCA – Plano de Controle Ambiental", "RAS – Relatório Ambiental Simplificado", "Licença Ambiental Concomitante", "RCA – Relatório de Controle Ambiental", "PRADA – Projeto de Recuperação de Águas Degradadas e Alteradas", "PMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos", "PIA – Plano de Intervenção Ambiental", "Relatório de Outorga", "Dispensa de outorga", "Dispensa de licenciamento", "Inventário florestal/Plano Manejo"]
-    tipo_servico = st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
-
-    if "EIA/RIMA" in tipo_servico:
+    if "Licença Ambiental Concomitante" in tipo_servico:
         col1, col2, col3, col4 = st.columns(4)
         with col1:
-            st.write("""###### \nEIA/RIMA""")
+            st.write("""###### \nLicença Ambiental Concomitante""")
         with col2:
-            un_eiainf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_eiainf")
+            un_lacedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_lacedi")
         with col3:
-            area_eiainf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_eiainf")
+            area_lacedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_lacedi")
         with col4:
-            prancha_eiainf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_eiainf")
+            prancha_lacedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_lacedi")
         st.divider()
 
     if "PCA – Plano de Controle Ambiental" in tipo_servico:
@@ -3864,71 +2707,11 @@ if "Estudos e Projetos Ambientais - Infraestrutura" in servico:
         with col1:
             st.write("""###### \nPCA – Plano de Controle Ambiental""")
         with col2:
-            un_pcainf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_pcainf")
+            un_pcaedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_pcaedi")
         with col3:
-            area_pcainf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_pcainf")
+            area_pcaedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_pcaedi")
         with col4:
-            prancha_pcainf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_pcainf")
-        st.divider()
-
-    if "RAS – Relatório Ambiental Simplificado" in tipo_servico:
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
-            st.write("""###### \nRAS – Relatório Ambiental Simplificado""")
-        with col2:
-            un_rasinf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_rasinf")
-        with col3:
-            area_rasinf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_rasinf")
-        with col4:
-            prancha_rasinf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_rasinf")
-        st.divider()
-
-    if "Licença Ambiental Concomitante" in tipo_servico:
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
-            st.write("""###### \nLicença Ambiental Concomitante""")
-        with col2:
-            un_lacinf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_lacinf")
-        with col3:
-            area_lacinf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_lacinf")
-        with col4:
-            prancha_lacinf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_lacinf")
-        st.divider()
-
-    if "RCA – Relatório de Controle Ambiental" in tipo_servico:
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
-            st.write("""###### \nRCA – Relatório de Controle Ambiental""")
-        with col2:
-            un_rcainf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_rcainf")
-        with col3:
-            area_rcainf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_rcainf")
-        with col4:
-            prancha_rcainf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_rcainf")
-        st.divider()
-
-    if "PRADA – Projeto de Recuperação de Águas Degradadas e Alteradas" in tipo_servico:
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
-            st.write("""###### \nPRADA – Projeto de Recuperação de Águas Degradadas e Alteradas""")
-        with col2:
-            un_pradainf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_pradainf")
-        with col3:
-            area_pradainf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_pradainf")
-        with col4:
-            prancha_pradainf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_pradainf")
-        st.divider()
-
-    if "PMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos" in tipo_servico:
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
-            st.write("""###### \nPMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos""")
-        with col2:
-            un_pmgirsinf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_pmgirsinf")
-        with col3:
-            area_pmgirsinf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_pmgirsinf")
-        with col4:
-            prancha_pmgirsinf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_pmgirsinf")
+            prancha_pcaedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_pcaedi")
         st.divider()
 
     if "PIA – Plano de Intervenção Ambiental" in tipo_servico:
@@ -3936,11 +2719,59 @@ if "Estudos e Projetos Ambientais - Infraestrutura" in servico:
         with col1:
             st.write("""###### \nPIA – Plano de Intervenção Ambiental""")
         with col2:
-            un_piainf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_piainf")
+            un_piaedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_piaedi")
         with col3:
-            area_piainf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_piainf")
+            area_piaedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_piaedi")
         with col4:
-            prancha_piainf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_piainf")
+            prancha_piaedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_piaedi")
+        st.divider()
+
+    if "PMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos" in tipo_servico:
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.write("""###### \nPMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos""")
+        with col2:
+            un_pmgirsedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_pmgirsedi")
+        with col3:
+            area_pmgirsedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_pmgirsedi")
+        with col4:
+            prancha_pmgirsedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_pmgirsedi")
+        st.divider()
+
+    if "PRADA – Projeto de Recuperação de Águas Degradadas e Alteradas" in tipo_servico:
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.write("""###### \nPRADA – Projeto de Recuperação de Águas Degradadas e Alteradas""")
+        with col2:
+            un_pradaedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_pradaedi")
+        with col3:
+            area_pradaedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_pradaedi")
+        with col4:
+            prancha_pradaedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_pradaedi")
+        st.divider()
+
+    if "RCA – Relatório de Controle Ambiental" in tipo_servico:
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.write("""###### \nRCA – Relatório de Controle Ambiental""")
+        with col2:
+            un_rcaedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_rcaedi")
+        with col3:
+            area_rcaedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_rcaedi")
+        with col4:
+            prancha_rcaedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_rcaedi")
+        st.divider()
+
+    if "RAS – Relatório Ambiental Simplificado" in tipo_servico:
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.write("""###### \nRAS – Relatório Ambiental Simplificado""")
+        with col2:
+            un_rasedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_rasedi")
+        with col3:
+            area_rasedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_rasedi")
+        with col4:
+            prancha_rasedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_rasedi")
         st.divider()
 
     if "Relatório de Outorga" in tipo_servico:
@@ -3948,11 +2779,29 @@ if "Estudos e Projetos Ambientais - Infraestrutura" in servico:
         with col1:
             st.write("""###### \nRelatório de Outorga""")
         with col2:
-            un_rdoinf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_rdoinf")
+            un_rdoedi = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_rdoedi")
         with col3:
-            area_rdoinf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_rdoinf")
+            area_rdoedi = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_rdoedi")
         with col4:
-            prancha_rdoinf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_rdoinf")
+            prancha_rdoedi = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_rdoedi")
+        st.divider()
+
+if "Estudos e Projetos Ambientais - Infraestrutura" in servico:
+    tipo_servicos = ["Dispensa de licenciamento", "Dispensa de outorga", "EIA/RIMA", "Inventário florestal/Plano Manejo",
+                    "Licença Ambiental Concomitante", "PCA – Plano de Controle Ambiental", "PIA – Plano de Intervenção Ambiental",
+                     "PMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos", "PRADA – Projeto de Recuperação de Águas Degradadas e Alteradas", "RCA – Relatório de Controle Ambiental", "RAS – Relatório Ambiental Simplificado", "Relatório de Outorga"]
+    tipo_servico = st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
+
+    if "Dispensa de licenciamento" in tipo_servico:
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.write("""###### \nDispensa de licenciamento""")
+        with col2:
+            un_ddlinf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_ddlinf")
+        with col3:
+            area_ddlinf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_ddlinf")
+        with col4:
+            prancha_ddlinf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ddlinf")
         st.divider()
 
     if "Dispensa de outorga" in tipo_servico:
@@ -3967,16 +2816,16 @@ if "Estudos e Projetos Ambientais - Infraestrutura" in servico:
             prancha_ddoinf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ddoinf")
         st.divider()
 
-    if "Dispensa de licenciamento" in tipo_servico:
+    if "EIA/RIMA" in tipo_servico:
         col1, col2, col3, col4 = st.columns(4)
         with col1:
-            st.write("""###### \nDispensa de licenciamento""")
+            st.write("""###### \nEIA/RIMA""")
         with col2:
-            un_ddlinf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_ddlinf")
+            un_eiainf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_eiainf")
         with col3:
-            area_ddlinf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_ddlinf")
+            area_eiainf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_eiainf")
         with col4:
-            prancha_ddlinf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ddlinf")
+            prancha_eiainf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_eiainf")
         st.divider()
 
     if "Inventário florestal/Plano Manejo" in tipo_servico:
@@ -3989,6 +2838,102 @@ if "Estudos e Projetos Ambientais - Infraestrutura" in servico:
             area_ifpminf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_ifpminf")
         with col4:
             prancha_ifpminf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ifpminf")
+        st.divider()
+
+    if "Licença Ambiental Concomitante" in tipo_servico:
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.write("""###### \nLicença Ambiental Concomitante""")
+        with col2:
+            un_lacinf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_lacinf")
+        with col3:
+            area_lacinf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_lacinf")
+        with col4:
+            prancha_lacinf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_lacinf")
+        st.divider()
+
+    if "PCA – Plano de Controle Ambiental" in tipo_servico:
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.write("""###### \nPCA – Plano de Controle Ambiental""")
+        with col2:
+            un_pcainf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_pcainf")
+        with col3:
+            area_pcainf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_pcainf")
+        with col4:
+            prancha_pcainf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_pcainf")
+        st.divider()
+
+    if "PIA – Plano de Intervenção Ambiental" in tipo_servico:
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.write("""###### \nPIA – Plano de Intervenção Ambiental""")
+        with col2:
+            un_piainf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_piainf")
+        with col3:
+            area_piainf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_piainf")
+        with col4:
+            prancha_piainf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_piainf")
+        st.divider()
+
+    if "PMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos" in tipo_servico:
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.write("""###### \nPMGIRS – Plano Municipal de Gerenciamento Integrado de Resíduos Sólidos""")
+        with col2:
+            un_pmgirsinf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_pmgirsinf")
+        with col3:
+            area_pmgirsinf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_pmgirsinf")
+        with col4:
+            prancha_pmgirsinf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_pmgirsinf")
+        st.divider()
+
+    if "PRADA – Projeto de Recuperação de Águas Degradadas e Alteradas" in tipo_servico:
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.write("""###### \nPRADA – Projeto de Recuperação de Águas Degradadas e Alteradas""")
+        with col2:
+            un_pradainf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_pradainf")
+        with col3:
+            area_pradainf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_pradainf")
+        with col4:
+            prancha_pradainf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_pradainf")
+        st.divider()
+
+    if "RCA – Relatório de Controle Ambiental" in tipo_servico:
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.write("""###### \nRCA – Relatório de Controle Ambiental""")
+        with col2:
+            un_rcainf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_rcainf")
+        with col3:
+            area_rcainf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_rcainf")
+        with col4:
+            prancha_rcainf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_rcainf")
+        st.divider()
+
+    if "RAS – Relatório Ambiental Simplificado" in tipo_servico:
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.write("""###### \nRAS – Relatório Ambiental Simplificado""")
+        with col2:
+            un_rasinf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_rasinf")
+        with col3:
+            area_rasinf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_rasinf")
+        with col4:
+            prancha_rasinf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_rasinf")
+        st.divider()
+
+    if "Relatório de Outorga" in tipo_servico:
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.write("""###### \nRelatório de Outorga""")
+        with col2:
+            un_rdoinf = st.number_input("UN", min_value=0.0, step=1.0, format="%.0f", key="un_rdoinf")
+        with col3:
+            area_rdoinf = st.number_input("Área", min_value=0.0, step=1.0, format="%.2f", key="area_rdoinf")
+        with col4:
+            prancha_rdoinf = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_rdoinf")
         st.divider()
 
 if "Plano Diretor" in servico:
@@ -4097,6 +3042,7 @@ if st.button("Enviar"):
             "MAQ ELET/3D": maqelet_info,
             "ESTRUTURAL": estrutural_info,
             "FUNDAÇÃO": fundacao_info,
+            "CLIMATIZAÇÃO(m²)": area_clima, "CLIMATIZAÇÃO(kbtu/h)":kbtuh_clima, "PRANCHA CLIMATIZAÇÃO":prancha_clima,
             "CONTENÇÃO": contencao_info,
             "HIDROSANITÁRIO(m²)": area_hds, "PRANCHA HIDROSANITÁRIO": prancha_hds,
             "IRRIGAÇÃO(m²)": area_irri, "PRANCHA IRRIGAÇÃO": prancha_irri,
@@ -4111,11 +3057,11 @@ if st.button("Enviar"):
             "SPDA(m²)": area_spda, "PRANCHA SPDA": prancha_spda,
             "ALARME/CFTV(m²)": area_cftv, "PRANCHA ALARME/CFTV": prancha_cftv,
             "EXTENSÃO DE REDE(km)": area_extr, "PRANCHA EXTENSÃO DE REDE": prancha_extr,
-            "ILUMINAÇÃO PUBLICA(pontos)": area_ilupu, "PRANCHA ILUMINAÇÃO PUBLICA": prancha_ilupu,
+            "ILUMINAÇÃO PUBLICA(m²)": area_ilupu, "ILUMINAÇÃO PUBLICA(ponto)": ponto_ilupu,"PRANCHA ILUMINAÇÃO PUBLICA": prancha_ilupu,
             "AR CONDICIONADO(m²)": area_arcond, "PRANCHA AR CONDICIONADO": prancha_arcond,
-            "VENTILAÇÃO/EXAUSTÃO(m²)": area_venex, "PRANCHA VENTILAÇÃO/EXAUSTÃO": prancha_venex,
-            "GLP(m²)": area_glp, "PRANCHA GLP": prancha_glp,
-            "GASES MEDICINAIS(m²)": area_hvac, "PRANCHA GASES MEDICINAIS": prancha_hvac,
+            "VENTILAÇÃO/EXAUSTÃO(m²)": area_venex, "VENTILAÇÃO/EXAUSTÃO(kbtu/h)": kbtuh_venex,"PRANCHA VENTILAÇÃO/EXAUSTÃO": prancha_venex,
+            "GLP(m²)": area_glp, "GLP(m³)":m3_glp, "PRANCHA GLP": prancha_glp,
+            "GASES MEDICINAIS(m²)": area_hvac,"GASES MEDICINAIS(m³)":m3_hvac,"PRANCHA GASES MEDICINAIS": prancha_hvac,
             "COMPAT. PROJETOS(m²)": area_comp, "PRANCHA COMPAT. PROJETOS": prancha_comp,
             "ACÚSTICA(m²)": area_acus, "PRANCHA ACÚSTICA": prancha_acus,
             "Un.Habitacionais": area_reurb, "PRANCHA REURB": prancha_reurb,
@@ -4130,6 +3076,7 @@ if st.button("Enviar"):
             "VU-DRENAGEM(KM)": km_dre, "VU-PRANCHA DRENAGEM": prancha_dre,
             "VU-ESTRUTURAL": vu_estrutural_info,
             "VU-PAVIMENTAÇÃO": vu_pavimentacao_info,
+            "VU-SANEAMENTO(m)":area_sane,"VU-SANEAMENTO(l/s)":vazao_sane,"VU-PRANCHA SANEAMENTO":prancha_sane,
             "VU-SINALIZAÇÃO(KM)": km_sinal, "VU-PRANCHA SINALIZAÇÃO": prancha_sinal,
             "VU-SONDAGEM": vu_sondagem_info,
             "VU-TOPOGRAFIA": vu_topografia_info,
@@ -4142,7 +3089,7 @@ if st.button("Enviar"):
             "VU-ELÉTRICO(m²)": area_ele, "VU-KVA": kva_vu, "VU-PRANCHA ELÉTRICO": prancha_ele,
             "VU-GERAÇÃO FOTOVOLTAICA(m²)": area_gerafotovu, "VU-GERAÇÃO FOTOVOLTAICA(kva)": kva_gerafotovu, "VU-PRANCHA GERAÇÃO FOTOVOLTAICA": prancha_gerafotovu,
             "VU-EXTENSÃO DE REDE(KM)": area_extr, "VU-PRANCHA EXTENSÃO DE REDE": prancha_extr,
-            "VU-ILUMINAÇÃO PUBLICA(Pontos)": area_ilupu, "VU-PRANCHA ILUMINAÇÃO PUBLICA": prancha_ilupu,
+            "VU-ILUMINAÇÃO PUBLICA(km)": area_ilupuvu, "VU-ILUMINAÇÃO PUBLICA(Pontos)": ponto_ilupuvu, "VU-PRANCHA ILUMINAÇÃO PUBLICA": prancha_ilupuvu,
 
             "PMSB-NUMERO HABITANTES": pmbs_habitantes, "PMSB-PRANCHA":prancha_pmbs,
 
@@ -4186,6 +3133,7 @@ if st.button("Enviar"):
             "PR-DRENAGEM(KM)": km_drepr, "PR-PRANCHA DRENAGEM": prancha_drepr,
             "PR-ESTRUTURAL": estruturalpr_info,
             "PR-PAVIMENTAÇÃO": pavimentacaopr_info,
+            "PR-SANEAMENTO(m)": area_sanepr, "PR-SANEAMENTO(l/s)": vazao_sanepr, "PR-PRANCHA SANEAMENTO": prancha_sanepr,
             "PR-SINALIZAÇÃO(KM)": km_sinalpr, "PR-PRANCHA SINALIZAÇÃO": prancha_sinalpr,
             "PR-SONDAGEM": rod_sondagem_info,
             "PR-TOPOGRAFIA(m²)": area_toppr, "PR-TOPOGRAFIA(KM)": km_toppr, "PR-PRANCHA TOPOGRAFIA": prancha_toppr,
@@ -4198,7 +3146,7 @@ if st.button("Enviar"):
             "PR-ELÉTRICO(m²)": area_elepr, "PR-KVA": kva_pr, "PR-PRANCHA ELÉTRICO": prancha_elepr,
             "PR-GERAÇÃO FOTOVOLTAICA(m²)": area_gerafotopr, "PR-GERAÇÃO FOTOVOLTAICA(kva)": kva_gerafotopr, "PR-PRANCHA GERAÇÃO FOTOVOLTAICA": prancha_gerafotopr,
             "PR-EXTENSÃO DE REDE(KM)": area_extpr, "PR-PRANCHA EXTENSÃO DE REDE": prancha_extpr,
-            "PR-ILUMINAÇÃO PUBLICA(Pontos)": area_iluppr, "PR-PRANCHA ILUMINAÇÃO PUBLICA": prancha_iluppr,
+            "PR-ILUMINAÇÃO PUBLICA(km)":area_iluppr, "PR-ILUMINAÇÃO PUBLICA(Pontos)": ponto_iluppr, "PR-PRANCHA ILUMINAÇÃO PUBLICA": prancha_iluppr,
 
             "PS-ADUTORA(l/s)":vazao_adutoraps,"PS-ADUTORA(uni)": vazao_adutoraps,"PS-ADUTORA(m)": m_adutoraps, "PS-PRANCHA ADUTORA": prancha_adutoraps,
             "PS-ANTEPROJETO DE INFRA(km)":km_antips, "PS-PRANCHA ANTEPROJETO DE INFRA": prancha_antips,
