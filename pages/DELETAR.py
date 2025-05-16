@@ -25,8 +25,7 @@ st.set_page_config(page_title="Grupo Projeta", layout="wide")
 st.markdown("""
     <style>
         /* Esconde a barra de ferramentas do Streamlit */
-        .stAppHeader.st-emotion-cache-h4xjwg.e4hpqof0,
-        ._terminalButton_rix23_138 
+        header
          {
 
             visibility: hidden;
