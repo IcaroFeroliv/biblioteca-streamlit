@@ -190,6 +190,7 @@ with abas[1]:
 
     # Dicionário de formações dos profissionais
     formacoes = {
+        "Aline":"Engenheira Eletricista",
         "Ana Carolina": "Engenheira Sanitarista e Ambiental",
         "André": "Engenheiro Eletricista",
         "Ayana Lemos": "Engenheira Ambiental e Engenheira de Segurança do Trabalho",
@@ -206,8 +207,9 @@ with abas[1]:
         "Emanuel da Silva": "Engenheiro Civil",
         "Emanuel Jose": "Geógrafo",
         "Érika": "Engenheira Civil",
-        "Fabiane Ferreira": "Engenheira ?",
-        "Grazielle": "Engenheira Ambiental",
+        "Fabiane Ferreira": "Engenheira Civil",
+        "Fabiano Matos":"Engenheiro Civil",
+        "Gracielle": "Engenheira Ambiental",
         "Isabela": "Arquiteta",
          "Juliana Goncalves": "Engenheira Civil e Engenheira de Segurança do Trabalho",
         "Julio Cesar": "Engenheiro Civil",
@@ -232,6 +234,7 @@ with abas[1]:
 
     # Dicionário de escialização dos profissionais
     especializacao = {
+        "Aline": "-",
         "Ana Carolina": "-",
         "André": "-",
         "Ayana Lemos": "-",
@@ -249,7 +252,8 @@ with abas[1]:
         "Emanuel Jose": "-",
         "Érika": "-",
         "Fabiane Ferreira": "-",
-        "Grazielle": "-",
+        "Fabiano Matos": "-",
+        "Gracielle": "-",
         "Isabela": "-",
          "Juliana Goncalves": "Engenharia Geotécnica",
         "Julio Cesar": "-",

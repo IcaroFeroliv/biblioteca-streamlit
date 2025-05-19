@@ -43,7 +43,7 @@ with col2:
     st.image("logoprojeta.png", width=350)
 
 # Lista de empresas do grupo
-empresas = ["OBJETIVA", "PROJETA", "SONDA", "PLATOR", "MINAS PROJETOS Objetiva", "PITAGORAS Objetiva", "METAVERSO Compasso", "DIAMANTE Compasso", "VITORIA Objetiva"]
+empresas = ["COMPASSO", "OBJETIVA", "PROJETA", "SONDA", "PLATOR", "MINAS PROJETOS Objetiva", "PITAGORAS Objetiva", "METAVERSO Compasso", "DIAMANTE Compasso", "VITORIA Objetiva"]
 
 # Participações automáticas mapeadas por nome da empresa
 participacoes_automaticas = {
@@ -56,6 +56,7 @@ participacoes_automaticas = {
     "PROJETA": 100,
     "SONDA": 100,
     "PLATOR": 100,
+    "COMPASSO": 100,
 
 }
 
@@ -101,15 +102,15 @@ with c4:
 
 co1, co2 = st.columns(2)
 with co1:
-    nome_profissionais_coor = ["Ana Carolina", "André", "Ayana Lemos","Bárbara Izabela","Bruno Andrelli", "Bruno Tizoni", "Cláudio", "Christian Sorensen", "Daniel Pinheiro", "Danilo Vitor", "Debora", "Debora Dayane",
-                               "Douglas Lins","Emanuel da Silva", "Emanuel Jose", "Érika", "Fabiane Ferreira", "Grazielle", "Isabela", "Juliana Goncalves", "Julio Cesar", "Lucas Bastos", "Luiz Felipe",
+    nome_profissionais_coor = ["Aline","Ana Carolina", "André", "Ayana Lemos","Bárbara Izabela","Bruno Andrelli", "Bruno Tizoni", "Cláudio", "Christian Sorensen", "Daniel Pinheiro", "Danilo Vitor", "Debora", "Debora Dayane",
+                               "Douglas Lins","Emanuel da Silva", "Emanuel Jose", "Érika", "Fabiane Ferreira", "Fabiano Matos", "Gracielle", "Isabela", "Juliana Goncalves", "Julio Cesar", "Lucas Bastos", "Luiz Felipe",
                                "Mariane de Paula", "Matheus Comanduci", "Mauricio Otavio", "Márcio", "Moises Coelho", "Pablo Otoni", "Patricia", "Sarah Malta", "Sayuri", "Sérgio Henrique", "Thiago Figueiredo",
                                "Tiago Guedes", "Vicente", "Vinicius Gama", "Welington de Avila"]
     nome_profissional_coor = st.selectbox("Nome do Profissional de Coordenação", ["Selecione"] + nome_profissionais_coor)
 
 with co2:
-    nome_profissionais = ["Ana Carolina", "André", "Ayana Lemos","Bárbara Izabela","Bruno Andrelli", "Bruno Tizoni", "Cláudio", "Christian Sorensen", "Daniel Pinheiro", "Danilo Vitor", "Debora", "Debora Dayane",
-                               "Douglas Lins","Emanuel da Silva", "Emanuel Jose", "Érika", "Fabiane Ferreira", "Grazielle", "Isabela", "Juliana Goncalves", "Julio Cesar", "Lucas Bastos", "Luiz Felipe",
+    nome_profissionais = ["Aline", "Ana Carolina", "André", "Ayana Lemos","Bárbara Izabela","Bruno Andrelli", "Bruno Tizoni", "Cláudio", "Christian Sorensen", "Daniel Pinheiro", "Danilo Vitor", "Debora", "Debora Dayane",
+                               "Douglas Lins","Emanuel da Silva", "Emanuel Jose", "Érika", "Fabiane Ferreira", "Fabiano Matos", "Gracielle", "Isabela", "Juliana Goncalves", "Julio Cesar", "Lucas Bastos", "Luiz Felipe",
                                "Mariane de Paula", "Matheus Comanduci", "Mauricio Otavio", "Márcio", "Moises Coelho", "Pablo Otoni", "Patricia", "Sarah Malta", "Sayuri", "Sérgio Henrique", "Thiago Figueiredo",
                                "Tiago Guedes", "Vicente", "Vinicius Gama", "Welington de Avila"]
     nome_profissional = st.multiselect("Nome dos Profissionais", nome_profissionais)
