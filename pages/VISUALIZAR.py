@@ -454,7 +454,7 @@ with abas[2]:
         "prancha": "PRANCHA IRRIGAÇÃO"
     },
     "LEVANTAMENTO ARQUITETÔNICO": {
-        "tipo": "TIPO LEVANTAMENTO ARQUITETÔNICO ",
+        "tipo": "TIPO LEVANTAMENTO ARQUITETÔNICO",
         "area": "LEVANTAMENTO ARQUITETÔNICO(m²)",
         "prancha": "PRANCHA LEVANTAMENTO ARQUITETÔNICO"
     },
@@ -508,7 +508,6 @@ with abas[2]:
         "prancha": "PRANCHA VENTILAÇÃO/EXAUSTÃO"
     }
 }
-
 
     disciplinas_vu = {
     "ADEQUAÇÃO DE ACESSIBILIDADE": {
@@ -612,6 +611,7 @@ with abas[2]:
         "prancha": ["VU-PRANCHA URBANISTICO", "PR-PRANCHA URBANISTICO"]
     }
 }
+
     disciplinas_pmsb = {
         "PLANO SANEAMENTO BÁSICO - PMSB": {"area": "PMSB-NUMERO HABITANTES", "prancha": "PMSB-PRANCHA"}
     }
@@ -1408,7 +1408,7 @@ with abas[2]:
             "prancha": ["PRANCHA IRRIGAÇÃO", "DI-PRANCHA IRRIGAÇÃO"]
         },
         "LEVANTAMENTO ARQUITETÔNICO": {
-            "tipo": ["TIPO LEVANTAMENTO ARQUITETÔNICO ", "DI-TIPO LEVANTAMENTO ARQUITETÔNICO "],
+            "tipo": ["TIPO LEVANTAMENTO ARQUITETÔNICO", "DI-TIPO LEVANTAMENTO ARQUITETÔNICO"],
             "area": ["LEVANTAMENTO ARQUITETÔNICO(m²)", "DI-LEVANTAMENTO ARQUITETÔNICO(m²)"],
             "prancha": ["PRANCHA LEVANTAMENTO ARQUITETÔNICO", "DI-PRANCHA LEVANTAMENTO ARQUITETÔNICO"]
         },
