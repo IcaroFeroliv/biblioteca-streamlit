@@ -228,6 +228,7 @@ with abas[1]:
         "Sávio": "Geólogo",
         "Sayuri": "Arquiteta",
         "Sérgio Henrique": "Engenheiro Civil",
+        "Tayrine Cristina": "Engenheira Civil",
         "Thiago Figueiredo": "Engenheiro Civil",
          "Tiago Guedes": "Engenheiro Mecânico e Engenheiro do Trabalho",
         "Vicente": "Engenheiro Civil",
@@ -275,6 +276,7 @@ with abas[1]:
         "Sávio": "-",
         "Sayuri": "-",
         "Sérgio Henrique": "-",
+        "Tayrine Cristina": "-",
         "Thiago Figueiredo": "-",
          "Tiago Guedes": "-",
         "Vicente": "-",
@@ -507,6 +509,7 @@ with abas[2]:
     }
 }
 
+
     disciplinas_vu = {
     "ADEQUAÇÃO DE ACESSIBILIDADE": {
         "area": ["VU-ADEQUAÇÃO DE ACESSIBILIADE(m²)", "PR-ADEQUAÇÃO DE ACESSIBILIADE(m²)"],
@@ -609,7 +612,6 @@ with abas[2]:
         "prancha": ["VU-PRANCHA URBANISTICO", "PR-PRANCHA URBANISTICO"]
     }
 }
-
     disciplinas_pmsb = {
         "PLANO SANEAMENTO BÁSICO - PMSB": {"area": "PMSB-NUMERO HABITANTES", "prancha": "PMSB-PRANCHA"}
     }
@@ -1204,10 +1206,10 @@ with abas[2]:
             "prancha": ["DI-PRANCHA TERRAPLENAGEM"]
         },
         "TOPOGRAFIA": {
+            "area": ["DI-TOPOGRAFIA(m²)"],
             "tipo": ["DI-TIPO TOPOGRAFIA"],
             "cadastral": ["DI-CADASTRAL"],
             "drone": ["DI-DRONE"],
-            "area": ["DI-TOPOGRAFIA(m²)"],
             "prancha": ["DI-PRANCHA TOPOGRAFIA"]
         },
         "URBANISTICO": {
@@ -1219,15 +1221,6 @@ with abas[2]:
             "kva": ["DI-VENTILAÇÃO/EXAUSTÃO(kbtu/h)"],
             "prancha": ["DI-PRANCHA VENTILAÇÃO/EXAUSTÃO"]
         }
-    }
-
-    disciplinas_topografia = {
-        "TOPOGRAFIA": {
-            "tipo": "TOPOGRAFIA-TIPO",
-            "cadastral": "TOPOGRAFIA-CADASTRAL",
-            "drone": "TOPOGRAFIA-DRONE",
-            "area": "TOPOGRAFIA-AREA(m²)",
-            "prancha": "TOPOGRAFIA-PRANCHA"}
     }
 
     disciplinas_reur = {
@@ -1541,10 +1534,10 @@ with abas[2]:
             "prancha": ["PRANCHA TERRAPLENAGEM", "DI-PRANCHA TERRAPLENAGEM", "VU-PRANCHA TERRAPLENAGEM", "PR-PRANCHA TERRAPLENAGEM", "PS-PRANCHA TERRAPLENAGEM"]
         },
         "TOPOGRAFIA": {
-            "tipo": ["TIPO TOPOGRAFIA", "DI-TIPO TOPOGRAFIA", "VU-TIPO TOPOGRAFIA", "PR-TOPOGRAFIA(KM)", "PS-TIPO TOPOGRAFIA"],
+            "area": ["TOPOGRAFIA(m²)", "DI-TOPOGRAFIA(m²)", "VU-TOPOGRAFIA(m²)", "PR-TOPOGRAFIA(m²)", "PS-TOPOGRAFIA(m²)"],
+            "tipo": ["TIPO TOPOGRAFIA", "DI-TIPO TOPOGRAFIA", "VU-TIPO TOPOGRAFIA", "PR-TIPO TOPOGRAFIA", "PS-TIPO TOPOGRAFIA"],
             "cadastral": ["CADASTRAL-TOP", "DI-CADASTRAL", "VU-CADASTRAL-TOP", "PR-CADASTRAL-TOP", "PS-CADASTRAL-TOP"],
             "drone": ["DRONE-TOP", "DI-DRONE", "VU-DRONE-TOP", "PR-DRONE-TOP", "PS-DRONE-TOP"],
-            "area": ["TOPOGRAFIA(m²)", "DI-TOPOGRAFIA(m²)", "VU-TOPOGRAFIA(m²)", "PR-TOPOGRAFIA(m²)", "PS-TOPOGRAFIA(m²)"],
             "prancha": ["PRANCHA TOPOGRAFIA", "DI-PRANCHA TOPOGRAFIA", "VU-PRANCHA TOPOGRAFIA", "PR-PRANCHA TOPOGRAFIA", "PS-PRANCHA TOPOGRAFIA"]
         },
         "URBANISTICO": {
@@ -1599,8 +1592,6 @@ with abas[2]:
         disciplinas_info = disciplinas_planodiretor
     elif servico_selecionado == "Diversos":
         disciplinas_info = disciplinas_diversos
-    elif servico_selecionado == "Topografia":
-        disciplinas_info = disciplinas_topografia
     elif servico_selecionado == "REURB Regularização Fundiária":
         disciplinas_info = disciplinas_reur
     else:
@@ -1833,6 +1824,9 @@ with abas[2]:
                 colunas_tabela.update([
                     col for col in col_area_existentes if
                     col in df_filtrado.columns and df_filtrado[col].notnull().any()
+                ])
+                colunas_tabela.update([
+                    col for col in col_tipo if col in df_filtrado.columns and df_filtrado[col].notnull().any()
                 ])
                 colunas_tabela.update([
                     col for col in col_kva if col in df_filtrado.columns and df_filtrado[col].notnull().any()

@@ -84,8 +84,7 @@ with c2:
         "Supervisão Gerenciamento Edificação",
         "Supervisão Gerenciamento Rodovias",
         "Supervisão Gerenciamento Saneamento",
-        "Supervisão Gerenciamento Vias Urbanas",
-        "Topografia"
+        "Supervisão Gerenciamento Vias Urbanas"
     ]
     servico = st.selectbox("Tipo de serviço", ["Selecione"] + servicos)
 
@@ -104,14 +103,14 @@ co1, co2 = st.columns(2)
 with co1:
     nome_profissionais_coor = ["Aline","Ana Carolina", "André", "Ayana Lemos","Bárbara Izabela","Bruno Andrelli", "Bruno Tizoni", "Cláudio", "Christian Sorensen", "Daniel Pinheiro", "Danilo Vitor", "Debora", "Debora Dayane",
                                "Douglas Lins","Emanuel da Silva", "Emanuel Jose", "Érika", "Fabiane Ferreira", "Fabiano Matos", "Fernando Martins", "Gracielle", "Isabela", "Juliana Goncalves", "Julio Cesar", "Lucas Bastos", "Luiz Felipe",
-                               "Maria Francielle", "Mariane de Paula", "Matheus Comanduci", "Mauricio Otavio", "Márcio", "Moises Coelho", "Pablo Otoni", "Patricia", "Sarah Malta", "Sávio", "Sayuri", "Sérgio Henrique", "Thiago Figueiredo",
+                               "Maria Francielle", "Mariane de Paula", "Matheus Comanduci", "Mauricio Otavio", "Márcio", "Moises Coelho", "Pablo Otoni", "Patricia", "Sarah Malta", "Sávio", "Sayuri", "Sérgio Henrique", "Tayrine Cristina", "Thiago Figueiredo",
                                "Tiago Guedes", "Vicente", "Vinicius Gama", "Welington de Avila"]
     nome_profissional_coor = st.selectbox("Profissional de Coordenação", ["Selecione"] + nome_profissionais_coor)
 
 with co2:
     nome_profissionais = ["Aline", "Ana Carolina", "André", "Ayana Lemos","Bárbara Izabela","Bruno Andrelli", "Bruno Tizoni", "Cláudio", "Christian Sorensen", "Daniel Pinheiro", "Danilo Vitor", "Debora", "Debora Dayane",
                                "Douglas Lins","Emanuel da Silva", "Emanuel Jose", "Érika", "Fabiane Ferreira", "Fabiano Matos", "Fernando Martins", "Gracielle", "Isabela", "Juliana Goncalves", "Julio Cesar", "Lucas Bastos", "Luiz Felipe",
-                               "Maria Francielle", "Mariane de Paula", "Matheus Comanduci", "Mauricio Otavio", "Márcio", "Moises Coelho", "Pablo Otoni", "Patricia", "Sarah Malta", "Sávio", "Sayuri", "Sérgio Henrique", "Thiago Figueiredo",
+                               "Maria Francielle", "Mariane de Paula", "Matheus Comanduci", "Mauricio Otavio", "Márcio", "Moises Coelho", "Pablo Otoni", "Patricia", "Sarah Malta", "Sávio", "Sayuri", "Sérgio Henrique", "Tayrine Cristina", "Thiago Figueiredo",
                                "Tiago Guedes", "Vicente", "Vinicius Gama", "Welington de Avila"]
     nome_profissional = st.multiselect("Profissionais", nome_profissionais)
 
@@ -4078,27 +4077,6 @@ if "Diversos" in servico:
             prancha_venexdiv = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_venexdiv", format="%0.f")
         st.divider()
 
-if "Topografia" in servico:
-    tipo_servico = "TOPOGRAFIA"
-    d1, d2 = st.columns(2)
-    with d1:
-        st.title("Topografia")
-    with d2:
-        tipo_servico_topografia = st.selectbox("Tipo", ["Planialtimétrico", "Georreferenciado", "Aerogotogrametria",
-                                             "Planialtimétrico georreferenciado",
-                                             "Planialtimétrico georreferenciado e aerofotogrametrico",
-                                             "Planialtimétrico aerofotogrametrico"], key="tipo_servico_topografia")
-    a1, a2, a3, a4 = st.columns(4)
-    with a1:
-        cadastral_topografia = st.selectbox("Cadastral", ["Não", "Sim"])
-    with a2:
-        drone_topografia = st.selectbox("Drone", ["Não", "Sim"])
-    with a3:
-        area_topografia = st.number_input("M²", min_value=0.0, step=0.1, key="area_topp")
-    with a4:
-        prancha_topografia = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_eiainf")
-        st.divider()
-
 if "REURB Regularização Fundiária" in servico:
     tipo_servico = "REURB REGULARIZAÇÃO FUNDIÁRIA"
     st.title("REURB Regularização Fundiária")
@@ -4209,7 +4187,7 @@ if st.button("Enviar"):
             "VU-SANEAMENTO(m)":area_sane,"VU-SANEAMENTO(l/s)":vazao_sane,"VU-PRANCHA SANEAMENTO":prancha_sane,
             "VU-SINALIZAÇÃO(KM)": km_sinal, "VU-PRANCHA SINALIZAÇÃO": prancha_sinal,
             "VU-SONDAGEM": vu_sondagem_info,
-            "VU-TOPOGRAFIA(m²)": area_topvu, "VU-CADASTRAL-TOP": cadastral_vu, "VU-DRONE-TOP": drone_vu, "VU-PRANCHA TOPOGRAFIA": prancha_topvu,
+            "VU-TOPOGRAFIA(m²)": area_topvu, "VU-CADASTRAL-TOP": cadastral_vu, "VU-DRONE-TOP": drone_vu, "VU-PRANCHA TOPOGRAFIA": prancha_topvu, "VU-TIPO TOPOGRAFIA": tipo_topvu,
             "VU-ORÇAMENTO(KM)": km_orc, "VU-ORÇAMENTO(m²)": area_infraorc,
             "VU-CONTENÇÃO": vu_contencao_info,
             "VU-OAE": vu_oae_info,
@@ -4266,7 +4244,7 @@ if st.button("Enviar"):
             "PR-SANEAMENTO(m)": area_sanepr, "PR-SANEAMENTO(l/s)": vazao_sanepr, "PR-PRANCHA SANEAMENTO": prancha_sanepr,
             "PR-SINALIZAÇÃO(KM)": km_sinalpr, "PR-PRANCHA SINALIZAÇÃO": prancha_sinalpr,
             "PR-SONDAGEM": rod_sondagem_info,
-            "PR-TOPOGRAFIA(m²)": area_toppr, "PR-TOPOGRAFIA(KM)": km_toppr, "PR-PRANCHA TOPOGRAFIA": prancha_toppr, "PR-CADASTRAL-TOP": cadastral_toppr,
+            "PR-TOPOGRAFIA(m²)": area_toppr, "PR-TOPOGRAFIA(KM)": km_toppr, "PR-PRANCHA TOPOGRAFIA": prancha_toppr, "PR-TIPO TOPOGRAFIA": tipo_toppr, "PR-CADASTRAL-TOP": cadastral_toppr,
             "PR-ORÇAMENTO(KM)": km_orcpr, "PR-ORÇAMENTO(m²)": area_infraorcpr,
             "PR-CONTENÇÃO": contencaopr_info,
             "PR-OAE": oaepr_info,
@@ -4397,11 +4375,6 @@ if st.button("Enviar"):
             "CONCRETO": concreto_info,
             "AÇO": aco_info,
 
-            "TOPOGRAFIA-TIPO":tipo_servico_topografia,
-            "TOPOGRAFIA-CADASTRAL":cadastral_topografia,
-            "TOPOGRAFIA-AREA(m²)":area_topografia,
-            "TOPOGRAFIA-DRONE":drone_topografia,
-            "TOPOGRAFIA-PRANCHA":prancha_topografia
         }
 
         if pdf_urls_profissionais:
