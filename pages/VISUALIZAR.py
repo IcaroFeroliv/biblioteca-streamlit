@@ -1078,7 +1078,7 @@ with abas[2]:
             "prancha": ["DI-PRANCHA IRRIGAÇÃO"]
         },
         "LEVANTAMENTO ARQUITETÔNICO": {
-            "tipo": ["DI-TIPO LEVANTAMENTO ARQUITETÔNICO "],
+            "tipo": ["DI-TIPO LEVANTAMENTO ARQUITETÔNICO"],
             "area": [ "DI-LEVANTAMENTO ARQUITETÔNICO(m²)"],
             "prancha": ["DI-PRANCHA LEVANTAMENTO ARQUITETÔNICO"]
         },
