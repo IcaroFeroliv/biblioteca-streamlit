@@ -24,17 +24,6 @@ db = firestore.client()
 
 st.set_page_config(page_title="Grupo Projeta", layout="wide")
 
-st.markdown("""
-    <style>
-        /* Esconde a barra de ferramentas do Streamlit */
-        header
-         {
-        
-            visibility: hidden;
-        }
-
-    </style>
-""", unsafe_allow_html=True)
 
 col1, col2 = st.columns([2,1])
 with col1:
