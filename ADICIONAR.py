@@ -26,15 +26,15 @@ st.set_page_config(page_title="Grupo Projeta", layout="wide")
 
 st.markdown("""
     <style>
-        /* Esconde a barra de ferramentas do Streamlit */
-        stToolbarActions
-         {
-        
-            visibility: hidden;
+        /* Oculta a barra de ações (canto superior direito) */
+        [data-testid="stToolbarActions"],
+        /* Oculta o menu principal (os três pontinhos ...) */
+        [data-testid="stMainMenu"] {
+            display: none !important;
         }
-
     </style>
 """, unsafe_allow_html=True)
+
 
 col1, col2 = st.columns([2,1])
 with col1:
