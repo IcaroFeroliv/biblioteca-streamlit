@@ -27,7 +27,7 @@ st.set_page_config(page_title="Grupo Projeta", layout="wide")
 st.markdown("""
     <style>
         /* Esconde a barra de ferramentas do Streamlit */
-        st-emotion-cache-scp8yw e4x2yc36
+        stToolbarActions
          {
         
             visibility: hidden;
