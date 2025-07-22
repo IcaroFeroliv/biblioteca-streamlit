@@ -132,7 +132,6 @@ with col1:
     data_inicial = st.date_input("Data de Início", min_value=datetime(1900, 1, 1))
 with col2:
     data_final = st.date_input("Data Final", min_value=datetime(1900, 1, 1))
-
 with col3:
     if data_inicial and data_final and data_inicial <= data_final:
         dias = (data_final - data_inicial).days
@@ -1427,7 +1426,7 @@ if "Projeto Vias Urbanas" in servico or "Supervisão Gerenciamento Vias Urbanas"
     if "HIDROLOGIA" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("""###### \nTerraplenagem""")
+            st.write("""###### \nHidrologia""")
         with d2:
             vazao_hidro = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidro")
         with d3:
@@ -1838,7 +1837,7 @@ if "Projeto Rodovias" in servico or "Supervisão Gerenciamento Rodovias" in serv
     if "HIDROLOGIA" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("""###### \nTerraplenagem""")
+            st.write("""###### \nHidrologia""")
         with d2:
             vazao_hidropr = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidropr")
         with d3:
@@ -2435,7 +2434,7 @@ if "Projeto Saneamento" in servico or "Supervisão Gerenciamento Saneamento" in 
     if "HIDROLOGIA" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("""###### \nTerraplenagem""")
+            st.write("""###### \nHidrologia""")
         with d2:
             vazao_hidrops = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidrops")
         with d3:
@@ -3530,7 +3529,7 @@ if "Diversos" in servico:
     if "HIDROLOGIA" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
-            st.write("""###### \nTerraplenagem""")
+            st.write("""###### \nHidrologia""")
         with d2:
             vazao_hidropsdiv = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidropsdiv")
         with d3:
