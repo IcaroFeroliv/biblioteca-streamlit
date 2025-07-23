@@ -388,6 +388,11 @@ with abas[2]:
         "area": "AS BUILT(m²)",
         "prancha": "PRANCHA AS BUILT"
     },
+    "AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO": {
+        "area": "AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO(m²)",
+        "unidade": "AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO(uni)",
+        "prancha": "PRANCHA AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO"
+    },
     "CAB. ESTRUTURADO": {
         "area": "CAB. ESTRUTURADO(m²)",
         "prancha": "PRANCHA CAB. ESTRUTURADO"
@@ -409,7 +414,7 @@ with abas[2]:
         "tipo": "CONTENÇÃO"
     },
     "DRENAGEM": {
-        "area": "DRENAGEM(m²)",
+        "area": ["DRENAGEM(m²)", "DRENAGEM(km)"],
         "prancha": "PRANCHA DRENAGEM"
     },
     "ELÉTRICO": {
@@ -448,6 +453,10 @@ with abas[2]:
         "area": "ILUMINAÇÃO PUBLICA(km)",
         "kva": "ILUMINAÇÃO PUBLICA(ponto)",
         "prancha": "PRANCHA ILUMINAÇÃO PUBLICA"
+    },
+    "IMPERMEABLIZAÇÃO":{
+        "area": "IMPERMEABILIZAÇÃO(m²)",
+        "prancha": "PRANCHA IMPERMEABIALIZAÇÃO"
     },
     "IRRIGAÇÃO": {
         "area": "IRRIGAÇÃO(m²)",
@@ -488,7 +497,8 @@ with abas[2]:
         "prancha": "PRANCHA SPDA"
     },
     "TERRAPLENAGEM": {
-        "area": "TERRAPLENAGEM(m²)",
+        "area": ["TERRAPLENAGEM(m²)", "TERRAPLENAGEM(km)"],
+        "unidade": "TERRAPLENAGEM(uni)",
         "prancha": "PRANCHA TERRAPLENAGEM"
     },
     "TOPOGRAFIA": {
@@ -514,9 +524,9 @@ with abas[2]:
         "area": ["VU-ADEQUAÇÃO DE ACESSIBILIADE(m²)", "PR-ADEQUAÇÃO DE ACESSIBILIADE(m²)"],
         "prancha": ["VU-PRANCHA ADEQUAÇÃO DE ACESSIBILIDADE", "PR-PRANCHA ADEQUAÇÃO DE ACESSIBILIDADE"]
     },
-    "ANTEPROJETO DE INFRA": {
-        "area": ["VU-ANTEPROJETO DE INFRA(KM)", "PR-ANTEPROJETO DE INFRA(KM)"],
-        "prancha": ["VU-PRANCHA ANTEPROJETO DE INFRA", "PR-PRANCHA ANTEPROJETO DE INFRA"]
+    "ANTEPROJETO": {
+        "area": ["VU-ANTEPROJETO(KM)", "PR-ANTEPROJETO(KM)"],
+        "prancha": ["VU-PRANCHA ANTEPROJETO", "PR-PRANCHA ANTEPROJETO"]
     },
     "BATIMETRIA": {
         "area": ["VU-BATIMETRIA(m²)", "PR-BATIMETRIA(m²)"],
@@ -558,7 +568,8 @@ with abas[2]:
         "prancha": ["VU-PRANCHA GERAÇÃO FOTOVOLTAICA", "PR-PRANCHA GERAÇÃO FOTOVOLTAICA"]
     },
     "HIDROLOGIA": {
-        "area": ["VU-HIDROLOGIA(l/s)", "PR-HIDROLOGIA(l/s)"],
+        "area": ["VU-HIDROLOGIA(m²)", "PR-HIDROLOGIA(m²)"],
+        "kva": ["VU-HIDROLOGIA(l/s)", "PR-HIDROLOGIA(l/s)"],
         "prancha": ["VU-PRANCHA HIDROLOGIA", "PR-PRANCHA HIDROLOGIA"]
     },
     "ILUMINAÇÃO PUBLICA": {
@@ -597,6 +608,7 @@ with abas[2]:
     },
     "TERRAPLENAGEM": {
         "area": ["VU-TERRAPLENAGEM(KM)", "PR-TERRAPLENAGEM(KM)"],
+        "unidade":["VU-TERRAPLENAGEM(uni)", "PR-TERRAPLENAGEM(uni)"],
         "prancha": ["VU-PRANCHA TERRAPLENAGEM", "PR-PRANCHA TERRAPLENAGEM"]
     },
     "TOPOGRAFIA": {
@@ -685,7 +697,8 @@ with abas[2]:
             "prancha": "PS-PRANCHA GERAÇÃO FOTOVOLTAICA"
         },
         "HIDROLOGIA": {
-            "area": "PS-HIDROLOGIA(l/s)",
+            "area": "PS-HIDROLOGIA(m²)",
+            "kva": "PS-HIDROLOGIA(l/s)",
             "prancha": "PS-PRANCHA HIDROLOGIA"
         },
         "ILUMINAÇÃO PUBLICA": {
@@ -744,6 +757,7 @@ with abas[2]:
         },
         "TERRAPLENAGEM": {
             "area": "PS-TERRAPLENAGEM(KM)",
+            "unidade": "PS-TERRAPLENAGEM(uni)",
             "prancha": "PS-PRANCHA TERRAPLENAGEM"
         },
         "TOPOGRAFIA": {
@@ -922,12 +936,8 @@ with abas[2]:
             "prancha": ["DI-PRANCHA ALARME/CFTV"]
         },
         "ANTEPROJETO": {
-            "area": ["DI-ANTEPROJETO(m²)"],
+            "area": ["DI-ANTEPROJETO(m²)", "DI-ANTEPROJETO(m)"],
             "prancha": ["DI-PRANCHA ANTEPROJETO"]
-        },
-        "ANTEPROJETO DE INFRA": {
-            "area": ["DI-ANTEPROJETO DE INFRA(km)"],
-            "prancha": [ "DI-PRANCHA ANTEPROJETO DE INFRA"]
         },
         "AR CONDICIONADO": {
             "area": ["DI-AR CONDICIONADO(m²)"],
@@ -952,6 +962,11 @@ with abas[2]:
             "tipo": ["DI-TIPO AS BUILT"],
             "area": [ "DI-AS BUILT(m²)"],
             "prancha": ["DI-PRANCHA AS BUILT"]
+        },
+        "AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO": {
+            "area": "DI-AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO(m²)",
+            "unidade": "DI-AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO(uni)",
+            "prancha": "DI-PRANCHA AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO"
         },
         "BATIMETRIA": {
             "area": ["DI-BATIMETRIA(m²)"],
@@ -995,7 +1010,7 @@ with abas[2]:
             "prancha": ["DI-PRANCHA DDO"]
         },
         "DRENAGEM": {
-            "area": ["DI-DRENAGEM(m²)"],
+            "area": ["DI-DRENAGEM(m²)", "DI-DRENAGEM(km)"],
             "prancha": ["DI-PRANCHA DRENAGEM"]
         },
         "EIA/RIMA": {
@@ -1051,7 +1066,8 @@ with abas[2]:
             "prancha": ["DI-PRANCHA GLP"]
         },
         "HIDROLOGIA": {
-            "area": ["DI-HIDROLOGIA(l/s)"],
+            "area": ["DI-HIDROLOGIA(m²)"],
+            "kva": ["DI-HIDROLOGIA(l/s)"],
             "prancha": ["DI-PRANCHA HIDROLOGIA"]
         },
         "HIDROSSANITÁRIO": {
@@ -1202,7 +1218,8 @@ with abas[2]:
             "prancha": ["DI-PRANCHA SPDA"]
         },
         "TERRAPLENAGEM": {
-            "area": ["DI-TERRAPLENAGEM(m²)"],
+            "area": ["DI-TERRAPLENAGEM(m²)", "DI-TERRAPLENAGEM(km)"],
+            "unidade": "DI-TERRAPLENAGEM(uni)",
             "prancha": ["DI-PRANCHA TERRAPLENAGEM"]
         },
         "TOPOGRAFIA": {
@@ -1252,12 +1269,12 @@ with abas[2]:
             "prancha": ["PRANCHA ALARME/CFTV", "DI-PRANCHA ALARME/CFTV"]
         },
         "ANTEPROJETO": {
-            "area": ["ANTEPROJETO(m²)", "DI-ANTEPROJETO(m²)"],
-            "prancha": ["PRANCHA ANTEPROJETO", "DI-PRANCHA ANTEPROJETO"]
+            "area": ["ANTEPROJETO(m²)", "DI-ANTEPROJETO(m²)", "VU-ANTEPROJETO(m²)", "PR-ANTEPROJETO(m²)", "DI-ANTEPROJETO(m)", "VU-ANTEPROJETO(m)", "PR-ANTEPROJETO(m)"],
+            "prancha": ["PRANCHA ANTEPROJETO", "DI-PRANCHA ANTEPROJETO", "VU-PRANCHA ANTEPROJETO", "PR-PRANCHA ANTEPROJETO"]
         },
         "ANTEPROJETO DE INFRA": {
-            "area": ["VU-ANTEPROJETO DE INFRA(KM)", "DI-ANTEPROJETO DE INFRA(km)", "PR-ANTEPROJETO DE INFRA(KM)", "PS-ANTEPROJETO DE INFRA(km)"],
-            "prancha": ["VU-PRANCHA ANTEPROJETO DE INFRA", "DI-PRANCHA ANTEPROJETO DE INFRA", "PR-PRANCHA ANTEPROJETO DE INFRA", "PS-PRANCHA ANTEPROJETO DE INFRA"]
+            "area": ["PS-ANTEPROJETO DE INFRA(km)"],
+            "prancha": ["PS-PRANCHA ANTEPROJETO DE INFRA"]
         },
         "AR CONDICIONADO": {
             "area": ["AR CONDICIONADO(m²)", "DI-AR CONDICIONADO(m²)"],
@@ -1282,6 +1299,11 @@ with abas[2]:
             "tipo": ["TIPO AS BUILT", "DI-TIPO AS BUILT"],
             "area": ["AS BUILT(m²)", "DI-AS BUILT(m²)"],
             "prancha": ["PRANCHA AS BUILT", "DI-PRANCHA AS BUILT"]
+        },
+        "AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO": {
+            "area": ["AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO(m²)", "DI-AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO(m²)"],
+            "unidade": ["AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO(uni)", "DI-AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO(uni)"],
+            "prancha": ["PRANCHA AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO", "DI-PRANCHA AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO"]
         },
         "BATIMETRIA": {
             "area": ["VU-BATIMETRIA(m²)", "DI-BATIMETRIA(m²)", "PR-BATIMETRIA(m²)", "PS-BATIMETRIA(m²)"],
@@ -1325,7 +1347,7 @@ with abas[2]:
             "prancha": ["EDI-PRANCHA DDO", "DI-PRANCHA DDO", "INF-PRANCHA DDO"]
         },
         "DRENAGEM": {
-            "area": ["DRENAGEM(m²)", "DI-DRENAGEM(m²)", "VU-DRENAGEM(KM)", "PR-DRENAGEM(KM)", "PS-DRENAGEM(km)"],
+            "area": ["DRENAGEM(m²)", "DRENAGEM(km)", "DI-DRENAGEM(m²)", "DI-DRENAGEM(km)", "VU-DRENAGEM(KM)", "PR-DRENAGEM(KM)", "PS-DRENAGEM(km)"],
             "prancha": ["PRANCHA DRENAGEM", "DI-PRANCHA DRENAGEM", "VU-PRANCHA DRENAGEM", "PR-PRANCHA DRENAGEM", "PS-PRANCHA DRENAGEM"]
         },
         "EIA/RIMA": {
@@ -1381,7 +1403,8 @@ with abas[2]:
             "prancha": ["PRANCHA GLP", "DI-PRANCHA GLP"]
         },
         "HIDROLOGIA": {
-            "area": ["VU-HIDROLOGIA(l/s)", "DI-HIDROLOGIA(l/s)", "PR-HIDROLOGIA(l/s)", "PS-HIDROLOGIA(l/s)"],
+            "area": ["VU-HIDROLOGIA(m²)", "DI-HIDROLOGIA(m²)", "PR-HIDROLOGIA(m²)", "PS-HIDROLOGIA(m²)"],
+            "kva": ["VU-HIDROLOGIA(l/s)", "DI-HIDROLOGIA(l/s)", "PR-HIDROLOGIA(l/s)", "PS-HIDROLOGIA(l/s)"],
             "prancha": ["VU-PRANCHA HIDROLOGIA", "DI-PRANCHA HIDROLOGIA", "PR-PRANCHA HIDROLOGIA", "PS-PRANCHA HIDROLOGIA"]
         },
         "HIDROSSANITÁRIO": {
@@ -1392,6 +1415,10 @@ with abas[2]:
             "area": ["ILUMINAÇÃO PUBLICA(km)", "DI-ILUMINAÇÃO PUBLICA(km)", "VU-ILUMINAÇÃO PUBLICA(km)", "PR-ILUMINAÇÃO PUBLICA(km)", "PS-ILUMINAÇÃO PUBLICA(km)"],
             "kva": ["ILUMINAÇÃO PUBLICA(ponto)", "DI-ILUMINAÇÃO PUBLICA(ponto)", "VU-ILUMINAÇÃO PUBLICA(Pontos)", "PR-ILUMINAÇÃO PUBLICA(Pontos)", "PS-ILUMINAÇÃO PUBLICA(Pontos)"],
             "prancha": ["PRANCHA ILUMINAÇÃO PUBLICA", "DI-PRANCHA ILUMINAÇÃO PUBLICA", "VU-PRANCHA ILUMINAÇÃO PUBLICA", "PR-PRANCHA ILUMINAÇÃO PUBLICA", "PS-PRANCHA ILUMINAÇÃO PUBLICA"]
+        },
+        "IMPERMEABLIZAÇÃO":{
+            "area": ["IMPERMEABILIZAÇÃO(m²)", "DI-IMPERMEABILIZAÇÃO(m²)"],
+            "prancha": ["PRANCHA IMPERMEABIALIZAÇÃO", "DI-PRANCHA IMPERMEABIALIZAÇÃO"]
         },
         "INTERCEPTOR": {
             "area": ["PS-INTERCEPTOR(m)", "PS-INTERCEPTOR(l/s)", "DI-INTERCEPTOR(m)", "DI-INTERCEPTOR(l/s)"],
@@ -1530,7 +1557,8 @@ with abas[2]:
             "prancha": ["PRANCHA SPDA", "DI-PRANCHA SPDA"]
         },
         "TERRAPLENAGEM": {
-            "area": ["TERRAPLENAGEM(m²)", "DI-TERRAPLENAGEM(m²)", "VU-TERRAPLENAGEM(KM)", "PR-TERRAPLENAGEM(KM)", "PS-TERRAPLENAGEM(KM)"],
+            "area": ["TERRAPLENAGEM(m²)", "DI-TERRAPLENAGEM(m²)", "TERRAPLENAGEM(km)", "DI-TERRAPLENAGEM(km)", "VU-TERRAPLENAGEM(KM)", "PR-TERRAPLENAGEM(KM)", "PS-TERRAPLENAGEM(KM)"],
+            "unidade": ["TERRAPLENAGEM(uni)", "DI-TERRAPLENAGEM(uni)", "VU-TERRAPLENAGEM(uni)", "PR-TERRAPLENAGEM(uni)", "PS-TERRAPLENAGEM(uni)"],
             "prancha": ["PRANCHA TERRAPLENAGEM", "DI-PRANCHA TERRAPLENAGEM", "VU-PRANCHA TERRAPLENAGEM", "PR-PRANCHA TERRAPLENAGEM", "PS-PRANCHA TERRAPLENAGEM"]
         },
         "TOPOGRAFIA": {
@@ -1850,13 +1878,11 @@ with abas[2]:
                 colunas_fixas = ["Empresa", "Cliente", "Servico", "CAT", "Objeto", "BIM", "Tempo do projeto"]
 
                 # Adiciona colunas específicas conforme o tipo de serviço
-                if "Projeto Edificação" in servico_selecionado or "Supervisão Gerenciamento Edificação" in servico_selecionado:
-                    if "Patrimônio Tombado" in df_filtrado.columns:
-                        colunas_fixas.append("Patrimonio Tombado")
+                if "Projeto Edificação" in servico_selecionado or "Supervisão Gerenciamento Edificação" in servico_selecionado or "Projeto Praças e Parques" in servico_selecionado:
+                    colunas_fixas = ["Empresa", "Cliente", "Servico", "CAT", "Objeto", "BIM", "Patrimonio Tombado","Tempo do projeto"]
 
                 elif "Projeto Saneamento" in servico_selecionado or "Supervisão Gerenciamento Saneamento" in servico_selecionado:
-                    if "População" in df_filtrado.columns:
-                        colunas_fixas.append("População")
+                    colunas_fixas = ["Empresa", "Cliente", "Servico", "CAT", "Objeto", "BIM", "População", "Tempo do projeto"]
 
                 # Garante que colunas fixas estejam presentes no DataFrame
                 colunas_fixas = [col for col in colunas_fixas if col in df_filtrado.columns]

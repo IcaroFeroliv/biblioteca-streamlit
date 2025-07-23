@@ -144,7 +144,7 @@ with col3:
 # Informações Gerais
 populacao = None
 patrimonio = None
-if "Projeto Edificação" in servico or "Supervisão Gerenciamento Edificação" in servico:
+if "Projeto Edificação" in servico or "Supervisão Gerenciamento Edificação" in servico or "Projeto Praças e Parques" in servico:
     st.subheader("Informações Gerais")
     cola1, cola2, cola3, cola4 = st.columns(4)
     with cola1:
@@ -176,12 +176,12 @@ else:
     with cola3:
         bim = st.selectbox("BIM", ["Não", "Sim"])
 
-prancha_sinalpsdiv = km_sinalpsdiv = prancha_venexdiv = kbtuh_venexdiv = area_venexdiv = pranchas_urbdiv = area_urbdiv = area_topdiv = dronediv = cadastraldiv = prancha_topdiv = tipo_toppepdiv = prancha_tpsdiv = area_tpsdiv = area_spdadiv = prancha_spdadiv = prancha_spcidiv = area_spcidiv = edi_sondagemdiv_info = solodiv_info = area_saneps = vazao_saneps = prancha_saneps = prancha_saneprdiv = vazao_saneprdiv = area_saneprdiv = prancha_reurdiv = reur_habitantesdiv = prancha_reurbdiv = area_reurbdiv = prancha_rdoedidiv = area_rdoedidiv = un_rdoedidiv = prancha_rededispsdiv = m_rededispsdiv = uni_rededispsdiv = vazao_rededispsdiv = prancha_redecolepsdiv = m_redecolepsdiv = vazao_redecolepsdiv = uni_redecolepsdiv =prancha_rcaedidiv = area_rcaedidiv = un_rcaedidiv = prancha_rasedidiv = area_rasedidiv = un_rasedidiv = prancha_pradaedidiv = area_pradaedidiv = un_pradaedidiv = prancha_pmgirsedidiv = area_pmgirsedidiv = un_pmgirsedidiv =prancha_pmbsdiv = pmbs_habitantesdiv =prancha_pdidiv = pdi_habitantesdiv = prancha_piaedidiv = area_piaedidiv = un_piaedidiv = prancha_pcaedidiv = area_pcaedidiv = un_pcaedidiv = div_pavimentacao_info = pranchas_paisagdiv = area_paisagdiv = prancha_orcdiv = area_orcdiv = div_oae_info = mobiliariodiv_info = div_meioambiente_info = maqeletdiv_info = prancha_ldrpsdiv = vazao_ldrpsdiv = area_ldrpsdiv = uni_ldrpsdiv = prancha_lacedidiv = area_lacedidiv = un_lacedidiv = pranchas_ladiv = area_ladiv = tipo_ladiv = prancha_irridiv = area_irridiv = prancha_ifpmedidiv = area_ifpmedidiv = un_ifpmedidiv = prancha_interceptorpsdiv = m_interceptorpsdiv = uni_interceptorpsdiv = vazao_interceptorpsdiv = prancha_ilupudiv = ponto_ilupudiv = area_ilupudiv = prancha_hdsdiv = area_hdsdiv = prancha_hidropsdiv = vazao_hidropsdiv = prancha_glpdiv = m3_glpdiv = area_glpdiv = prancha_geopsdiv = km_geopsdiv = prancha_gerafotodiv = kva_gerafotodiv = area_gerafotodiv = prancha_hvacdiv = m3_hvacdiv = area_hvacdiv = fundacaodiv_info = prancha_extrdiv = area_extrdiv = prancha_etepsdiv = vol_etepsdiv = uni_etepsdiv = vazao_etepsdiv = prancha_etapsdiv = vol_etapsdiv = uni_etapsdiv = vazao_etapsdiv = estruturaldiv_info = area_elediv = kvadiv = prancha_elediv = prancha_elevatoriapsdiv = m_elevatoriapsdiv = vazao_elevatoriapsdiv = prancha_eiaedidiv = area_eiaedidiv = un_eiaedidiv = m2_drecdiv = prancha_drecdiv = prancha_ddoedidiv = area_ddoedidiv = un_ddoedidiv = prancha_ddledidiv = area_ddledidiv = un_ddledidiv = contencaodiv_info = prancha_comotopsdiv = uni_comotopsdiv = concretodiv_info = pranchas_cvdiv = area_cvdiv = area_compdiv = prancha_compdiv = prancha_climadiv = kbtuh_climadiv = area_climadiv = prancha_cetsdiv = area_cetsdiv = prancha_batipsdiv = m2_batipsdiv = tipo_abdiv = area_abdiv = pranchas_abdiv = asfaltodiv_info = pranchas_arediv = area_arediv = pranchas_ardiv = area_ardiv = pranchas_acdiv = area_acdiv = prancha_arconddiv = area_arconddiv = prancha_antipsdiv = km_antipsdiv = pranchas_aadiv = area_aadiv = prancha_cftvdiv = area_cftvdiv = vazao_adutorapsdiv = uni_adutorapsdiv = m_adutorapsdiv = prancha_adutorapsdiv = prancha_adadiv = area_adadiv = acodiv_info = prancha_acusdiv = area_acusdiv = tipo_servico_topografia = tipo_topvu = prancha_topvu = cadastral_vu = drone_vu = area_topvu = extensao_ilupu = pranchas_la = area_la = tipo_la = area_adapr = prancha_adapr =area_adavu = prancha_adavu = prancha_ada = area_ada = ponto_iluppr = area_sanepr = vazao_sanepr = prancha_sanepr = area_sane = vazao_sane = prancha_sane = prancha_ilupuvu = ponto_ilupuvu = area_ilupuvu = kbtuh_venex = m3_glp = m3_hvac = ponto_ilupu = area_clima = kbtuh_clima = prancha_clima = m2_drec = prancha_drec = area_gerafotops = kva_gerafotops = prancha_gerafotops = area_gerafotopr = kva_gerafotopr = prancha_gerafotopr = area_gerafotovu = kva_gerafotovu = prancha_gerafotovu = area_gerafoto = kva_gerafoto = prancha_gerafoto = vazao_interceptorps = uni_interceptorps = uni_rededisps = vazao_rededisps = vazao_elevatoriaps = vazao_adutoraps = uni_adutoraps = uni_eteps = vazao_redecoleps = uni_redecoleps = uni_etaps = area_urvips = prancha_urvips = prancha_terps = km_terps = prancha_sinalps = km_sinalps = ps_pavimentacao_info = prancha_paisavips = area_paisavips = ps_oae_info = ps_meioambiente_info = prancha_hidrops = vazao_hidrops = prancha_geops = km_geops = ps_estrutural_info = prancha_dreps = km_dreps = ps_contencao_info = prancha_infracompps = area_infracompps = prancha_batips = m2_batips = prancha_antips = km_antips = prancha_hidropr = vazao_hidropr = prancha_hidro = vazao_hidro = prancha_ldrps = vazao_ldrps = area_ldrps = uni_ldrps = prancha_comotops = uni_comotops = vol_eteps = prancha_elevatoriapsfdp = prancha_batipr = m2_batipr = prancha_bati = m2_bati = san_sondagem_info = rod_sondagem_info = vu_sondagem_info = edi_sondagem_info = prancha_pmbs = prancha_reur = cadastral_topografia = drone_topografia = area_topografia = prancha_topografia = prancha_diversos = prancha_pdi = prancha_ifpminf = prancha_ddlinf = prancha_ddoinf = prancha_rdoinf = prancha_piainf = prancha_pmgirsinf = prancha_pradainf = prancha_rcainf = prancha_lacinf = prancha_rasinf = prancha_pcainf = prancha_eiainf = prancha_ifpmedi = prancha_ddledi = prancha_ddoedi = prancha_rdoedi = prancha_piaedi = prancha_pmgirsedi = prancha_pradaedi = prancha_rcaedi = prancha_lacedi = prancha_rasedi = prancha_eiaedi = prancha_pcaedi = prancha_rededisps = prancha_etaps = prancha_adutoraps = prancha_eteps = prancha_elevatoriopsfdp = prancha_interceptorps = prancha_redecoleps = prancha_orcsaps = prancha_elesaps = prancha_topps = fundacao_ps_info = aco_info = concreto_info = asfalto_info = solo_info = sondagem_info = prancha_infracomppr = prancha_iluppr = area_iluppr = prancha_extpr = area_extpr = prancha_elepr = kva_pr = area_elepr = prancha_orcpr = prancha_toppr = prancha_sinalpr = prancha_drepr = prancha_terpr = prancha_geopr = prancha_antipr = prancha_paisapr = prancha_urpr = meioambientepr_info = fundacaopr_info = oaepr_info = contencaopr_info = pavimentacaopr_info = estruturalpr_info = prancha_sinal = prancha_infracomp = rancha_sinal = prancha_dre = prancha_ter = prancha_geo = prancha_anti = prancha_paisavi = prancha_urvi = vu_meioambiente_info = vu_fundacao_info = vu_oae_info = vu_contencao_info = vu_topografia_info = vu_pavimentacao_info = vu_estrutural_info = prancha_reurb = prancha_acus = prancha_comp = prancha_hvac = prancha_glp = prancha_venex = prancha_arcond = prancha_ilupu = prancha_extr = prancha_cftv = prancha_spda = prancha_cets = prancha_ele = prancha_orc = prancha_top = area_ab = prancha_spci = area_urb = tipo_ab =  area_paisag = prancha_tps =prancha_irri = prancha_hds = pranchas_ab = pranchas_paisag = pranchas_cv = pranchas_are = pranchas_urb = pranchas_aa = pranchas_ar = pranchas_ac = fundacao_info = contencao_info = mobiliario_info = maqelet_info = tipo_estedi = estrutural_info = area_infraorcpr = tipo_contpr = area_est = tipo_estpep = m_cont = m_pav = cadastral_top = m2 = m3 = cadastral = drone = kva = uni_aco = kva_vu = tipo_aco = uni_Concreto = tipo_concreto = uni_asfalto = tipo_asfalto = uni_solos = tipo_solo = m_geo = furos_geo = tipo_sonda = tipo_fundps = area_fusaps = Tipo_topps = cadastral_ps = drone_os = area_topsaps = area_elesaps = kva_ps = area_orcsaps = m_redecoleps = m_interceptorps = vazao_eteps = m_adutoraps = m_elevatoriaps = vazao_etaps = vol_etaps = m_rededisps =  area_urpr = area_paisapr = km_antipr = km_geopr = km_terpr = km_drepr = km_pavpr = m_pavpr = tipo_pavpr = tipo_subasepr = km_sinalpr = tipo_toppr = cadastral_toppr = km_toppr = area_toppr = km_orcpr = area_infraorcprtipo_contpr = m_contpr = m2_contpr = m3_contpr = tipo_oaevupr = area_oaepr = vao_oaepr = tipo_funduvpr = m2_fundpr = tipo_meivupr = uni_meipr = area_infracomppr = reur_habitantes = pdi_habitantes = un_eiainf = area_eiainf = un_pcainf = area_pcainf = un_rasinf = area_rasinf = un_lacinf = area_lacinf = un_rcainf = area_rcainf = un_pradainf = area_pradainf = un_pmgirsinf = area_pmgirsinf = un_piainf = area_piainf = un_rdoinf = area_rdoinf = un_ddoinf = area_ddoinf = un_ddlinf = area_ddlinf = un_ifpminf = area_ifpminf = un_ifpmedi = area_ifpmedi = un_ddledi = area_ddledi = un_ddoedi = area_ddoedi = un_rdoedi = area_rdoedi = un_piaedi = area_piaedi = un_pmgirsedi = area_pmgirsedi = un_pradaedi = area_pradaedi = un_rcaedi = area_rcaedi = area_lacedi = un_lacedi = area_rasedi = un_rasedi = un_pcaedi = area_pcaedi = area_eiaedi = un_eiaedi = area_aa = area_ac = area_ar = area_are = area_cv = edi_mobpep = area_mo = area_ue = area_paisa = tipo_abupep = area_abu = tipo_me3dpep = area_me3d = area_mt = tipo_fupep = area_fu = tipo_conpep = area_con = area_hds = area_irri = area_spci = area_tps = tipo_toppep = area_top = area_orc = area_ele = area_cets = area_spda = area_cftv = area_extr = area_ilupu = area_arcond = area_venex = area_glp = area_hvac = area_comp = area_acus = area_reurb = area_urvi = area_paisavi = km_anti = km_geo = km_ter = km_dre = km_pav = tipo_pavvu = tipo_subasevu = km_sinal = tipo_topvu = km_top = km_orc = area_infraorc = tipo_contvu = m2_cont = m3_cont = tipo_oaevu = area_oae = vao_oae = tipo_funduv = m2_fund = tipo_meivu = uni_mei = area_infracomp = pmbs_habitantes = None
+prancha_aedcediv = uni_aedcediv = area_adedcdiv = prancha_aedce = uni_aedce = area_adedc = aream_aadiv = m_antipr = m_anti = prancha_imperdiv = area_imperdiv = prancha_imper = area_imper = km_drec = km_drecdiv = area_hidropsdiv = area_hidrops = area_hidropr = area_hidro = uni_tpsdiv = ext_tpsdiv = uni_terps = uni_terpr = uni_ter = uni_tps = ext_tps = prancha_sinalpsdiv = km_sinalpsdiv = prancha_venexdiv = kbtuh_venexdiv = area_venexdiv = pranchas_urbdiv = area_urbdiv = area_topdiv = dronediv = cadastraldiv = prancha_topdiv = tipo_toppepdiv = prancha_tpsdiv = area_tpsdiv = area_spdadiv = prancha_spdadiv = prancha_spcidiv = area_spcidiv = edi_sondagemdiv_info = solodiv_info = area_saneps = vazao_saneps = prancha_saneps = prancha_saneprdiv = vazao_saneprdiv = area_saneprdiv = prancha_reurdiv = reur_habitantesdiv = prancha_reurbdiv = area_reurbdiv = prancha_rdoedidiv = area_rdoedidiv = un_rdoedidiv = prancha_rededispsdiv = m_rededispsdiv = uni_rededispsdiv = vazao_rededispsdiv = prancha_redecolepsdiv = m_redecolepsdiv = vazao_redecolepsdiv = uni_redecolepsdiv =prancha_rcaedidiv = area_rcaedidiv = un_rcaedidiv = prancha_rasedidiv = area_rasedidiv = un_rasedidiv = prancha_pradaedidiv = area_pradaedidiv = un_pradaedidiv = prancha_pmgirsedidiv = area_pmgirsedidiv = un_pmgirsedidiv =prancha_pmbsdiv = pmbs_habitantesdiv =prancha_pdidiv = pdi_habitantesdiv = prancha_piaedidiv = area_piaedidiv = un_piaedidiv = prancha_pcaedidiv = area_pcaedidiv = un_pcaedidiv = div_pavimentacao_info = pranchas_paisagdiv = area_paisagdiv = prancha_orcdiv = area_orcdiv = div_oae_info = mobiliariodiv_info = div_meioambiente_info = maqeletdiv_info = prancha_ldrpsdiv = vazao_ldrpsdiv = area_ldrpsdiv = uni_ldrpsdiv = prancha_lacedidiv = area_lacedidiv = un_lacedidiv = pranchas_ladiv = area_ladiv = tipo_ladiv = prancha_irridiv = area_irridiv = prancha_ifpmedidiv = area_ifpmedidiv = un_ifpmedidiv = prancha_interceptorpsdiv = m_interceptorpsdiv = uni_interceptorpsdiv = vazao_interceptorpsdiv = prancha_ilupudiv = ponto_ilupudiv = area_ilupudiv = prancha_hdsdiv = area_hdsdiv = prancha_hidropsdiv = vazao_hidropsdiv = prancha_glpdiv = m3_glpdiv = area_glpdiv = prancha_geopsdiv = km_geopsdiv = prancha_gerafotodiv = kva_gerafotodiv = area_gerafotodiv = prancha_hvacdiv = m3_hvacdiv = area_hvacdiv = fundacaodiv_info = prancha_extrdiv = area_extrdiv = prancha_etepsdiv = vol_etepsdiv = uni_etepsdiv = vazao_etepsdiv = prancha_etapsdiv = vol_etapsdiv = uni_etapsdiv = vazao_etapsdiv = estruturaldiv_info = area_elediv = kvadiv = prancha_elediv = prancha_elevatoriapsdiv = m_elevatoriapsdiv = vazao_elevatoriapsdiv = prancha_eiaedidiv = area_eiaedidiv = un_eiaedidiv = m2_drecdiv = prancha_drecdiv = prancha_ddoedidiv = area_ddoedidiv = un_ddoedidiv = prancha_ddledidiv = area_ddledidiv = un_ddledidiv = contencaodiv_info = prancha_comotopsdiv = uni_comotopsdiv = concretodiv_info = pranchas_cvdiv = area_cvdiv = area_compdiv = prancha_compdiv = prancha_climadiv = kbtuh_climadiv = area_climadiv = prancha_cetsdiv = area_cetsdiv = prancha_batipsdiv = m2_batipsdiv = tipo_abdiv = area_abdiv = pranchas_abdiv = asfaltodiv_info = pranchas_arediv = area_arediv = pranchas_ardiv = area_ardiv = pranchas_acdiv = area_acdiv = prancha_arconddiv = area_arconddiv = prancha_antipsdiv = km_antipsdiv = pranchas_aadiv = area_aadiv = prancha_cftvdiv = area_cftvdiv = vazao_adutorapsdiv = uni_adutorapsdiv = m_adutorapsdiv = prancha_adutorapsdiv = prancha_adadiv = area_adadiv = acodiv_info = prancha_acusdiv = area_acusdiv = tipo_servico_topografia = tipo_topvu = prancha_topvu = cadastral_vu = drone_vu = area_topvu = extensao_ilupu = pranchas_la = area_la = tipo_la = area_adapr = prancha_adapr =area_adavu = prancha_adavu = prancha_ada = area_ada = ponto_iluppr = area_sanepr = vazao_sanepr = prancha_sanepr = area_sane = vazao_sane = prancha_sane = prancha_ilupuvu = ponto_ilupuvu = area_ilupuvu = kbtuh_venex = m3_glp = m3_hvac = ponto_ilupu = area_clima = kbtuh_clima = prancha_clima = m2_drec = prancha_drec = area_gerafotops = kva_gerafotops = prancha_gerafotops = area_gerafotopr = kva_gerafotopr = prancha_gerafotopr = area_gerafotovu = kva_gerafotovu = prancha_gerafotovu = area_gerafoto = kva_gerafoto = prancha_gerafoto = vazao_interceptorps = uni_interceptorps = uni_rededisps = vazao_rededisps = vazao_elevatoriaps = vazao_adutoraps = uni_adutoraps = uni_eteps = vazao_redecoleps = uni_redecoleps = uni_etaps = area_urvips = prancha_urvips = prancha_terps = km_terps = prancha_sinalps = km_sinalps = ps_pavimentacao_info = prancha_paisavips = area_paisavips = ps_oae_info = ps_meioambiente_info = prancha_hidrops = vazao_hidrops = prancha_geops = km_geops = ps_estrutural_info = prancha_dreps = km_dreps = ps_contencao_info = prancha_infracompps = area_infracompps = prancha_batips = m2_batips = prancha_antips = km_antips = prancha_hidropr = vazao_hidropr = prancha_hidro = vazao_hidro = prancha_ldrps = vazao_ldrps = area_ldrps = uni_ldrps = prancha_comotops = uni_comotops = vol_eteps = prancha_elevatoriapsfdp = prancha_batipr = m2_batipr = prancha_bati = m2_bati = san_sondagem_info = rod_sondagem_info = vu_sondagem_info = edi_sondagem_info = prancha_pmbs = prancha_reur = cadastral_topografia = drone_topografia = area_topografia = prancha_topografia = prancha_diversos = prancha_pdi = prancha_ifpminf = prancha_ddlinf = prancha_ddoinf = prancha_rdoinf = prancha_piainf = prancha_pmgirsinf = prancha_pradainf = prancha_rcainf = prancha_lacinf = prancha_rasinf = prancha_pcainf = prancha_eiainf = prancha_ifpmedi = prancha_ddledi = prancha_ddoedi = prancha_rdoedi = prancha_piaedi = prancha_pmgirsedi = prancha_pradaedi = prancha_rcaedi = prancha_lacedi = prancha_rasedi = prancha_eiaedi = prancha_pcaedi = prancha_rededisps = prancha_etaps = prancha_adutoraps = prancha_eteps = prancha_elevatoriopsfdp = prancha_interceptorps = prancha_redecoleps = prancha_orcsaps = prancha_elesaps = prancha_topps = fundacao_ps_info = aco_info = concreto_info = asfalto_info = solo_info = sondagem_info = prancha_infracomppr = prancha_iluppr = area_iluppr = prancha_extpr = area_extpr = prancha_elepr = kva_pr = area_elepr = prancha_orcpr = prancha_toppr = prancha_sinalpr = prancha_drepr = prancha_terpr = prancha_geopr = prancha_antipr = prancha_paisapr = prancha_urpr = meioambientepr_info = fundacaopr_info = oaepr_info = contencaopr_info = pavimentacaopr_info = estruturalpr_info = prancha_sinal = prancha_infracomp = rancha_sinal = prancha_dre = prancha_ter = prancha_geo = prancha_anti = prancha_paisavi = prancha_urvi = vu_meioambiente_info = vu_fundacao_info = vu_oae_info = vu_contencao_info = vu_topografia_info = vu_pavimentacao_info = vu_estrutural_info = prancha_reurb = prancha_acus = prancha_comp = prancha_hvac = prancha_glp = prancha_venex = prancha_arcond = prancha_ilupu = prancha_extr = prancha_cftv = prancha_spda = prancha_cets = prancha_ele = prancha_orc = prancha_top = area_ab = prancha_spci = area_urb = tipo_ab =  area_paisag = prancha_tps =prancha_irri = prancha_hds = pranchas_ab = pranchas_paisag = pranchas_cv = pranchas_are = pranchas_urb = pranchas_aa = pranchas_ar = pranchas_ac = fundacao_info = contencao_info = mobiliario_info = maqelet_info = tipo_estedi = estrutural_info = area_infraorcpr = tipo_contpr = area_est = tipo_estpep = m_cont = m_pav = cadastral_top = m2 = m3 = cadastral = drone = kva = uni_aco = kva_vu = tipo_aco = uni_Concreto = tipo_concreto = uni_asfalto = tipo_asfalto = uni_solos = tipo_solo = m_geo = furos_geo = tipo_sonda = tipo_fundps = area_fusaps = Tipo_topps = cadastral_ps = drone_os = area_topsaps = area_elesaps = kva_ps = area_orcsaps = m_redecoleps = m_interceptorps = vazao_eteps = m_adutoraps = m_elevatoriaps = vazao_etaps = vol_etaps = m_rededisps =  area_urpr = area_paisapr = km_antipr = km_geopr = km_terpr = km_drepr = km_pavpr = m_pavpr = tipo_pavpr = tipo_subasepr = km_sinalpr = tipo_toppr = cadastral_toppr = km_toppr = area_toppr = km_orcpr = area_infraorcprtipo_contpr = m_contpr = m2_contpr = m3_contpr = tipo_oaevupr = area_oaepr = vao_oaepr = tipo_funduvpr = m2_fundpr = tipo_meivupr = uni_meipr = area_infracomppr = reur_habitantes = pdi_habitantes = un_eiainf = area_eiainf = un_pcainf = area_pcainf = un_rasinf = area_rasinf = un_lacinf = area_lacinf = un_rcainf = area_rcainf = un_pradainf = area_pradainf = un_pmgirsinf = area_pmgirsinf = un_piainf = area_piainf = un_rdoinf = area_rdoinf = un_ddoinf = area_ddoinf = un_ddlinf = area_ddlinf = un_ifpminf = area_ifpminf = un_ifpmedi = area_ifpmedi = un_ddledi = area_ddledi = un_ddoedi = area_ddoedi = un_rdoedi = area_rdoedi = un_piaedi = area_piaedi = un_pmgirsedi = area_pmgirsedi = un_pradaedi = area_pradaedi = un_rcaedi = area_rcaedi = area_lacedi = un_lacedi = area_rasedi = un_rasedi = un_pcaedi = area_pcaedi = area_eiaedi = un_eiaedi = area_aa = area_ac = area_ar = area_are = area_cv = edi_mobpep = area_mo = area_ue = area_paisa = tipo_abupep = area_abu = tipo_me3dpep = area_me3d = area_mt = tipo_fupep = area_fu = tipo_conpep = area_con = area_hds = area_irri = area_spci = area_tps = tipo_toppep = area_top = area_orc = area_ele = area_cets = area_spda = area_cftv = area_extr = area_ilupu = area_arcond = area_venex = area_glp = area_hvac = area_comp = area_acus = area_reurb = area_urvi = area_paisavi = km_anti = km_geo = km_ter = km_dre = km_pav = tipo_pavvu = tipo_subasevu = km_sinal = tipo_topvu = km_top = km_orc = area_infraorc = tipo_contvu = m2_cont = m3_cont = tipo_oaevu = area_oae = vao_oae = tipo_funduv = m2_fund = tipo_meivu = uni_mei = area_infracomp = pmbs_habitantes = None
 
 if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
     tipo_servicos = ["ACÚSTICA", "ADEQUAÇÃO DE ACESSIBILIDADE", "ALARME/CFTV", "ANTEPROJETO", "AR CONDICIONADO", "ARQUITETÔNICO CONSTRUÇÃO","ARQUITETÔNICO REFORMA",
-                    "ARQUITETÔNICO RESTAURO","AS BUILT", "CAB. ESTRUTURADO", "CLIMATIZAÇÃO","COMPAT. PROJETOS", "COMUNICAÇÃO VISUAL", "CONTENÇÃO", "DRENAGEM", "ELÉTRICO",
-                    "ESTRUTURAL", "EXTENSÃO DE REDE", "FUNDAÇÃO", "GASES MEDICINAIS", "GERAÇÃO FOTOVOLTAICA", "GLP", "HIDROSSANITÁRIO", "ILUMINAÇÃO PUBLICA", "IRRIGAÇÃO", "LEVANTAMENTO ARQUITETÔNICO", "MAQ ELET / 3D", "MOBILIÁRIO",
+                    "ARQUITETÔNICO RESTAURO","AS BUILT", "AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO", "CAB. ESTRUTURADO", "CLIMATIZAÇÃO","COMPAT. PROJETOS", "COMUNICAÇÃO VISUAL", "CONTENÇÃO", "DRENAGEM", "ELÉTRICO",
+                    "ESTRUTURAL", "EXTENSÃO DE REDE", "FUNDAÇÃO", "GASES MEDICINAIS", "GERAÇÃO FOTOVOLTAICA", "GLP", "HIDROSSANITÁRIO", "ILUMINAÇÃO PUBLICA", "IMPERMEABILIZAÇÃO", "IRRIGAÇÃO", "LEVANTAMENTO ARQUITETÔNICO", "MAQ ELET / 3D", "MOBILIÁRIO",
                     "ORÇAMENTO", "PAISAGISTICO", "REURB", "SONDAGEM", "SPCI", "SPDA", "TERRAPLENAGEM (PLANTA/SEÇÕES)", "TOPOGRAFIA", "URBANISTICO","VENTILAÇÃO/EXAUSTÃO"]
     tipo_servico =  st.multiselect("Selecione as disciplinas desejadas", tipo_servicos)
 
@@ -278,6 +278,18 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
             pranchas_ab = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ab")
         st.divider()
 
+    if "AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nAvaliação do Estado de Conservação")
+        with d2:
+            area_adedc = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_adedc")
+        with d3:
+            uni_aedce = st.number_input("Unidade", min_value=0, step=1, key="uni_adedc")
+        with d4:
+            prancha_aedce = st.number_input("Prancha", min_value=0, step=1, key="prancha_aedce")
+        st.divider()
+
     if "CAB. ESTRUTURADO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
@@ -350,12 +362,14 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
         st.divider()
 
     if "DRENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
             st.write("###### \nDrenagem")
         with d2:
             m2_drec = st.number_input("M²", min_value=0.0, step=1.0, key="m2_dre")
         with d3:
+            km_drec = st.number_input("KM", min_value=0.0, step=1.0, key="km_dre")
+        with d4:
             prancha_drec = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_dre")
         st.divider()
 
@@ -507,6 +521,16 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
             prancha_ilupu = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_ilupu", format="%0.f")
         st.divider()
 
+    if "IMPERMEABILIZAÇÃO" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nImpermeabilização")
+        with d2:
+            area_imper = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_imper")
+        with d3:
+            prancha_imper = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_imper", format="%0.f")
+        st.divider()
+
     if "IRRIGAÇÃO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
@@ -645,12 +669,16 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
         st.divider()
 
     if "TERRAPLENAGEM (PLANTA/SEÇÕES)" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4, d5 = st.columns(5)
         with d1:
             st.write("###### \nTerraplenagem (Planta/Seções)")
         with d2:
             area_tps = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_tps")
         with d3:
+            ext_tps = st.number_input("Extensão (km)", min_value=0.0, step=1.0, key="ext_tps")
+        with d4:
+            uni_tps = st.number_input("Unidade", min_value=0, step=1, key="uni_tps")
+        with d5:
             prancha_tps = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_tps", format="%0.f")
         st.divider()
 
@@ -699,10 +727,10 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
 if "Supervisão Gerenciamento Edificação" in servico:
     tipo_servicos = ["ACÚSTICA", "ADEQUAÇÃO DE ACESSIBILIDADE", "ALARME/CFTV", "ANTEPROJETO", "AR CONDICIONADO",
                      "ARQUITETÔNICO CONSTRUÇÃO", "ARQUITETÔNICO REFORMA",
-                     "ARQUITETÔNICO RESTAURO", "AS BUILT", "CAB. ESTRUTURADO", "CLIMATIZAÇÃO", "COMPAT. PROJETOS",
+                     "ARQUITETÔNICO RESTAURO", "AS BUILT", "AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO", "CAB. ESTRUTURADO", "CLIMATIZAÇÃO", "COMPAT. PROJETOS",
                      "COMUNICAÇÃO VISUAL", "CONTENÇÃO", "DRENAGEM", "ELÉTRICO",
                      "ESTRUTURAL", "EXTENSÃO DE REDE", "FUNDAÇÃO", "GASES MEDICINAIS", "GERAÇÃO FOTOVOLTAICA", "GLP",
-                     "HIDROSSANITÁRIO", "ILUMINAÇÃO PUBLICA", "IRRIGAÇÃO", "LEVANTAMENTO ARQUITETÔNICO",
+                     "HIDROSSANITÁRIO", "ILUMINAÇÃO PUBLICA", "IMPERMEABILIZAÇÃO", "IRRIGAÇÃO", "LEVANTAMENTO ARQUITETÔNICO",
                      "MAQ ELET / 3D", "MOBILIÁRIO",
                      "ORÇAMENTO", "PAISAGISTICO", "REURB", "SONDAGEM", "SPCI", "SPDA", "TERRAPLENAGEM (PLANTA/SEÇÕES)",
                      "TOPOGRAFIA", "URBANISTICO", "VENTILAÇÃO/EXAUSTÃO"]
@@ -801,6 +829,18 @@ if "Supervisão Gerenciamento Edificação" in servico:
             pranchas_ab = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ab")
         st.divider()
 
+    if "AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nAvaliação do Estado de Conservação")
+        with d2:
+            area_adedc = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_adedc")
+        with d3:
+            uni_aedce = st.number_input("Unidade", min_value=0, step=1, key="uni_adedc")
+        with d4:
+            prancha_aedce = st.number_input("Prancha", min_value=0, step=1, key="prancha_aedce")
+        st.divider()
+
     if "CAB. ESTRUTURADO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
@@ -874,12 +914,14 @@ if "Supervisão Gerenciamento Edificação" in servico:
         st.divider()
 
     if "DRENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
             st.write("###### \nDrenagem")
         with d2:
             m2_drec = st.number_input("M²", min_value=0.0, step=1.0, key="m2_dre")
         with d3:
+            km_drec = st.number_input("M²", min_value=0.0, step=1.0, key="km_dre")
+        with d4:
             prancha_drec = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_dre")
         st.divider()
 
@@ -1033,6 +1075,16 @@ if "Supervisão Gerenciamento Edificação" in servico:
             prancha_ilupu = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_ilupu", format="%0.f")
         st.divider()
 
+    if "IMPERMEABILIZAÇÃO" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nImpermeabilização")
+        with d2:
+            area_imper = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_imper")
+        with d3:
+            prancha_imper = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_imper", format="%0.f")
+        st.divider()
+    
     if "IRRIGAÇÃO" in tipo_servico:
         d1, d2, d3 = st.columns(3)
         with d1:
@@ -1173,12 +1225,16 @@ if "Supervisão Gerenciamento Edificação" in servico:
         st.divider()
 
     if "TERRAPLENAGEM (PLANTA/SEÇÕES)" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4, d5 = st.columns(5)
         with d1:
             st.write("###### \nTerraplenagem (Planta/Seções)")
         with d2:
             area_tps = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_tps")
         with d3:
+            ext_tps = st.number_input("Extensão (km)", min_value=0.0, step=1.0, key="ext_tps")
+        with d4:
+            uni_tps = st.number_input("Unidade", min_value=0, step=1, key="uni_tps")
+        with d5:
             prancha_tps = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_tps", format="%0.f")
         st.divider()
 
@@ -1225,7 +1281,7 @@ if "Supervisão Gerenciamento Edificação" in servico:
         st.divider()
 
 if "Projeto Vias Urbanas" in servico or "Supervisão Gerenciamento Vias Urbanas" in servico:
-    tipo_servicos = ["ADEQUAÇÃO DE ACESSIBILIDADE", "ANTEPROJETO DE INFRA", "BATIMETRIA", "COMPAT. PROJETOS", "CONTENÇÃO", "DRENAGEM", "ELÉTRICO",
+    tipo_servicos = ["ADEQUAÇÃO DE ACESSIBILIDADE", "ANTEPROJETO", "BATIMETRIA", "COMPAT. PROJETOS", "CONTENÇÃO", "DRENAGEM", "ELÉTRICO",
                      "ESTRUTURAL", "EXTENSÃO DE REDE", "FUNDAÇÃO", "GERAÇÃO FOTOVOLTAICA", "GEOMÉTRICO", "HIDROLOGIA",
                      "ILUMINAÇÃO PUBLICA", "MEIO AMBIENTE", "OAE", "ORÇAMENTO", "PAISAGISTICO", "PAVIMENTAÇÃO", "SANEAMENTO",
                      "SINALIZAÇÃO", "SONDAGEM", "TERRAPLENAGEM", "TOPOGRAFIA", "URBANISTICO"]
@@ -1241,13 +1297,15 @@ if "Projeto Vias Urbanas" in servico or "Supervisão Gerenciamento Vias Urbanas"
             prancha_adavu = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_adavu", format="%0.f")
         st.divider()
 
-    if "ANTEPROJETO DE INFRA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+    if "ANTEPROJETO" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
-            st.write("""###### \nAnteprojeto de Infra""")
+            st.write("""###### \nAnteprojeto""")
         with d2:
-            km_anti = st.number_input("KM", min_value=0.0, step=1.0, key="km_anti")
+            km_anti = st.number_input("M²", min_value=0.0, step=1.0, key="km_anti")
         with d3:
+            m_anti = st.number_input("M", min_value=0.0, step=1.0, key="m_anti")
+        with d4:
             prancha_anti = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_anti")
         st.divider()
 
@@ -1424,12 +1482,14 @@ if "Projeto Vias Urbanas" in servico or "Supervisão Gerenciamento Vias Urbanas"
         st.divider()
 
     if "HIDROLOGIA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
             st.write("""###### \nHidrologia""")
         with d2:
-            vazao_hidro = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidro")
+            area_hidro = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_hidro")
         with d3:
+            vazao_hidro = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidro")
+        with d4:
             prancha_hidro = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_hidro")
         st.divider()
 
@@ -1595,12 +1655,14 @@ if "Projeto Vias Urbanas" in servico or "Supervisão Gerenciamento Vias Urbanas"
         st.divider()
 
     if "TERRAPLENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
             st.write("""###### \nTerraplenagem""")
         with d2:
             km_ter = st.number_input("KM", min_value=0.0, step=1.0, key="km_ter")
         with d3:
+            uni_ter = st.number_input("Unidade", min_value=0, step=1, key="uni_ter")
+        with d4:
             prancha_ter = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_ter")
         st.divider()
 
@@ -1635,7 +1697,7 @@ if "Projeto Vias Urbanas" in servico or "Supervisão Gerenciamento Vias Urbanas"
         st.divider()
 
 if "Projeto Rodovias" in servico or "Supervisão Gerenciamento Rodovias" in servico:
-    tipo_servicos = ["ADEQUAÇÃO DE ACESSIBILIDADE", "ANTEPROJETO DE INFRA", "BATIMETRIA", "COMPAT. PROJETOS", "CONTENÇÃO", "DRENAGEM", "ELÉTRICO",
+    tipo_servicos = ["ADEQUAÇÃO DE ACESSIBILIDADE", "ANTEPROJETO", "BATIMETRIA", "COMPAT. PROJETOS", "CONTENÇÃO", "DRENAGEM", "ELÉTRICO",
                      "ESTRUTURAL", "EXTENSÃO DE REDE", "FUNDAÇÃO", "GERAÇÃO FOTOVOLTAICA", "GEOMÉTRICO", "HIDROLOGIA",
                      "ILUMINAÇÃO PUBLICA", "MEIO AMBIENTE", "OAE", "ORÇAMENTO", "PAISAGISTICO", "PAVIMENTAÇÃO",
                      "SANEAMENTO", "SINALIZAÇÃO", "SONDAGEM", "TERRAPLENAGEM", "TOPOGRAFIA", "URBANISTICO"]
@@ -1651,13 +1713,15 @@ if "Projeto Rodovias" in servico or "Supervisão Gerenciamento Rodovias" in serv
             prancha_adapr = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_adapr", format="%0.f")
         st.divider()
 
-    if "ANTEPROJETO DE INFRA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+    if "ANTEPROJETO" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
-            st.write("###### \nAnteprojeto de Infra")
+            st.write("###### \nAnteprojeto")
         with d2:
-            km_antipr = st.number_input("KM", min_value=0.0, step=1.0, key="km_antipr")
+            km_antipr = st.number_input("M²", min_value=0.0, step=1.0, key="km_antipr")
         with d3:
+            m_antipr = st.number_input("M", min_value=0.0, step=1.0, key="m_antipr")
+        with d4:
             prancha_antipr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_antipr")
         st.divider()
 
@@ -1835,12 +1899,14 @@ if "Projeto Rodovias" in servico or "Supervisão Gerenciamento Rodovias" in serv
         st.divider()
 
     if "HIDROLOGIA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
             st.write("""###### \nHidrologia""")
         with d2:
-            vazao_hidropr = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidropr")
+            area_hidropr = st.number_input("área (m²)", min_value=0.0, step=1.0, key="area_hidropr")
         with d3:
+            vazao_hidropr = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidropr")
+        with d4:
             prancha_hidropr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_hidropr")
         st.divider()
 
@@ -1999,12 +2065,14 @@ if "Projeto Rodovias" in servico or "Supervisão Gerenciamento Rodovias" in serv
         st.divider()
 
     if "TERRAPLENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
             st.write("###### \nTerraplenagem")
         with d2:
             km_terpr = st.number_input("KM", min_value=0.0, step=1.0, key="km_terpr")
         with d3:
+            uni_terpr = st.number_input("Unidade", min_value=0, step=1, key="uni_terpr")
+        with d4:
             prancha_terpr = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_terpr")
         st.divider()
 
@@ -2432,12 +2500,14 @@ if "Projeto Saneamento" in servico or "Supervisão Gerenciamento Saneamento" in 
         st.divider()
 
     if "HIDROLOGIA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
             st.write("""###### \nHidrologia""")
         with d2:
-            vazao_hidrops = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidrops")
+            area_hidrops = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_hidrops")
         with d3:
+            vazao_hidrops = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidrops")
+        with d4:
             prancha_hidrops = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_hidrops")
         st.divider()
 
@@ -2659,12 +2729,14 @@ if "Projeto Saneamento" in servico or "Supervisão Gerenciamento Saneamento" in 
         st.divider()
 
     if "TERRAPLENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
             st.write("""###### \nTerraplenagem""")
         with d2:
             km_terps = st.number_input("KM", min_value=0.0, step=1.0, key="km_terps")
         with d3:
+            uni_terps = st.number_input("Unidade", min_value=0, step=1, key="uni_terps")
+        with d4:
             prancha_terps = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_terps")
         st.divider()
 
@@ -3011,7 +3083,7 @@ if "Plano Diretor" in servico:
 if "Diversos" in servico:
     tipo_servicos = ["ACÚSTICA", "AÇO", "ADEQUAÇÃO DE ACESSIBILIDADE", "ADUTORA","ALARME/CFTV", "ANTEPROJETO",
                      "ANTEPROJETO DE INFRA","AR CONDICIONADO", "ARQUITETÔNICO CONSTRUÇÃO","ARQUITETÔNICO REFORMA",
-                    "ARQUITETÔNICO RESTAURO", "ASFALTO", "AS BUILT", "BATIMETRIA","CAB. ESTRUTURADO", "CLIMATIZAÇÃO","COMPAT. PROJETOS",
+                    "ARQUITETÔNICO RESTAURO", "ASFALTO", "AS BUILT", "AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO", "BATIMETRIA","CAB. ESTRUTURADO", "CLIMATIZAÇÃO","COMPAT. PROJETOS",
                      "COMUNICAÇÃO VISUAL", "COMPAT. PROJETOS", "CONCRETO", "CONJUNTO MOTOBOMBA", "CONTENÇÃO",
                      "DISPENSA DE LICENCIAMENTO", "DISPENSA DE OUTORGA", "DRENAGEM", "EIA/RIMA", "ELEVATÓRIA", "ELÉTRICO",
                     "ESTRUTURAL", "ETA", "ETE", "EXTENSÃO DE REDE", "FUNDAÇÃO", "GASES MEDICINAIS", "GEOMÉTRICO", "GERAÇÃO FOTOVOLTAICA",
@@ -3093,24 +3165,16 @@ if "Diversos" in servico:
         st.divider()
 
     if "ANTEPROJETO" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
-            st.write("###### \nArquitetônico Anteprojeto")
+            st.write("###### \nAnteprojeto")
         with d2:
             area_aadiv = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_aadiv")
         with d3:
+            aream_aadiv = st.number_input("Área (m)", min_value=0.0, step=1.0, key="aream_aadiv")
+        with d4:
             pranchas_aadiv = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_aadiv")
 
-        st.divider()
-
-    if "ANTEPROJETO DE INFRA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
-        with d1:
-            st.write("""###### \nAnteprojeto de Infra""")
-        with d2:
-            km_antipsdiv = st.number_input("KM", min_value=0.0, step=1.0, key="km_antipsdiv")
-        with d3:
-            prancha_antipsdiv = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_antipsdiv")
         st.divider()
 
     if "AR CONDICIONADO" in tipo_servico:
@@ -3187,6 +3251,18 @@ if "Diversos" in servico:
             area_abdiv = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_abdiv")
         with d4:
             pranchas_abdiv = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_abdiv")
+        st.divider()
+
+    if "AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO" in tipo_servico:
+        d1, d2, d3, d4 = st.columns(4)
+        with d1:
+            st.write("###### \nAvaliação do Estado de Conservação")
+        with d2:
+            area_adedcdiv = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_adedcdiv")
+        with d3:
+            uni_aedcediv = st.number_input("Unidade", min_value=0, step=1, key="uni_adedcdiv")
+        with d4:
+            prancha_aedcediv = st.number_input("Prancha", min_value=0, step=1, key="prancha_aedcediv")
         st.divider()
 
     if "BATIMETRIA" in tipo_servico:
@@ -3329,12 +3405,14 @@ if "Diversos" in servico:
         st.divider()
 
     if "DRENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
             st.write("###### \nDrenagem")
         with d2:
             m2_drecdiv = st.number_input("M²", min_value=0.0, step=1.0, key="m2_drediv")
         with d3:
+            km_drecdiv = st.number_input("KM", min_value=0.0, step=1.0, key="km_drediv")
+        with d4:
             prancha_drecdiv = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_drediv")
         st.divider()
 
@@ -3527,12 +3605,14 @@ if "Diversos" in servico:
         st.divider()
 
     if "HIDROLOGIA" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4 = st.columns(4)
         with d1:
             st.write("""###### \nHidrologia""")
         with d2:
-            vazao_hidropsdiv = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidropsdiv")
+            area_hidropsdiv = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_hidropsdiv")
         with d3:
+            vazao_hidropsdiv = st.number_input("Vazão(l/s)", min_value=0.0, step=1.0, key="vazao_hidropsdiv")
+        with d4:
             prancha_hidropsdiv = st.number_input("Nº Pranchas", min_value=0, step=1, key="prancha_hidropsdiv")
         st.divider()
 
@@ -3558,6 +3638,16 @@ if "Diversos" in servico:
             prancha_ilupudiv = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_ilupudiv", format="%0.f")
         st.divider()
 
+    if "IMPERMEABILIZAÇÃO" in tipo_servico:
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.write("###### \nImpermeabilização")
+        with d2:
+            area_imperdiv = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_imperdiv")
+        with d3:
+            prancha_imperdiv = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_imperdiv", format="%0.f")
+        st.divider()
+    
     if "INTERCEPTOR" in tipo_servico:
         d1, d2, d3, d4, d5 = st.columns(5)
         with d1:
@@ -4025,12 +4115,16 @@ if "Diversos" in servico:
         st.divider()
 
     if "TERRAPLENAGEM" in tipo_servico:
-        d1, d2, d3 = st.columns(3)
+        d1, d2, d3, d4, d5 = st.columns(5)
         with d1:
             st.write("###### \nTerraplenagem")
         with d2:
             area_tpsdiv = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_tpsdiv")
         with d3:
+            ext_tpsdiv = st.number_input("Extensão (km)", min_value=0.0, step=1.0, key="ext_tpsdiv")
+        with d4:
+            uni_tpsdiv = st.number_input("Unidade", min_value=0, step=1, key="uni_tpsdiv")
+        with d5:
             prancha_tpsdiv = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_tpsdiv", format="%0.f")
         st.divider()
 
@@ -4138,8 +4232,9 @@ if st.button("Enviar"):
             "ARQUITETÔNICO CONSTRUÇÃO(m²)": area_ac, "PRANCHA ARQUITETÔNICO CONSTRUÇÃO": pranchas_ac,
             "ARQUITETÔNICO REFORMA(m²)": area_ar, "PRANCHA ARQUITETÔNICO REFORMA": pranchas_ar,
             "ARQUITETÔNICO RESTAURO(m²)": area_are, "PRANCHA ARQUITETÔNICO RESTAURO": pranchas_are,
+            "AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO(m²)": area_adedc, "AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO(uni)": uni_aedce, "PRANCHA AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO": prancha_aedce,
             "COMUNICAÇÃO VISUAL(m²)": area_cv, "PRANCHA COMUNICAÇÃO VISUAL": pranchas_cv,
-            "DRENAGEM(m²)":m2_drec, "PRANCHA DRENAGEM": prancha_drec,
+            "DRENAGEM(m²)":m2_drec, "DRENAGEM(km)":km_drec, "PRANCHA DRENAGEM": prancha_drec,
             "MOBILIÁRIO": mobiliario_info,
             "URBANISTICO(m²)": area_urb, "PRANCHA URBANISTICO": pranchas_urb,
             "PAISAGISTICO(m²)": area_paisag, "PRANCHA PAISAGISTICO": pranchas_paisag,
@@ -4151,10 +4246,11 @@ if st.button("Enviar"):
             "CLIMATIZAÇÃO(m²)": area_clima, "CLIMATIZAÇÃO(kbtu/h)":kbtuh_clima, "PRANCHA CLIMATIZAÇÃO":prancha_clima,
             "CONTENÇÃO": contencao_info,
             "HIDROSSANITÁRIO(m²)": area_hds, "PRANCHA HIDROSSANITÁRIO": prancha_hds,
+            "IMPERMEABILIZAÇÃO(m²)": area_imper, "PRANCHA IMPERMEABIALIZAÇÃO": prancha_imper,
             "IRRIGAÇÃO(m²)": area_irri, "PRANCHA IRRIGAÇÃO": prancha_irri,
             "SPCI(m²)": area_spci, "PRANCHA SPCI": prancha_spci,
             "Sondagem": edi_sondagem_info,
-            "TERRAPLENAGEM(m²)": area_tps, "PRANCHA TERRAPLENAGEM": prancha_tps,
+            "TERRAPLENAGEM(m²)": area_tps, "TERRAPLENAGEM(km)": ext_tps, "TERRAPLENAGEM(uni)": uni_tps, "PRANCHA TERRAPLENAGEM": prancha_tps,
             "TOPOGRAFIA(m²)": area_top, "PRANCHA TOPOGRAFIA": prancha_top, "TIPO TOPOGRAFIA": tipo_toppep, "CADASTRAL-TOP": cadastral, "DRONE-TOP": drone,
             "ORÇAMENTO(m²)": area_orc, "ORÇAMENTO(km)": prancha_orc,
             "ELÉTRICO(m²)": area_ele, "KVA": kva, "PRANCHA ELÉTRICO": prancha_ele,
@@ -4175,11 +4271,11 @@ if st.button("Enviar"):
             "VU-URBANISTICO(m²)": area_urvi, "VU-PRANCHA URBANISTICO": prancha_urvi,
             "VU-ADEQUAÇÃO DE ACESSIBILIADE(m²)": area_adavu, "VU-PRANCHA ADEQUAÇÃO DE ACESSIBILIDADE": prancha_adavu,
             "VU-PAISAGISTICO(m²)": area_paisavi, "VU-PRANCHA PAISAGISTICO": prancha_paisavi,
-            "VU-ANTEPROJETO DE INFRA(KM)": km_anti, "VU-PRANCHA ANTEPROJETO DE INFRA": prancha_anti,
+            "VU-ANTEPROJETO(m²)": km_anti, "VU-ANTEPROJETO(m)": m_anti, "VU-PRANCHA ANTEPROJETO": prancha_anti,
             "VU-BATIMETRIA(m²)": m2_bati, "VU-PRANCHA BATIMETRIA":prancha_bati,
             "VU-GEOMÉTRICO(KM)": km_geo, "VU-PRANCHA GEOMÉTRICO": prancha_geo,
-            "VU-TERRAPLENAGEM(KM)": km_ter, "VU-PRANCHA TERRAPLENAGEM": prancha_ter,
-            "VU-HIDROLOGIA(l/s)": vazao_hidro, "VU-PRANCHA HIDROLOGIA": prancha_hidro,
+            "VU-TERRAPLENAGEM(KM)": km_ter, "VU-TERRAPLENAGEM(uni)": uni_ter, "VU-PRANCHA TERRAPLENAGEM": prancha_ter,
+            "VU-HIDROLOGIA(m²)": area_hidro, "VU-HIDROLOGIA(l/s)": vazao_hidro, "VU-PRANCHA HIDROLOGIA": prancha_hidro,
             "VU-DRENAGEM(KM)": km_dre, "VU-PRANCHA DRENAGEM": prancha_dre,
             "VU-ESTRUTURAL": vu_estrutural_info,
             "VU-PAVIMENTAÇÃO": vu_pavimentacao_info,
@@ -4232,11 +4328,11 @@ if st.button("Enviar"):
             "PR-ADEQUAÇÃO DE ACESSIBILIADE(m²)": area_adapr, "PR-PRANCHA ADEQUAÇÃO DE ACESSIBILIDADE": prancha_adapr,
             "PR-URBANISTICO(m²)": area_urpr, "PR-PRANCHA URBANISTICO": prancha_urpr,
             "PR-PAISAGISTICO(m²)": area_paisapr, "PR-PRANCHA PAISAGISTICO": prancha_paisapr,
-            "PR-ANTEPROJETO DE INFRA(KM)": km_antipr, "PR-PRANCHA ANTEPROJETO DE INFRA": prancha_antipr,
+            "PR-ANTEPROJETO(m²)": km_antipr, "PR-ANTEPROJETO(m)": m_antipr, "PR-PRANCHA ANTEPROJETO": prancha_antipr,
             "PR-PRANCHA BATIMETRIA":prancha_batipr, "PR-BATIMETRIA(m²)": m2_batipr,
             "PR-GEOMÉTRICO(KM)": km_geopr, "PR-PRANCHA GEOMÉTRICO": prancha_geopr,
-            "PR-TERRAPLENAGEM(KM)": km_terpr, "PR-PRANCHA TERRAPLENAGEM": prancha_terpr,
-            "PR-HIDROLOGIA(l/s)":vazao_hidropr, "PR-PRANCHA HIDROLOGIA": prancha_hidropr,
+            "PR-TERRAPLENAGEM(KM)": km_terpr, "PR-TERRAPLENAGEM(uni)": uni_terpr, "PR-PRANCHA TERRAPLENAGEM": prancha_terpr,
+            "PR-HIDROLOGIA(m²)":area_hidropr, "PR-HIDROLOGIA(l/s)":vazao_hidropr, "PR-PRANCHA HIDROLOGIA": prancha_hidropr,
             "PR-DRENAGEM(KM)": km_drepr, "PR-PRANCHA DRENAGEM": prancha_drepr,
             "PR-ESTRUTURAL": estruturalpr_info,
             "PR-PAVIMENTAÇÃO": pavimentacaopr_info,
@@ -4271,7 +4367,7 @@ if st.button("Enviar"):
             "PS-FUNDAÇÃO": fundacao_ps_info,
             "PS-GEOMÉTRICO(KM)": km_geops, "PS-PRANCHA GEOMÉTRICO": prancha_geops,
             "PS-GERAÇÃO FOTOVOLTAICA(m²)": area_gerafotops, "PS-GERAÇÃO FOTOVOLTAICA(kva)": kva_gerafotops, "PS-PRANCHA GERAÇÃO FOTOVOLTAICA": prancha_gerafotops,
-            "PS-HIDROLOGIA(l/s)":vazao_hidrops, "PS-PRANCHA HIDROLOGIA":prancha_hidrops,
+            "PS-HIDROLOGIA(m²)":area_hidrops, "PS-HIDROLOGIA(l/s)":vazao_hidrops, "PS-PRANCHA HIDROLOGIA":prancha_hidrops,
             "PS-ILUMINAÇÃO PUBLICA(Pontos)": area_ilupu, "PS-ILUMINAÇÃO PUBLICA(km)": extensao_ilupu, "PS-PRANCHA ILUMINAÇÃO PUBLICA": prancha_ilupu,
             "PS-INTERCEPTOR(l/s)":vazao_interceptorps, "PS-INTERCEPTOR(uni)": uni_interceptorps, "PS-INTERCEPTOR(m)": m_interceptorps, "PS-PRANCHA INTERCEPTOR": prancha_interceptorps,
             "PS-LINHA DE RECALQUE(m)": area_ldrps, "PS-LINHA DE RECALQUE(uni)": uni_ldrps,
@@ -4286,7 +4382,7 @@ if st.button("Enviar"):
             "PS-SANEAMENTO(m)": area_saneps, "PS-SANEAMENTO(l/s)": vazao_saneps, "PS-PRANCHA SANEAMENTO": prancha_saneps,
             "PS-SINALIZAÇÃO(KM)": km_sinalps, "PS-PRANCHA SINALIZAÇÃO": prancha_sinalps,
             "PS-SONDAGEM": san_sondagem_info,
-            "PS-TERRAPLENAGEM(KM)": km_terps, "PS-PRANCHA TERRAPLENAGEM": prancha_terps,
+            "PS-TERRAPLENAGEM(KM)": km_terps, "PS-TERRAPLENAGEM(uni)": uni_terps, "PS-PRANCHA TERRAPLENAGEM": prancha_terps,
             "PS-TIPO TOPOGRAFIA": Tipo_topps, "PS-CADASTRAL-TOP": cadastral_ps, "PS-DRONE-TOP": drone_os,"PS-TOPOGRAFIA(m²)": area_topsaps, "PS-PRANCHA TOPOGRAFIA": prancha_topps,
             "PS-URBANISTICO(m²)":area_urvips, "PS-PRANCHA URBANISTICO":prancha_urvips,
 
@@ -4295,13 +4391,13 @@ if st.button("Enviar"):
             "DI-ADEQUAÇÃO DE ACESSIBILIADE(m²)": area_adadiv, "DI-PRANCHA ADEQUAÇÃO DE ACESSIBILIDADE": prancha_adadiv,
             "DI-ADUTORA(l/s)": vazao_adutorapsdiv, "DI-ADUTORA(uni)": vazao_adutorapsdiv, "DI-ADUTORA(m)": m_adutorapsdiv, "DI-PRANCHA ADUTORA": prancha_adutorapsdiv,
             "DI-ALARME/CFTV(m²)": area_cftvdiv, "DI-PRANCHA ALARME/CFTV": prancha_cftvdiv,
-            "DI-ANTEPROJETO(m²)": area_aadiv, "DI-PRANCHA ANTEPROJETO": pranchas_aadiv,
-            "DI-ANTEPROJETO DE INFRA(km)": km_antipsdiv, "DI-PRANCHA ANTEPROJETO DE INFRA": prancha_antipsdiv,
+            "DI-ANTEPROJETO(m²)": area_aadiv, "DI-ANTEPROJETO(m)": aream_aadiv, "DI-PRANCHA ANTEPROJETO": pranchas_aadiv,
             "DI-AR CONDICIONADO(m²)": area_arconddiv, "DI-PRANCHA AR CONDICIONADO": prancha_arconddiv,
             "DI-ARQUITETÔNICO CONSTRUÇÃO(m²)": area_acdiv, "DI-PRANCHA ARQUITETÔNICO CONSTRUÇÃO": pranchas_acdiv,
             "DI-ARQUITETÔNICO REFORMA(m²)": area_ardiv, "DI-PRANCHA ARQUITETÔNICO REFORMA": pranchas_ardiv,
             "DI-ARQUITETÔNICO RESTAURO(m²)": area_arediv, "DI-PRANCHA ARQUITETÔNICO RESTAURO": pranchas_arediv,
             "DI-ASFALTO": asfaltodiv_info,
+            "DI-AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO(m²)": area_adedcdiv, "DI-AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO(uni)": uni_aedcediv, "DI-PRANCHA AVALIAÇÃO DO ESTADO DE CONSERVAÇÃO": prancha_aedcediv,
             "DI-TIPO AS BUILT": tipo_abdiv, "DI-AS BUILT(m²)": area_abdiv, "DI-PRANCHA AS BUILT": pranchas_abdiv,
             "DI-BATIMETRIA(m²)": m2_batipsdiv, "DI-PRANCHA BATIMETRIA": prancha_batipsdiv,
             "DI-CAB. ESTRUTURADO(m²)": area_cetsdiv, "DI-PRANCHA CAB. ESTRUTURADO": prancha_cetsdiv,
@@ -4313,7 +4409,7 @@ if st.button("Enviar"):
             "DI-CONTENÇÃO": contencaodiv_info,
             "DI-DDL(UN)": un_ddledidiv, "DI-DDL(Área)": area_ddledidiv, "DI-PRANCHA DDL": prancha_ddledidiv,
             "DI-DDO(UN)": un_ddoedidiv, "DI-DDO(Área)": area_ddoedidiv, "DI-PRANCHA DDO": prancha_ddoedidiv,
-            "DI-DRENAGEM(m²)": m2_drecdiv, "DI-PRANCHA DRENAGEM": prancha_drecdiv,
+            "DI-DRENAGEM(m²)": m2_drecdiv, "DI-DRENAGEM(km)": km_drecdiv, "DI-PRANCHA DRENAGEM": prancha_drecdiv,
             "DI-EIA/RIMA(UN)": un_eiaedidiv, "DI-EIA/RIMA(Área)": area_eiaedidiv, "DI-PRANCHA EIA/RIMA": prancha_eiaedidiv,
             "DI-ELEVATÓRIA(l/s)": vazao_elevatoriapsdiv, "DI-ELEVATÓRIA(uni)": m_elevatoriapsdiv, "DI-PRANCHA ELEVATÓRIA": prancha_elevatoriapsdiv,
             "DI-ELÉTRICO(m²)": area_elediv, "DI-KVA": kvadiv, "DI-PRANCHA ELÉTRICO": prancha_elediv,
@@ -4326,9 +4422,10 @@ if st.button("Enviar"):
             "DI-GEOMÉTRICO(KM)": km_geopsdiv, "DI-PRANCHA GEOMÉTRICO": prancha_geopsdiv,
             "DI-GERAÇÃO FOTOVOLTAICA(m²)": area_gerafotodiv, "DI-GERAÇÃO FOTOVOLTAICA(kva)": kva_gerafotodiv, "DI-PRANCHA GERAÇÃO FOTOVOLTAICA": prancha_gerafotodiv,
             "DI-GLP(m²)": area_glpdiv, "DI-GLP(m³)": m3_glpdiv, "DI-PRANCHA GLP": prancha_glpdiv,
-            "DI-HIDROLOGIA(l/s)": vazao_hidropsdiv, "DI-PRANCHA HIDROLOGIA": prancha_hidropsdiv,
+            "DI-HIDROLOGIA(m²)": area_hidropsdiv, "DI-HIDROLOGIA(l/s)": vazao_hidropsdiv, "DI-PRANCHA HIDROLOGIA": prancha_hidropsdiv,
             "DI-HIDROSSANITÁRIO(m²)": area_hdsdiv, "DI-PRANCHA HIDROSSANITÁRIO": prancha_hdsdiv,
             "DI-ILUMINAÇÃO PUBLICA(km)": area_ilupudiv, "DI-ILUMINAÇÃO PUBLICA(ponto)": ponto_ilupudiv, "DI-PRANCHA ILUMINAÇÃO PUBLICA": prancha_ilupudiv,
+            "DI-IMPERMEABILIZAÇÃO(m²)": area_imperdiv, "DI-PRANCHA IMPERMEABLIZAÇÃO": prancha_imperdiv,
             "DI-INTERCEPTOR(l/s)": vazao_interceptorpsdiv, "DI-INTERCEPTOR(uni)": uni_interceptorpsdiv, "DI-INTERCEPTOR(m)": m_interceptorpsdiv, "DI-PRANCHA INTERCEPTOR": prancha_interceptorpsdiv,
             "DI-IFPM(UN)": un_ifpmedidiv, "DI-IFPM(Área)": area_ifpmedidiv, "DI-PRANCHA IFPM": prancha_ifpmedidiv,
             "DI-IRRIGAÇÃO(m²)": area_irridiv, "DI-PRANCHA IRRIGAÇÃO": prancha_irridiv,
@@ -4362,7 +4459,7 @@ if st.button("Enviar"):
             "DI-SONDAGEM": edi_sondagemdiv_info,
             "DI-SPCI(m²)": area_spcidiv, "DI-PRANCHA SPCI": prancha_spcidiv,
             "DI-SPDA(m²)": area_spdadiv, "DI-PRANCHA SPDA": prancha_spdadiv,
-            "DI-TERRAPLENAGEM(m²)": area_tpsdiv, "DI-PRANCHA TERRAPLENAGEM": prancha_tpsdiv,
+            "DI-TERRAPLENAGEM(m²)": area_tpsdiv, "DI-TERRAPLENAGEM(km)": ext_tpsdiv, "DI-TERRAPLENAGEM(uni)": uni_tpsdiv, "DI-PRANCHA TERRAPLENAGEM": prancha_tpsdiv,
             "DI-TOPOGRAFIA(m²)": area_topdiv, "DI-PRANCHA TOPOGRAFIA": prancha_topdiv, "DI-TIPO TOPOGRAFIA": tipo_toppepdiv,
             "DI-CADASTRAL": cadastraldiv, "DI-DRONE": dronediv,
             "DI-URBANISTICO(m²)": area_urbdiv, "DI-PRANCHA URBANISTICO": pranchas_urbdiv,
