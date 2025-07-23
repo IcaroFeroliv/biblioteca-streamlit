@@ -525,7 +525,7 @@ with abas[2]:
         "prancha": ["VU-PRANCHA ADEQUAÇÃO DE ACESSIBILIDADE", "PR-PRANCHA ADEQUAÇÃO DE ACESSIBILIDADE"]
     },
     "ANTEPROJETO": {
-        "area": ["VU-ANTEPROJETO(KM)", "PR-ANTEPROJETO(KM)"],
+        "area": ["VU-ANTEPROJETO(m²)", "VU-ANTEPROJETO(m)", "PR-ANTEPROJETO(m²)", "PR-ANTEPROJETO(m)"],
         "prancha": ["VU-PRANCHA ANTEPROJETO", "PR-PRANCHA ANTEPROJETO"]
     },
     "BATIMETRIA": {
