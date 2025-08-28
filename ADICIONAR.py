@@ -190,7 +190,7 @@ if "Projeto Edificação" in servico or "Projeto Praças e Parques" in servico:
         with d1:
             st.write("###### \nAcústica")
         with d2:
-            area_acus = st.number_input("Área (m²)", min_value=0.0, step=1.0, key="area_acus", format="%.2f")
+            area_acus = st.number_input("Área (m²)", key="area_acus")
         with d3:
             prancha_acus = st.number_input("Prancha", min_value=0.0, step=1.0, key="prancha_acus", format="%0.f")
         st.divider()
