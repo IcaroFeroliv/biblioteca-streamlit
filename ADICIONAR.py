@@ -105,7 +105,7 @@ with co1:
                                "Douglas Lins","Emanuel da Silva", "Emanuel Jose", "Érika", "Fabiane Ferreira", "Fabiano Matos", "Fernando Martins", "Gracielle", "Isabela", "Juliana Goncalves", "Julio Cesar", "Lucas Bastos", "Luiz Felipe",
                                "Maria Francielle", "Mariane de Paula", "Matheus Comanduci", "Mauricio Otavio", "Márcio", "Moises Coelho", "Pablo Otoni", "Patricia", "Sarah Malta", "Sávio", "Sayuri", "Sérgio Henrique", "Tayrine Cristina", "Thiago Figueiredo",
                                "Tiago Guedes", "Vicente", "Vinicius Gama", "Welington de Avila"]
-    nome_profissional_coor = st.selectbox("Profissional de Coordenação", ["Selecione"] + nome_profissionais_coor)
+    nome_profissional_coor = st.multiselect("Profissional de Coordenação", ["Selecione"] + nome_profissionais_coor)
 
 with co2:
     nome_profissionais = ["Aline", "Ana Carolina", "André", "Ayana Lemos","Bárbara Izabela","Bruno Andrelli", "Bruno Tizoni", "Cláudio", "Christian Sorensen", "Daniel Pinheiro", "Danilo Vitor", "Debora", "Debora Dayane",
